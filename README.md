@@ -1,3 +1,3 @@
 # Space-Hound
-------------------------------------
-                                           by DevilDog Game Studio
+
+                             by DevilDog Game Studio
