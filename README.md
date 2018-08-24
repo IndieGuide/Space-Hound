@@ -1,2 +1,3 @@
 # Space-Hound
-a small game
+------------------------------------
+                                           by DevilDog Game Studio
