@@ -1,3 +1,3 @@
 # Space-Hound
 
-###                    by DevilDog Game Studio
+###                   A Game by DevilDog Game Studio
