@@ -9,4 +9,4 @@
 * Platformer Shooter文件夹是游戏的gms2项目的文件夹。
 * assets文件夹是文件的素材资源文件夹
 * 最外层的Demo.zip是游戏的最新可运行demo
-
+-------------------
