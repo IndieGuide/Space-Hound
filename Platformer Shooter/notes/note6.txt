@@ -1,0 +1,8 @@
+1.mouse_x,mouse_y依赖于camera_get_view_x,camera_get_view_y
+2.不推荐使用view_set_surface_id(0, surf);，这个函数太迷了，用application_surface比较好
+3.游戏窗口分辨率使用window_set_size来设置
+4.覆盖整个游戏显示区的surface，比如gui的surface，最终大小要与windows大小相等（可以使用放大）
+5.display_get_gui_width得到显示在设备上的游戏窗口大小
+6.在游戏开始时的create事件里进行画面设置很可能并不会立即生效，比如设置窗口为1920，1080，但使用get函数获取的可能还是
+第一个房间的view_width大小.所以，如果把application_surface设置为window_get_size就会出问题，而在roomstart里进行设置
+则会获取到我们想要的，调整之后的窗口大小。所以推测，窗口函数的实际设置是在game start后，room start前的阶段。
