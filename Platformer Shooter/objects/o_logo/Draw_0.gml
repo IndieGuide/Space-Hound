@@ -1,4 +1,5 @@
 /// @description logo有一个渐显渐隐效果
+if alarm[0] exit;
 if add_flag {
 	alpha += 0.005;
 } else {
