@@ -3,7 +3,9 @@ if !instance_exists(o_player) exit;
 
 var xscale_ = scr_get_enemy_xscale();
 var dir_to_player = point_direction(x,y-sprite_height/2,o_player.x,o_player.y-o_player.sprite_height/2);
+
 if instance_exists(default_gun) {
+	//武器旋转
 	if !(abs(scr_direction_constraint(default_gun.direction - dir_to_player)) < gun_rotate_speed){
 		if (scr_direction_constraint(default_gun.direction - dir_to_player) > 0){
 			default_gun.direction -= gun_rotate_speed;
@@ -12,11 +14,15 @@ if instance_exists(default_gun) {
 		}
 	}
 	var dir = default_gun.direction;
+	
+	//改变武器方向
+	scr_listener_get("flipped");
+	if scr_listener_is_var_change("flipped") {
+		default_gun.direction =point_direction(0,0,flipped,0);
+	}
+
 }
-scr_listener_get("flipped");
-if scr_listener_is_var_change("flipped") {
-	default_gun.direction =point_direction(0,0,flipped,0);
-}
+
 
 
 if (state_ == N2_SILENCE || state_ == N2_DIS_ATTACK) {

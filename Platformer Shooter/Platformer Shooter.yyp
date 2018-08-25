@@ -207,14 +207,6 @@
             }
         },
         {
-            "Key": "07536ee7-d26f-4891-b974-a3bf8383b8b8",
-            "Value": {
-                "id": "faf04dae-7bba-430f-a24b-2bc8defe2d68",
-                "resourcePath": "datafiles_yy\\neko.dll.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "079a4fa6-65c5-45be-b8e9-40eecf3d06c1",
             "Value": {
                 "id": "4966b333-c836-48c6-81f1-3fd66add31c1",
@@ -564,14 +556,6 @@
                 "id": "7f4f44ca-dd26-421b-b4b1-8534519df5a0",
                 "resourcePath": "tilesets\\t_autotile\\t_autotile.yy",
                 "resourceType": "GMTileSet"
-            }
-        },
-        {
-            "Key": "16cc4d88-fcab-4397-8496-3ad07e5d5ac1",
-            "Value": {
-                "id": "167b50ab-19ac-45fd-81d5-38069044cf7c",
-                "resourcePath": "datafiles_yy\\gmlive-server.n.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -1023,14 +1007,6 @@
             }
         },
         {
-            "Key": "30b3161e-3317-4276-98c2-3005b409e8b7",
-            "Value": {
-                "id": "fdaffd84-fe4e-4928-9980-89089c272628",
-                "resourcePath": "datafiles_yy\\gc.dll.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "317f8230-8240-47c2-b2ab-74707f539788",
             "Value": {
                 "id": "404769e4-d10d-48ba-be92-4fb13e5f7cae",
@@ -1087,27 +1063,11 @@
             }
         },
         {
-            "Key": "33634c94-b392-4387-9e8a-14a6330a1256",
-            "Value": {
-                "id": "aeb73327-2588-453e-ac85-96a76b299f6a",
-                "resourcePath": "objects\\obj_gmlive\\obj_gmlive.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "34578982-056f-4460-87d3-1abc0aed753f",
             "Value": {
                 "id": "e9e55cef-14fa-4c09-926a-d35431214e85",
                 "resourcePath": "sprites\\s_player\\s_player.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "34ebc914-3fea-42f7-a6b9-db18b75cd055",
-            "Value": {
-                "id": "b26aa850-becd-4f30-b875-4f8ec401717b",
-                "resourcePath": "extensions\\GMLive\\GMLive.yy",
-                "resourceType": "GMExtension"
             }
         },
         {
@@ -1631,14 +1591,6 @@
             }
         },
         {
-            "Key": "4e91501a-11ff-4df6-ac44-a2083a22de69",
-            "Value": {
-                "id": "3cf88d9c-6a28-4b3c-b54e-9f166d0f98c8",
-                "resourcePath": "datafiles_yy\\gmlive.html.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "4e92bb94-5edb-4db3-b768-ff7c3dfd8e7c",
             "Value": {
                 "id": "7cc5d686-632e-4437-8af9-d9751cc1ddfe",
@@ -1940,14 +1892,6 @@
                 "id": "8b91b53b-324f-4b57-87d0-0081989a3e07",
                 "resourcePath": "sounds\\a_ship_fly\\a_ship_fly.yy",
                 "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "5c84d15b-fcfa-4350-a83d-1f9eb513b73b",
-            "Value": {
-                "id": "b5a454aa-8453-4846-9575-4ba2a413d8ca",
-                "resourcePath": "datafiles_yy\\gmlive-server.exe.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2751,14 +2695,6 @@
             }
         },
         {
-            "Key": "7e25b582-3226-4b2c-91d4-210ad815cc10",
-            "Value": {
-                "id": "52a4961a-7563-4b8f-88ca-2dcfb226ac6f",
-                "resourcePath": "datafiles_yy\\std.ndll.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "7e3c4b6b-70e8-4af3-9b49-c35fda628775",
             "Value": {
                 "id": "4193d2d4-8044-48d6-a6a1-dfb72b198660",
@@ -3348,14 +3284,6 @@
                 "id": "4943301a-79a3-43c2-a79e-d85bfd8fa69d",
                 "resourcePath": "views\\956f0ab7-6f9d-42c7-ae4c-4f4f4a291e67.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "95857eae-bbad-47a2-ace3-f7416656ebcc",
-            "Value": {
-                "id": "78bd9cea-69b6-4cde-b94f-d048e942962d",
-                "resourcePath": "datafiles_yy\\regexp.ndll.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -5562,7 +5490,7 @@
             "Key": "fb657078-88b6-4c4a-83a9-04dd1d594a8b",
             "Value": {
                 "id": "43890956-ddda-4ab5-b9f2-af04f4ee6875",
-                "resourcePath": "scripts\\Macros\\Macros.yy",
+                "resourcePath": "scripts\\macros\\macros.yy",
                 "resourceType": "GMScript"
             }
         },
