@@ -1,8 +1,10 @@
+//if (live_call()) return live_result;
 /// @description 玩家步事件
 //check for death
 if health_ <= 0 {
 	instance_destroy();
 }
+
 #region 冲刺判断
 if keyboard_check_pressed(vk_right) && alarm[7] == -1{
 	dash_flag = 1;
@@ -14,7 +16,7 @@ if keyboard_check_pressed(vk_right) && alarm[7] == -1{
 		x_scale_=image_xscale*.8;
 		y_scale_=image_yscale*1.4;
 		effect_create_below(ef_smoke, x, y, 0, c_red);
-		alarm[2]=30;
+		alarm[2]=10;
 	}
 }
 if keyboard_check_pressed(vk_left) && alarm[7] == -1{
@@ -27,8 +29,12 @@ if keyboard_check_pressed(vk_left) && alarm[7] == -1{
 		x_scale_=image_xscale*.8;
 		y_scale_=image_yscale*1.4;
 		effect_create_below(ef_smoke, x, y, 0, c_red);
-		alarm[2]=30;
+		alarm[2]=10;
 	}
+}
+
+if(alarm[2] == 9 || alarm[2] ==8 || alarm[2] ==6 || alarm[2] ==2) {
+	dash_image_index ++;
 }
 #endregion
 
@@ -48,12 +54,14 @@ if hinput != 0 {
 }
 if(move_state == DASH){
 		speed_[h] = dash_flag*dash_dis;
+		if global.bullet_time_flag
+			speed_[h] = dash_flag*dash_dis_bullet_time;
 }
 
 if (keyboard_check(vk_down)) && alarm[6] == -1{
 	move_state = SQUART;
 	speed_[h] = 0;	//蹲下速度为0
-} else if (alarm[6] == -1){
+} else if (!keyboard_check(vk_down) && alarm[6] == -1){
 	move_state = MOVE;
 }
 
@@ -93,8 +101,8 @@ if !place_meeting(x,y+1,o_solid){
 	}
 }
 
-
-
+if dash_image_index != 0 
+	move_state = DASH;
 
 
 
@@ -112,8 +120,8 @@ if place_meeting(x,y+1,o_solid) && !place_meeting(x,yprevious+1,o_solid){
 // x_scale_=lerp(x_scale_,image_xscale,.1);
 // y_scale_=lerp(y_scale_,image_yscale,.1);
 
-if alarm[2]==20 && (move_state == L_DASH || move_state == R_DASH)
-    move_state = MOVE;
+//if alarm[2]==20 && (move_state == L_DASH || move_state == R_DASH)
+//    move_state = MOVE;
 
 get_flipped=(mouse_x>x)*2-1;
 
