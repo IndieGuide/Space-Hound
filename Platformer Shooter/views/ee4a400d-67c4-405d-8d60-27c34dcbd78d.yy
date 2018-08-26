@@ -9,7 +9,9 @@
         "4e92bb94-5edb-4db3-b768-ff7c3dfd8e7c",
         "7317a891-57ab-4d35-adb3-6b2abb281161",
         "105eb2f5-5fa2-4529-9e4e-980b67b4587e",
-        "3cc79511-d36c-4925-81a6-6493e90ffc59"
+        "3cc79511-d36c-4925-81a6-6493e90ffc59",
+        "166ef551-964b-4522-892b-dbd024c55993",
+        "26a71d2e-156e-4c61-a78d-d312e950fee8"
     ],
     "filterType": "GMSprite",
     "folderName": "geon_fx",
