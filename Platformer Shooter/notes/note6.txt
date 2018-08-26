@@ -6,3 +6,5 @@
 6.在游戏开始时的create事件里进行画面设置很可能并不会立即生效，比如设置窗口为1920，1080，但使用get函数获取的可能还是
 第一个房间的view_width大小.所以，如果把application_surface设置为window_get_size就会出问题，而在roomstart里进行设置
 则会获取到我们想要的，调整之后的窗口大小。所以推测，窗口函数的实际设置是在game start后，room start前的阶段。
+
+7.draw_sprite_ext是不会直接旋转和拉伸掩码的，必须用image_scale,image_angle改变才会旋转拉伸掩码

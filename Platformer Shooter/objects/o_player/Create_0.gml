@@ -36,13 +36,15 @@ alarm[0] = bullet_cooldown_;
 move_state = MOVE;
 //是否绘制刀的flag
 sword_flag = false;
+sword_bullet_flag = false;
 change_gun_flag = false;
 jump_twice_flag = false;
 roll_flag = false;
 dash_flag = 1;
 shooted_flag = false;
+
 //近战武器冷却时间
-sword_cooldown = 75;
+sword_cooldown = 45;
 //给其他obj引用player的方向（不安全，应改为由一个obj代理完成）
 get_flipped = (mouse_x > x) * 2 - 1;
 

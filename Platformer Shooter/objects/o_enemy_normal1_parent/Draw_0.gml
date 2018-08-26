@@ -12,11 +12,14 @@ if instance_exists(default_gun) {
 		}
 	}
 	var dir = default_gun.direction;
-}
-scr_listener_get("flipped");
-if scr_listener_is_var_change("flipped") {
+	
+	//改变武器方向
+	scr_listener_get("flipped");
+	if scr_listener_is_var_change("flipped") {
 	default_gun.direction =point_direction(0,0,flipped,0);
 }
+}
+
 
 
 if (state_ == N1_SILENCE || state_ == N1_DIS_ATTACK) {
