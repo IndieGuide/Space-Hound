@@ -54,7 +54,7 @@ switch (move_state) {
 #endregion
 
 //绘制枪
-scr_draw_gun(flipped,dir,!sword_flag && !change_gun_flag && move_state != ROLL);
+scr_draw_gun(flipped,dir,!sword_flag && !change_gun_flag && move_state != ROLL && !sword_bullet_flag);
 
 #region 老的绘制枪代码
 	////Draw the gun

@@ -13,7 +13,7 @@ surface_resize(application_surface, window_get_width(), window_get_height());
 score = 0;
 
 global.font_zkhappy= font_add("zk.ttf", //字体名
-								6,  //字号
+								18,  //字号
 								false, //加粗
 								false,  //倾斜
 								0,  //起始位置

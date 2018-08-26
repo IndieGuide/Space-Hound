@@ -15,7 +15,7 @@ part_type_size(global.pt_Mist_white, 1, 1, 0, 0);
 part_type_scale(global.pt_Mist_white, 1, 1);
 part_type_orientation(global.pt_Mist_white, 0, 347, 0.30, 0, 0);
 part_type_color3(global.pt_Mist_white, 16777215, 16318389, 12897217);
-part_type_alpha3(global.pt_Mist_white, 0, 0.12, 0);
+part_type_alpha3(global.pt_Mist_white, 0, 0.22, 0);
 part_type_blend(global.pt_Mist_white, 0);
 part_type_life(global.pt_Mist_white, 200, 250);
 part_type_speed(global.pt_Mist_white, 0, 1, 0, 0);
