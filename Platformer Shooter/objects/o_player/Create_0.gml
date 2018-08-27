@@ -13,7 +13,9 @@ jump_width_=-30;
 roll_dis = 90;
 alarm[6] = 30;
 //冲刺
-dash_dis = 95;
+dash_dis = 12;
+dash_dis_bullet_time = 40;
+dash_image_index = 0;
 //人物属性
 max_health_=50;//最大血量
 health_=max_health_; //生命值 

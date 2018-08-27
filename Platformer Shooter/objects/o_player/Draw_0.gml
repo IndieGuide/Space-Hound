@@ -26,7 +26,7 @@ switch (move_state) {
 		}
 	    break;
 	case DASH:
-		draw_sprite_ext(s_player_dash_left,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		draw_sprite_ext(s_player_dash,dash_image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
 	//case L_DASH:
 	//	draw_sprite_ext(s_player_dash_left,image_index, x,y,flipped,1,0,image_blend,image_alpha);
