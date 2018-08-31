@@ -1,5 +1,5 @@
 /// @description 初始化敌人
-
+event_inherited();
 //物理属性
 speed_=[0,0];
 max_speed_ = 2;

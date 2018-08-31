@@ -22,6 +22,9 @@ if instance_exists(default_gun) {
 
 
 
+
+
+
 if (state_ == N1_SILENCE || state_ == N1_DIS_ATTACK) {
 	//绘制自己
 	

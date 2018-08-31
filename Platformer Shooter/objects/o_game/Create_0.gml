@@ -35,3 +35,6 @@ global.enemy_bullet_speed_scale = 0.8;
 
 //暂停房间的菜单层级
 global.pause_menu_level = 0;
+
+//lens flare surface
+global.lens_light_surface = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));

@@ -1,5 +1,5 @@
 /// @description 初始化敌人
-
+event_inherited();
 //物理属性
 speed_=[0,0];
 max_speed_ = 2;
@@ -36,6 +36,7 @@ patrol_time = 180;
 alarm[1] = patrol_time;
 //朝左
 patrol_flag = -1;
+
 
 gun_rotate_speed = scr_common_bullet_time_var(2);
 
