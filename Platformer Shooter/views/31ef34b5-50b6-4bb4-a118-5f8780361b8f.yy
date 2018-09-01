@@ -8,7 +8,9 @@
         "3080b36e-17c8-46e9-b7ae-8137388be645",
         "11cd6312-7236-4732-a213-3a4a2376d664",
         "f2fc802a-546e-42fd-8feb-e4ab0307ed65",
-        "3191ef20-4de1-4c41-b0ee-b4d0255acd2d"
+        "3191ef20-4de1-4c41-b0ee-b4d0255acd2d",
+        "85a3bb9e-eb90-4c5d-a836-c0e010aa1897",
+        "56b6248e-3624-42b4-8d42-199f965edaf4"
     ],
     "filterType": "GMObject",
     "folderName": "CloseWeapon",

@@ -1,23 +1,33 @@
 {
-    "id": "f2fc802a-546e-42fd-8feb-e4ab0307ed65",
+    "id": "56b6248e-3624-42b4-8d42-199f965edaf4",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_player_sword_hit",
+    "name": "o_close_weapon_effect_parent",
     "eventList": [
         {
-            "id": "decbb6e5-89cf-460c-b3ac-be41b3983dd3",
+            "id": "41405f9f-4622-4b17-8d58-8fa79edb97ed",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 7,
-            "eventtype": 7,
-            "m_owner": "f2fc802a-546e-42fd-8feb-e4ab0307ed65"
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "56b6248e-3624-42b4-8d42-199f965edaf4"
+        },
+        {
+            "id": "3a594dcb-1888-48e0-a524-971508f73eae",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "56b6248e-3624-42b4-8d42-199f965edaf4"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "56b6248e-3624-42b4-8d42-199f965edaf4",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -33,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "4678c7f8-d6f0-494a-803c-1375c911b8ef",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

@@ -27,6 +27,7 @@ gun_slot = ds_list_create();
 default_gun = instance_create_layer(x-9, y-40, "Instances", o_gun_default); 
 //创建默认武器
 default_close_weapon = instance_create_layer(x - 9, y - 40, "Instances", o_player_sword);
+default_close_weapon.player_flag = true;
 //添加初始枪到列表里
 ds_list_add(gun_slot, default_gun);
 //设置默认枪为装备的武器

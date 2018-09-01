@@ -37,6 +37,10 @@ alarm[1] = patrol_time;
 //朝左
 patrol_flag = -1;
 
+//受创x,y
+hurt_x_add = 0;
+hurt_y_add = -25;
+
 
 gun_rotate_speed = scr_common_bullet_time_var(2);
 

@@ -1967,6 +1967,14 @@
             }
         },
         {
+            "Key": "56b6248e-3624-42b4-8d42-199f965edaf4",
+            "Value": {
+                "id": "2262750a-1e1d-4062-bcae-a1d2238c2260",
+                "resourcePath": "objects\\o_close_weapon_effect_parent\\o_close_weapon_effect_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "56e83b59-a540-4ebe-87a0-8556ee079a16",
             "Value": {
                 "id": "cd3b4e95-a3e4-4de9-b201-d696e2b95dd2",
@@ -3148,6 +3156,14 @@
                 "id": "c8c0b47d-9d2a-4b35-8d91-e51480ddc95f",
                 "resourcePath": "tilesets\\tileset3\\tileset3.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "85a3bb9e-eb90-4c5d-a836-c0e010aa1897",
+            "Value": {
+                "id": "e8dbeba1-ed95-490e-a577-cdf89f480482",
+                "resourcePath": "objects\\o_close_weapon_parent\\o_close_weapon_parent.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -5127,6 +5143,14 @@
             }
         },
         {
+            "Key": "d70edbc7-15f3-4160-8826-0ee811495220",
+            "Value": {
+                "id": "1f683211-8c97-4bd6-82b5-db40b7027f47",
+                "resourcePath": "scripts\\scr_syn_pos_obj\\scr_syn_pos_obj.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "d7571924-339a-4488-b97e-24574b6832fe",
             "Value": {
                 "id": "2f7a0e7b-982c-407f-867a-11f8793b6c73",
@@ -6168,7 +6192,8 @@
         "58969550-6f8b-4460-9398-d11d29e85a98",
         "99436efc-99b8-4e27-8526-150e4ae49824",
         "63dcdf00-acdb-448a-a9b5-5df5fa1d49d2",
-        "7d1d00b1-905f-4183-becb-4c29bf8bb2a6"
+        "7d1d00b1-905f-4183-becb-4c29bf8bb2a6",
+        "d70edbc7-15f3-4160-8826-0ee811495220"
     ],
     "tutorial": ""
 }

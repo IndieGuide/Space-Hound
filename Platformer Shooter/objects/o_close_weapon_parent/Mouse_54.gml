@@ -3,9 +3,9 @@ if (alarm[0] != -1) exit;
 if (!attack_flag) {
 	attack_flag = true;	
 	sprite_index = spr_attack1;
-	image_speed = 1.4;
+	image_speed = normal_img_spd;
 	if global.bullet_time_flag
-		image_speed = 0.5;
+		image_speed = bullet_img_spd;
 	image_angle = point_direction(x,y+10,mouse_x,mouse_y);
 	image_yscale = o_player.get_flipped;
 	
