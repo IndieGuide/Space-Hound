@@ -4,6 +4,7 @@ spr_attack1 = s_player_sword_attack1;
 spr_attack2 = s_player_sword_attack2;
 dmg_attack1 = 1.5;
 dmg_attack2 = 1;
+hit_dis = 2;
 
 hit = o_player_sword_hit;
 spark = o_player_sword_spark;
