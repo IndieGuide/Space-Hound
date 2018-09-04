@@ -17,6 +17,7 @@ if hinput != 0 && scr_is_player_into_attack_range() {
 }
 
 
+
 //射击
 scr_enemy_fire_bullet();
 	

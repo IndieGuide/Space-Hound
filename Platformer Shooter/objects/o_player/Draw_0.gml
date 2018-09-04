@@ -1,3 +1,4 @@
+//if(live_call()) return live_result;
 /// @description 画玩家和枪
 var dir = point_direction(x,y-sprite_height/2,mouse_x,mouse_y);
 var flipped=(mouse_x>x)*2-1;
@@ -54,7 +55,17 @@ switch (move_state) {
 #endregion
 
 //绘制枪
-scr_draw_gun(flipped,dir,!sword_flag && !change_gun_flag && move_state != ROLL && !sword_bullet_flag);
+scr_draw_gun(flipped,dir,!sword_flag && !change_gun_flag && move_state != ROLL );
+
+//绘制目镜光
+
+if global.bullet_time_flag && lens_eyes_amount < 60
+	lens_eyes_amount += 1;
+else if !global.bullet_time_flag && lens_eyes_amount > 0
+	lens_eyes_amount -= 2;
+
+draw_set_color(c_red);
+draw_lensflare(x ,y - 50,200,5,0.5,2,30,sin(degtorad(lens_eyes_amount)));
 
 #region 老的绘制枪代码
 	////Draw the gun

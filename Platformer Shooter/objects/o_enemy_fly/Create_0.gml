@@ -16,4 +16,7 @@ attack_range = 600;
 //初始状态
 state_ = SMART;
 
+//受创x,y
+hurt_x_add = 0;
+hurt_y_add = 0;
 

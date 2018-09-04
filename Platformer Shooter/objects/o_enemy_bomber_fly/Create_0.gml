@@ -22,3 +22,8 @@ damage = 6;
 
 attack_flag = true;
 destroy_time = 0;
+
+//受创x,y
+hurt_x_add = 0;
+hurt_y_add = 0;
+

@@ -10,4 +10,3 @@ if (_pl_vivid) {
 gpu_set_blendmode_ext(bm_dest_color, bm_src_color);
 draw_surface(_pl_lightmap, camera_get_view_x(view_camera[0]), camera_get_view_y(view_camera[0]));
 gpu_set_blendmode(bm_normal);
-

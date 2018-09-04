@@ -1,14 +1,16 @@
 /// @description 
-depth = -1;
-image_speed = 1.4;
-if global.bullet_time_flag
-	image_speed = 0.25;
-image_angle = point_direction(x,y+10,mouse_x,mouse_y);
-image_yscale = o_player.get_flipped;
-x = o_player.x-4*image_yscale;
-y = o_player.y-o_player.sprite_height/2-6;
+event_inherited();
+spr_attack1 = s_player_sword_attack1;
+spr_attack2 = s_player_sword_attack2;
+dmg_attack1 = 1.5;
+dmg_attack2 = 1;
+hit_dis = 2;
 
-flipped = o_player.get_flipped;
+hit = o_player_sword_hit;
+spark = o_player_sword_spark;
 
-scr_listener_create();
-scr_listener_add("flipped");
+//近战武器冷却时间
+sword_cooldown = 30;
+
+normal_img_spd = 1.4;
+bullet_img_spd = 0.5;

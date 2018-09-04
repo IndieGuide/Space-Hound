@@ -1,1 +1,0 @@
-other.health_ -= 2.5;
