@@ -2,8 +2,8 @@
 // You can write your code in this editor
 if player_flag {
 	scr_syn_pos_to_player_hand();
-
-	flipped = o_player.get_flipped;
+	if instance_exists(o_player) 
+		flipped = o_player.get_flipped;
 
 	scr_listener_get("flipped");
 	scr_listener_get("attack_flag");
@@ -16,7 +16,8 @@ if player_flag {
 		alarm[0] = sword_cooldown/2;
 	}
 	if(scr_listener_is_var_change("attack_flag")) {
-		o_player.sword_flag = attack_flag;
+		if instance_exists(o_player)
+			o_player.sword_flag = attack_flag;
 	}
 }
 
