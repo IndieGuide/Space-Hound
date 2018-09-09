@@ -1,2 +1,3 @@
 /// @description 玩家死亡时效果
 effect_create_above(ef_explosion, x, y, 0, c_red);
+instance_create_depth(x, y, depth, o_player_death);

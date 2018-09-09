@@ -1,8 +1,8 @@
 var_time_var+=0.04;
-
-var_mouse_pos_x = (o_player.x - camera_get_view_x(view_camera[0]))*(window_get_width()/camera_get_view_width(view_camera[0]));
-var_mouse_pos_y = (o_player.y - camera_get_view_y(view_camera[0]))*(window_get_width()/camera_get_view_width(view_camera[0]));
-
+if instance_exists(o_player) {
+	var_mouse_pos_x = (o_player.x - camera_get_view_x(view_camera[0]))*(window_get_width()/camera_get_view_width(view_camera[0]));
+	var_mouse_pos_y = (o_player.y - camera_get_view_y(view_camera[0]))*(window_get_width()/camera_get_view_width(view_camera[0]));
+}
 if shader_enabled {
 shader_set(shd_radial_blur);
     shader_set_uniform_f(uni_time, var_time_var);

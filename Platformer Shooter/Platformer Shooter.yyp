@@ -3599,6 +3599,14 @@
             }
         },
         {
+            "Key": "978d5c14-6070-4401-833c-6b2c5ba35aff",
+            "Value": {
+                "id": "2dae9f74-bed0-4025-9a93-c871ec30a08c",
+                "resourcePath": "objects\\o_player_death\\o_player_death.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "97b0c070-d0e7-4dde-a574-52ab2ff713fa",
             "Value": {
                 "id": "5263a9de-79c9-4dcb-8c62-2588a4157ce7",
