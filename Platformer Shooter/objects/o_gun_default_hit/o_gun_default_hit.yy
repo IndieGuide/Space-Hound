@@ -4,11 +4,20 @@
     "mvc": "1.0",
     "name": "o_gun_default_hit",
     "eventList": [
-        
+        {
+            "id": "27d38ce3-a14c-4a13-9282-cf9dfdb7d917",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "57f2c255-926b-4f4a-921e-bbe9d7edae68"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "6a62ec5c-82af-4644-bc7b-f0bfdbba491b",
+    "parentObjectId": "47d6e05b-ff55-4657-95c5-19b99da95f64",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
