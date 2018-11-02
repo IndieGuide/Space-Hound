@@ -1863,6 +1863,14 @@
             }
         },
         {
+            "Key": "543957e4-cdb8-4576-b2f0-e2ed452e6192",
+            "Value": {
+                "id": "969ea42b-4843-48bb-88dd-68d99ff24a90",
+                "resourcePath": "views\\543957e4-cdb8-4576-b2f0-e2ed452e6192.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "54829e94-f480-4d4d-bd7a-14e7ae1c744c",
             "Value": {
                 "id": "f31e446c-8b5b-4013-a9bb-4bcad2ef141f",
@@ -2095,11 +2103,27 @@
             }
         },
         {
+            "Key": "5c739aac-e3fa-4120-9e7e-126d9280bcc1",
+            "Value": {
+                "id": "b5c13e63-f60a-4d21-b03c-eb3a3a21337e",
+                "resourcePath": "rooms\\r_test_layer\\r_test_layer.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "5c8859a5-2dce-4683-8479-7f0e10bca0fb",
             "Value": {
                 "id": "8bfb7879-e08d-40e4-9e0c-7f32e14d6a7d",
                 "resourcePath": "objects\\o_gun_default_bullet\\o_gun_default_bullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5ca37bef-6eeb-4d8a-8677-68e2f9e15628",
+            "Value": {
+                "id": "ace64bdd-c017-4ef1-b62b-cf758ebd0a26",
+                "resourcePath": "views\\5ca37bef-6eeb-4d8a-8677-68e2f9e15628.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2276,6 +2300,14 @@
                 "id": "47a90eec-0e26-4986-b83e-810001f041d1",
                 "resourcePath": "datafiles_yy\\geon_fx\\effects\\bats.geon.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "62463613-387e-4fd0-ba04-665c6b1350e8",
+            "Value": {
+                "id": "cf31f354-86d0-46d8-afc4-05b087507bed",
+                "resourcePath": "shaders\\shd_notmal_light\\shd_notmal_light.yy",
+                "resourceType": "GMShader"
             }
         },
         {
@@ -6060,6 +6092,14 @@
                 "id": "80c7d09d-5cdb-4f02-a570-033adf5750a3",
                 "resourcePath": "sprites\\s_ui_healthbar\\s_ui_healthbar.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fda92c86-cf38-4f62-a04b-84eab2c3289d",
+            "Value": {
+                "id": "977d60cb-a83c-4f20-8c35-87c9af0fc5fd",
+                "resourcePath": "objects\\o_pln_light\\o_pln_light.yy",
+                "resourceType": "GMObject"
             }
         },
         {
