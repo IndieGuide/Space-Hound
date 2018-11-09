@@ -1,0 +1,1 @@
+return patrol_flag;

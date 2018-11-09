@@ -1,0 +1,81 @@
+///5.15 一批大更新的功能说明
+
+
+o_enemy_bomber	黏在天花板上，主角经过的时候会落下来爆炸
+o_enemyCom_bubble_findtarget	绿色的感叹号，进入小兵的攻击距离小兵会在小兵头部左边或者右边出现这个感叹号的小框，显示5秒后消失
+enemy.dunpai	小兵的换装胳膊，盾牌类型，进入攻击模式盾牌上的花纹会亮起来，然后小兵会冲撞主角
+enemy1	小兵的身体
+enemy1chuanxi	小兵身体的喘息动画
+enemy2	另一种种类小兵的身体
+enemy2chuanxi	另一种种类小兵的身体的喘息动画
+enemy-sword	小兵的换装胳膊，光剑类型，前几帧是把光剑亮出来，发现主角之后播放把光剑亮出来的部分，然后突然闪过
+去播放捅这个动作的动画，闪过去的部分，可以变透明然后突然出现在主角身边然后捅，或者直接冲过去捅。
+enemy-gun	小兵的枪，第一种的，3连点射之后做停顿，给玩家反应时间，然后继续点射（小幅度的枪口跳动）
+enemy-gun2	小兵的第二种枪，发射火箭弹的，（跳动幅度稍微大一点）
+enemy-gun3	小兵的第三种枪，发射光柱的，没有枪口跳动（无法用小刀进行格挡，需要躲避，枪上的3格动画满了之后再发
+射光柱，中间停顿时间长一点，然后再次发射）
+enemy-gun4	小兵的第四种枪，狙击枪，枪口跳动稍微大一点，单发，停顿时间长
+enemy-gun5	小兵的第五种枪，散弹枪，枪口跳动大，单发，停顿时间长，散弹的效果是用单颗子弹来代码调用或者是我画一
+个有一定距离的动图来作为散弹的效果
+enemy-gun6	小兵的第六种枪，小手枪，枪口跳动幅度小，连射4枪然后停顿
+enemy-gun7	小兵的第七种枪，大左轮，枪口跳动 幅度非常大，单发，不能被格挡，射击的时候除了枪口跳动，身体会往后
+退（凸显后坐力大）
+enemy-shuaxin	小兵出现的刷新动画，在特定房间会封锁房间，小兵按规律出现几批，打完一批出一批（两边都出），出现
+的时间要给玩家反应的时间
+enemy-shuaxin2	比较华丽闪电类型的小兵刷新动画，给（光剑兵和盾牌兵来用好了）
+gogogo	清理房间之后提示玩家往前走的动画，一般出现在右边（如果有向上爬或者向下的就改方向）
+gun1	主角的默认枪，小幅度枪口跳动，射速一般，伤害一般
+knife-1	主角的近战小刀动画，第一下砍中杂兵，杂兵会硬直，第二段砍中杂兵有击退效果，小刀可以抵消间断性光线类型
+的子弹
+player	主角的跑动身体动画
+player2duantiao	主角二段跳时候的动画
+player-chuanxi	主角静止不动时候的喘息动画
+player-L-chongci	主角向左冲刺时候的动画
+player-L-chongci-canying	主角向左冲刺的时候身后拖着的一个残影，冲刺结束会回到主角身上然后消失
+player-R-chongci	主角向右冲刺的动画
+player-R-chongci-canying	主角向右冲刺时候身后拖着的残影
+player-xiadun	主角的下蹲姿势
+baozhaxiangzi	爆炸的箱子，被打中会爆炸
+xiangzi	正常箱子，被打中之后会消失（大概两下吧）
+blood	被小刀砍中的敌人的喷血效果
+huojiandan（boom）	enemy-gun2的枪的子弹爆炸效果
+huojiandan(shang)	enemy_gun2的，火箭弹向上的动画
+huojiandan（youshang）	enemy-gun2的，火箭弹向右上的动画
+huojiandan	enemy-gun2的，火箭弹正常向右的动画
+huojiandan（qiangkouhuohua）	enemy-gun2的，发射时候的枪口火花
+enemy-gun3-bullet	enemy-gun3的子弹
+enemy-gun3-qiangkouhuohua	enemy-gun3的枪口火花
+enemy-gun3-zhuangji	enemy-gun3的撞击效果，打到敌人或者建筑物的效果
+enemy-gun4-bullet	enemy-gun4的子弹
+enemy-gun4-qiangkouhuohua	enemy-gun4的枪口火花
+enemy-gun4-zhuangji	enemy-gun4的撞击效果动画
+enemy-gun5-bullet	enemy-gun5的子弹
+enemy-gun5-zhuangji	enemy-gun5的撞击效果
+enemy-gun6-bullet	enemy-gun6的子弹
+enemy-gun6-qiangkouhuohua	enemy-gun6的枪口火花
+enemy-gun6-zhuangji	enemy-gun6的撞击效果
+enemy-gun7-bullet	enemy-gun7的子弹
+enemy-gun7-qiangkouhuohua	enemy-gun7的枪口火花
+enemy-gun7-zhuangji	enemy-gun7的撞击效果动画
+enemy-gun-bullet	enemy-gun的子弹
+enemy-gun-qiangkouhuohua	enemy-gun的枪口火花
+enemy-gun-zhuangji	enemy-gun的子弹撞击效果
+enemy-gun-Q	enemy-gun的枪模型，被主角打死的敌人有几率掉落，掉落的时候边缘闪白光
+enemy-gun2-Q	enemy-gun2的枪模型
+enemy-gun3G-Q	enemy-gun3G的枪模型
+enemy-gun4-Q	enemy-gun4的枪模型
+enemy-gun5-Q	enemy-gun5的枪模型
+enemy-gun6-Q	enemy-gun6的枪模型
+enemy-gun7-Q	enemy-gun7的枪模型
+player-enemy-gun1	主角手持enemy-gun1的胳膊
+player-enemy-gun2	主角手持enemy-gun2的胳膊
+player-enemy-gun3	主角手持enemy-gun3的胳膊
+player-enemy-gun4	主角手持enemy-gun4的胳膊
+player-enemy-gun5	主角手持enemy-gun5的胳膊
+player-enemy-gun6	主角手持enemy-gun6的胳膊
+player-enemy-gun7	主角手持enemy-gun7的胳膊
+moren-gun-bullet	主角的默认枪，的子弹
+moren-gun-qiangkouhuohua	主角默认枪的枪口火花
+moren-gun-zhuangji	主角默认枪的子弹撞击效果动画
+
+Boss sprite 导入

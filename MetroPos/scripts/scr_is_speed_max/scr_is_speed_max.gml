@@ -1,0 +1,1 @@
+return point_distance(0,0,speed_[h],speed_[v]) > max_speed_
