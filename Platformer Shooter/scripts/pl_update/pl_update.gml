@@ -46,7 +46,7 @@ if (_pl_blurring) {
 
     // Prepare blurmap
     if (!surface_exists(_pl_blurmap)) {
-        _pl_blurmap = surface_create(surface_width, surface_height);
+        _pl_blurmap = surface_create(=, surface_height);
     }
     
     surface_set_target(_pl_blurmap);
