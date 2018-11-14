@@ -1,0 +1,1 @@
+scr_collision_physics_effect_dir(other.hit_dis, other.image_angle);

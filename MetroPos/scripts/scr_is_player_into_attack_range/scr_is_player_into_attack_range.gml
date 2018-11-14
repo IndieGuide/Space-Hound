@@ -1,0 +1,1 @@
+return distance_to_object(o_player)<attack_range
