@@ -14,7 +14,9 @@
         "6c3210c0-f4ce-4bea-96a7-57c9fe6bc002",
         "d76ff085-a5df-4388-9d5c-794f5d22d39f",
         "9af7c958-9bf2-4abd-af69-5a159fadb8cc",
-        "6146d0c9-16e5-4d7d-b306-5ebbdd5b21bf"
+        "6146d0c9-16e5-4d7d-b306-5ebbdd5b21bf",
+        "015778b3-656f-43a5-b88b-0e18fd48bf45",
+        "aa548ce1-60bf-4a6f-b66d-f983f5b9a2b4"
     ],
     "filterType": "GMObject",
     "folderName": "TestLayer",
