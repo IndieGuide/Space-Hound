@@ -551,6 +551,14 @@
             }
         },
         {
+            "Key": "110da861-f126-483c-95ae-c40ad9098969",
+            "Value": {
+                "id": "3c4ac4e3-5eeb-48a3-83ff-67fc857af7d6",
+                "resourcePath": "sprites\\SRoom1DoorClose\\SRoom1DoorClose.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "11cd6312-7236-4732-a213-3a4a2376d664",
             "Value": {
                 "id": "b15a1d7c-255d-48ac-adde-37830bbcb7cb",
@@ -1687,6 +1695,14 @@
             }
         },
         {
+            "Key": "40c372e7-644b-4244-8c74-84f95fdf8318",
+            "Value": {
+                "id": "797fef20-bfff-49de-bf8a-da21d1edd6fc",
+                "resourcePath": "sprites\\SRoom1Gear\\SRoom1Gear.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "410369d6-3eda-40f9-86fb-b71f471c964a",
             "Value": {
                 "id": "b50bd9cb-eb1f-4942-af1c-81820163dee1",
@@ -2052,6 +2068,14 @@
                 "id": "554b9759-ae41-4dfc-b7ce-7f4147e9aaf3",
                 "resourcePath": "sprites\\SPlayerInstall\\SPlayerInstall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4eced66b-0e0e-4151-a58f-acac4d75d610",
+            "Value": {
+                "id": "73005018-40b4-4614-aa44-ed5377fd1f06",
+                "resourcePath": "views\\4eced66b-0e0e-4151-a58f-acac4d75d610.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -2647,6 +2671,14 @@
             }
         },
         {
+            "Key": "62725254-e7c4-4d05-b014-eb3e0312805e",
+            "Value": {
+                "id": "a5f9251e-a181-4863-9bc8-18fb4c4469f8",
+                "resourcePath": "sprites\\SRoom1Lamp1\\SRoom1Lamp1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6279d725-cc17-4027-a47e-4f9d4d5a554c",
             "Value": {
                 "id": "75e4f7b8-df81-41a3-87eb-1205d5e4d60d",
@@ -3203,6 +3235,14 @@
             "Value": {
                 "id": "207945e1-3b84-4b5a-a9fc-8ccbf5170cc5",
                 "resourcePath": "sprites\\s_pause_button_back_start\\s_pause_button_back_start.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "730b1fc5-b0a9-4b9e-91a6-01e08f0493d7",
+            "Value": {
+                "id": "e6ae44d0-a991-419e-93f7-3543e40a05b7",
+                "resourcePath": "sprites\\SRoom1Lamp2\\SRoom1Lamp2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5767,6 +5807,14 @@
             }
         },
         {
+            "Key": "cdf60990-d55d-4823-a8cf-db0696b8a147",
+            "Value": {
+                "id": "d1fe6860-a4f7-4c14-bf18-d229abcd5e2e",
+                "resourcePath": "sprites\\SRoom1Pipe\\SRoom1Pipe.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cdf7c162-1ebf-46f0-ac6f-8807f8e80497",
             "Value": {
                 "id": "3c7602d5-5026-4d0e-b663-9d0c892a4a7f",
@@ -5980,6 +6028,14 @@
                 "id": "a1516f9d-b3aa-4ff4-8b0f-21516c6663b5",
                 "resourcePath": "sprites\\sDissolveTest2\\sDissolveTest2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "d543751e-1420-43ac-b10f-4aac01732f43",
+            "Value": {
+                "id": "549e9a08-df7b-442b-85c5-b39172db23bf",
+                "resourcePath": "tilesets\\t_autotile_pipe\\t_autotile_pipe.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -7023,6 +7079,14 @@
             }
         },
         {
+            "Key": "fb7d2ccf-9496-40ab-9a40-c5a2f0da9366",
+            "Value": {
+                "id": "fd1559d1-09b0-463a-9395-84a3bd8cd714",
+                "resourcePath": "sprites\\SRoom1Wall\\SRoom1Wall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fbe060f2-dfe8-4a3f-8402-dc008e3facf6",
             "Value": {
                 "id": "fa1031e0-21c5-4c3a-ad23-7fc455210bab",
@@ -7079,6 +7143,14 @@
             }
         },
         {
+            "Key": "fdf58ae5-68b9-415b-8b62-208d0309c7c2",
+            "Value": {
+                "id": "454de287-c08c-4ba3-b17f-d30e323ec331",
+                "resourcePath": "sprites\\SRoom1DoorCloseOpen\\SRoom1DoorCloseOpen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fe0d7346-7493-4968-940a-f8f4a030db0a",
             "Value": {
                 "id": "5a5dba54-0ca8-4a82-8b6e-9acc20356600",
@@ -7127,6 +7199,14 @@
             }
         },
         {
+            "Key": "fea0281b-bd1e-4859-bc32-f0e0f59aa2d6",
+            "Value": {
+                "id": "544cd087-fb00-4b82-8e08-19c4e7c5c158",
+                "resourcePath": "sprites\\SRoom1Pipe2\\SRoom1Pipe2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fecd92e4-f93d-4e2a-9562-c4a6567a5a63",
             "Value": {
                 "id": "a8916ce7-dba0-4776-b1a1-cd6272aa3ddc",
@@ -7139,6 +7219,14 @@
             "Value": {
                 "id": "058a2d1c-d928-4d38-8b28-4e5a257201a5",
                 "resourcePath": "sprites\\SPlayerThrowItem\\SPlayerThrowItem.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fef6f927-ed94-4215-8c0e-a514109389d5",
+            "Value": {
+                "id": "307a176b-6a9f-4e3f-bc25-d71e66847cd6",
+                "resourcePath": "sprites\\SRoom1Pipe1\\SRoom1Pipe1.yy",
                 "resourceType": "GMSprite"
             }
         },
