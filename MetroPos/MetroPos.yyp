@@ -703,14 +703,6 @@
             }
         },
         {
-            "Key": "16c8685d-9666-4e0d-b1ee-8c044ece95d2",
-            "Value": {
-                "id": "7f4f44ca-dd26-421b-b4b1-8534519df5a0",
-                "resourcePath": "tilesets\\t_autotile\\t_autotile.yy",
-                "resourceType": "GMTileSet"
-            }
-        },
-        {
             "Key": "173a5387-0c83-49f5-9217-db9367deb1a2",
             "Value": {
                 "id": "e10e0ca8-4bc8-4fd4-9183-fa8dff82ab8a",
@@ -1071,6 +1063,14 @@
             }
         },
         {
+            "Key": "26a21364-86e2-44de-9370-a9b14bc24d7d",
+            "Value": {
+                "id": "e4752326-f53f-40e4-bb6a-bfef67f94750",
+                "resourcePath": "sprites\\sprite364\\sprite364.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "26a71d2e-156e-4c61-a78d-d312e950fee8",
             "Value": {
                 "id": "266b377a-f1cd-4fae-8956-f9d04441f903",
@@ -1260,6 +1260,14 @@
                 "id": "19ccac74-6457-4f11-8542-dec8d2b834d2",
                 "resourcePath": "objects\\o_gun0\\o_gun0.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "30175a64-6305-47a6-a2b5-9f9a6cc1f057",
+            "Value": {
+                "id": "26f35f5f-0743-4d52-9a69-0e5290e47121",
+                "resourcePath": "sprites\\SRoom1WallBlack\\SRoom1WallBlack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3207,6 +3215,14 @@
             }
         },
         {
+            "Key": "71d5498a-94a8-4a88-a096-d2800840457d",
+            "Value": {
+                "id": "4f0b62aa-ecd4-4e7e-963d-77c38abb8cff",
+                "resourcePath": "tilesets\\TAutotileWall\\TAutotileWall.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "71ec5e1f-7631-42ea-b821-6f3ab85352a1",
             "Value": {
                 "id": "8ef2914f-5217-4793-9a7b-c23ea8e3d9e8",
@@ -3748,14 +3764,6 @@
                 "id": "0a0d55a9-6708-4e03-8981-787829b36505",
                 "resourcePath": "objects\\o_pause_bg\\o_pause_bg.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "856e0239-9167-4b25-83b0-824a5522a819",
-            "Value": {
-                "id": "c8c0b47d-9d2a-4b35-8d91-e51480ddc95f",
-                "resourcePath": "tilesets\\tileset3\\tileset3.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -4532,14 +4540,6 @@
                 "id": "f3975ea0-d1bc-4390-98d0-aad243d6d3c0",
                 "resourcePath": "sprites\\s_enemy3\\s_enemy3.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9fa149a5-e81e-4d71-b4de-21582aab3cbe",
-            "Value": {
-                "id": "217fa9d8-4b82-4de7-99a6-0601cc34e935",
-                "resourcePath": "tilesets\\t_autotile1\\t_autotile1.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
@@ -6034,7 +6034,7 @@
             "Key": "d543751e-1420-43ac-b10f-4aac01732f43",
             "Value": {
                 "id": "549e9a08-df7b-442b-85c5-b39172db23bf",
-                "resourcePath": "tilesets\\t_autotile_pipe\\t_autotile_pipe.yy",
+                "resourcePath": "tilesets\\TAutotileDecorate\\TAutotileDecorate.yy",
                 "resourceType": "GMTileSet"
             }
         },
@@ -6460,14 +6460,6 @@
                 "id": "abc97db4-4596-4bc6-bedc-00f92dc88a77",
                 "resourcePath": "options\\android\\options_android.yy",
                 "resourceType": "GMAndroidOptions"
-            }
-        },
-        {
-            "Key": "e4642e47-0d94-4a7f-848a-404661c81aa1",
-            "Value": {
-                "id": "0050e175-3029-4703-b92b-2a60e785a332",
-                "resourcePath": "tilesets\\tileset2\\tileset2.yy",
-                "resourceType": "GMTileSet"
             }
         },
         {
