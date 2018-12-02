@@ -4,7 +4,56 @@
     "mvc": "1.11",
     "name": "TAutotileWall",
     "auto_tile_sets": [
-        
+        {
+            "id": "02990957-039c-4507-bc3d-93573d0f2ce1",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "autotile_around",
+            "tiles": [
+                30,
+                31,
+                32,
+                33,
+                34,
+                35,
+                36,
+                37,
+                70,
+                71,
+                72,
+                73,
+                74,
+                75,
+                76,
+                77
+            ]
+        },
+        {
+            "id": "0a1ccf1e-0d4a-4a1e-91e1-f619410c0220",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "autotile_1",
+            "tiles": [
+                190,
+                191,
+                192,
+                193,
+                194,
+                195,
+                196,
+                197,
+                230,
+                231,
+                232,
+                233,
+                234,
+                235,
+                236,
+                237
+            ]
+        }
     ],
     "macroPageTiles": {
         "SerialiseData": null,
