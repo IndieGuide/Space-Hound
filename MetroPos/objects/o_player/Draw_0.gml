@@ -15,15 +15,18 @@ if scr_draw_is_flash_interval_off(alarm[1],flash_interval){
 //Draw the player
 	 
 switch (move_state) {
+	case STAND:
+		draw_sprite_ext(SPlayerStand,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		break;
 	case MOVE:
 		if scr_is_on_twice_jump()
 			draw_sprite_ext(SPlayerJump,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		else {
 			var hinput = keyboard_check(vk_right)-keyboard_check(vk_left);
 			if hinput != 0
-				draw_sprite_ext(SPlayerWalk1,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+				draw_sprite_ext(SPlayerWalk,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 			else
-				draw_sprite_ext(SPlayerWalk1,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+				draw_sprite_ext(SPlayerWalk,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		}
 	    break;
 	case DASH:

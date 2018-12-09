@@ -42,7 +42,7 @@ player_gun = default_gun;
 bullet_cooldown_ = player_gun.cooldown;
 alarm[0] = bullet_cooldown_;
 //移动状态机，包括普通移动，左冲刺，右冲刺
-move_state = MOVE;
+//move_state = STAND;
 //是否绘制刀的flag
 sword_flag = false;
 //sword_bullet_flag = false;
@@ -68,7 +68,6 @@ lens_eyes_amount = 0;
 //Scale Variables 弹性形变
 //x_scale_=image_xscale;
 //y_scale_=image_yscale;
-
 ////小刀subimg
 //draw_xiaodao1 = false;
 //draw_xiaodao2 = false;

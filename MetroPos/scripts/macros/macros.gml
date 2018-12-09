@@ -14,7 +14,7 @@
 #macro CLIMB    8
 #macro CLIMB_RIGHT	9
 #macro CLIMB_LEFT	10
-#macro 
+#macro STAND		11
 
 
 //敌人状态列举

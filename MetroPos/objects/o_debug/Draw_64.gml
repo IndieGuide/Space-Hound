@@ -8,6 +8,8 @@ draw_text(130, 10, "Debug模式");
 draw_text(10, 30, "帧数  ：    " + string(fps_real));
 
 scr_debug_draw_obj_count(10, 60 , o_freelight_parent, "灯光");
+
+
 //scr_debug_draw_obj_count(10, 90 , o_enemy_normal1_parent, "普通敌人");
 //scr_debug_draw_obj_count(10, 120 , o_enemy_normal2_parent, "进阶敌人");
 //scr_debug_draw_obj_count(10, 150 , o_gun_parent, "武器");
