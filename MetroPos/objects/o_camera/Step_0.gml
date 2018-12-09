@@ -10,16 +10,21 @@ if kill_feature_flag {
 	var move_x = feature_x;
 	var move_y = feature_y;	
 }
+
+
 //子弹时间效果
 if (global.bullet_time_flag && alarm[0] == -1){
 	scr_camera_effect_zoom(camera_bullet_time_scale);
 	default_camera_flag = false;
+	global.camera_scale = camera_bullet_time_scale;
 } else if (!global.bullet_time_flag){
-	scr_camera_effect_zoom(1);
+	scr_camera_effect_zoom(normal_scale);
 	default_camera_flag = true;
+	global.camera_scale = normal_scale;
 } else if ( alarm[0] != -1) {
 	scr_camera_effect_zoom(kill_feature_scale);
 	default_camera_flag = false;
+	global.camera_scale = kill_feature_scale;
 }
 
 //像机紧随player位置

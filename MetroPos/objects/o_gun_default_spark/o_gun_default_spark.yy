@@ -1,5 +1,5 @@
 {
-    "id": "ec75803b-c294-4bfe-b935-0ee5c7c0273f",
+    "id": "273002b7-88ea-4cf0-9640-5a65f4e464c9",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "o_gun_default_spark",

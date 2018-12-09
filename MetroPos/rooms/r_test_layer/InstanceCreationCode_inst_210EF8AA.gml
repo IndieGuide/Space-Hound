@@ -1,0 +1,1 @@
+scr_freelight_setting(c_red,1,0)

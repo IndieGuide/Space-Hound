@@ -1,4 +1,5 @@
-//if (live_call()) return live_result;
+if (live_call()) return live_result;
+
 /// @description 玩家步事件
 //check for death
 if health_ <= 0 {
@@ -116,6 +117,10 @@ scr_player_move(speed_,0);
 if place_meeting(x,y+1,o_solid) && !place_meeting(x,yprevious+1,o_solid){
 	x_scale_= image_xscale*1.4;
 	y_scale_= image_yscale*.8;
+}
+
+if (alarm[0] != -1) {
+	move_state = SHOOT;
 }
 
 // Move back to normal scale恢复 弹性形变 的 常态 

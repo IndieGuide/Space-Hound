@@ -1,18 +1,18 @@
 {
-    "id": "57f2c255-926b-4f4a-921e-bbe9d7edae68",
+    "id": "ee275076-4dcb-4625-8b0d-d5f18648d9d6",
     "modelName": "GMObject",
     "mvc": "1.0",
     "name": "o_gun_default_hit",
     "eventList": [
         {
-            "id": "27d38ce3-a14c-4a13-9282-cf9dfdb7d917",
+            "id": "0f81dc0b-f4d4-4543-a5a9-e9de2bc067e3",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "57f2c255-926b-4f4a-921e-bbe9d7edae68"
+            "m_owner": "ee275076-4dcb-4625-8b0d-d5f18648d9d6"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",

@@ -1,0 +1,1 @@
+scr_freelight_setting_strength(c_white,0.2,1,0);

@@ -5,6 +5,13 @@
 if (!surface_exists(srf_lights)) {
 	srf_lights = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
 	tex_lights = surface_get_texture(srf_lights);
+} else if (surface_exists(srf_lights) && !o_camera.default_camera_flag) {
+	srf_lights = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
+	tex_lights = surface_get_texture(srf_lights);
+	is_camera_default = false;
+} else if (surface_exists(srf_lights) && o_camera.default_camera_flag && !is_camera_default) {
+	srf_lights = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
+	tex_lights = surface_get_texture(srf_lights);
 }
 
 surface_set_target(srf_lights);
@@ -21,18 +28,16 @@ surface_set_target(srf_lights);
 	gpu_set_tex_filter(true); // optional
 	
 	// draw light sprites
-	var lights_strength = 0.6;
 	var vx = camera_get_view_x(view_camera[0]);
 	var vy = camera_get_view_y(view_camera[0]);
-	with(o_fakelight_parent)
-		draw_sprite_ext(Light_Sprite, image_index, x - vx, y - vy, Light_Xscale, Light_Yscale, Light_Rotation, Light_Color, image_alpha * lights_strength);
-	
-	
+	with(o_freelight_parent) {
+		var flick = choose(1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, light_flick); //You can add or remove some "1".
+		draw_sprite_ext(light_sprite_index, image_index, x - vx, y - vy, light_xscale*flick, light_yscale*flick, light_rotation, light_color_index, image_alpha * light_strength);
+	}
 	// reset GPU
 	gpu_set_tex_filter(false); // optional
 	gpu_set_blendmode(bm_normal);
 surface_reset_target();
-
 
 // DRAW APPLICATION SURFACE:
 //-----------------------------------------------------------------------------
@@ -40,12 +45,17 @@ shader_set(shader);
 	shader_set_uniform_f_array(u_col, color_mix);
 	shader_set_uniform_f_array(u_con_sat_brt, con_sat_brt_mix);
 	texture_set_stage(s_lights, tex_lights);
-	var scale = 1;
 	if surface_exists(application_surface)
-		draw_surface_ext(application_surface, 0, 0, scale, scale, 0, c_white, 1);
+		draw_surface_ext(application_surface, 0, 0, 1, 1, 0, c_white, 1);
 shader_reset();
 
 
+//surface_set_target(s);
+//solid_tiles = layer_get_id("SolidTiles");
+//solid_tiles_tilemap = layer_tilemap_get_id(solid_tiles);
+//draw_tilemap(solid_tiles_tilemap,0,-200);
+//surface_reset_target();
+//draw_surface(s,0,0);
 // DEBUG LIGHTING SURFACE:
 //-----------------------------------------------------------------------------
 

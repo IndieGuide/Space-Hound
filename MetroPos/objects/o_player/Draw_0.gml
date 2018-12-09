@@ -17,17 +17,17 @@ if scr_draw_is_flash_interval_off(alarm[1],flash_interval){
 switch (move_state) {
 	case MOVE:
 		if scr_is_on_twice_jump()
-			draw_sprite_ext(s_player_jump_twice,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+			draw_sprite_ext(SPlayerJump,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		else {
 			var hinput = keyboard_check(vk_right)-keyboard_check(vk_left);
 			if hinput != 0
-				draw_sprite_ext(s_player,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+				draw_sprite_ext(SPlayerWalk1,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 			else
-				draw_sprite_ext(s_player,image_number - 1, x,y,flipped,1,0,image_blend,image_alpha);
+				draw_sprite_ext(SPlayerWalk1,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		}
 	    break;
 	case DASH:
-		draw_sprite_ext(s_player_dash,dash_image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		draw_sprite_ext(SPlayerStand,dash_image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
 	//case L_DASH:
 	//	draw_sprite_ext(s_player_dash_left,image_index, x,y,flipped,1,0,image_blend,image_alpha);
@@ -37,13 +37,16 @@ switch (move_state) {
 	//	break;
 	case ROLL:
 		var roll_dir = sign(speed_[h]);
-		draw_sprite_ext(s_player_roll,image_index, x,y,roll_dir,1,0,image_blend,image_alpha);
+		draw_sprite_ext(SPlayerRoll,image_index, x,y,roll_dir,1,0,image_blend,image_alpha);
 		break;
 	case SQUART:
-		draw_sprite_ext(s_player_squat,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		draw_sprite_ext(SPlayerCover,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		break;
+	case SHOOT:
+		draw_sprite_ext(SPlayerHgShoot,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
 	default:
-		draw_sprite_ext(s_player,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		draw_sprite_ext(SPlayerStand,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
 }
 	//draw_sprite_ext(s_player,image_index, x,y,flipped,1,0,image_blend,image_alpha);
@@ -55,7 +58,7 @@ switch (move_state) {
 #endregion
 
 //绘制枪
-scr_draw_gun(flipped,dir,!sword_flag && !change_gun_flag && move_state != ROLL );
+//scr_draw_gun(flipped,dir,!sword_flag && !change_gun_flag && move_state != ROLL );
 
 //绘制目镜光
 
@@ -64,8 +67,15 @@ if global.bullet_time_flag && lens_eyes_amount < 60
 else if !global.bullet_time_flag && lens_eyes_amount > 0
 	lens_eyes_amount -= 2;
 
-draw_set_color(c_red);
-draw_lensflare(x ,y - 50,200,5,0.5,2,30,sin(degtorad(lens_eyes_amount)));
+//draw_set_color(c_red);
+//draw_lensflare(x ,y - 50,400,5,0.5,2,30,sin(degtorad(lens_eyes_amount)));
+
+
+//debug代码
+if global.debug_flag{
+	draw_point(x,y);
+	draw_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,1)
+}
 
 #region 老的绘制枪代码
 	////Draw the gun

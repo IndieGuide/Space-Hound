@@ -10,6 +10,11 @@
 #macro ROLL		4
 #macro SQUART   5
 #macro DASH		6
+#macro SHOOT    7
+#macro CLIMB    8
+#macro CLIMB_RIGHT	9
+#macro CLIMB_LEFT	10
+#macro 
 
 
 //敌人状态列举

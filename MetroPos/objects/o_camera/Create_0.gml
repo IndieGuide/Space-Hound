@@ -7,7 +7,8 @@ height_=camera_get_view_height(view_camera[0]);
 default_width = width_;
 default_height = height_;
 
-
+normal_scale = 1;
+normal_scale = 1;
 camera_bullet_time_scale = 1.5;
 kill_feature_scale = 3;
 

@@ -1,15 +1,17 @@
 /// @description 
 draw_text(5,5,string(fps));
-if !debug_flag exit;
-draw_sprite_ext(s_debug_bg, image_index, 0, 0, 10, 6, 0, c_white, 0.6);
+if !global.debug_flag exit;
+show_debug_overlay(true);
+//draw_sprite_ext(s_debug_bg, image_index, 0, 0, 10, 6, 0, c_white, 0.6);
+draw_set_font(global.font_zkhappy);
 draw_text(130, 10, "Debug模式");
 draw_text(10, 30, "帧数  ：    " + string(fps_real));
 
-scr_debug_draw_obj_count(10, 60 , o_enemy_parent, "敌人");
-scr_debug_draw_obj_count(10, 90 , o_enemy_normal1_parent, "普通敌人");
-scr_debug_draw_obj_count(10, 120 , o_enemy_normal2_parent, "进阶敌人");
-scr_debug_draw_obj_count(10, 150 , o_gun_parent, "武器");
-scr_debug_draw_obj_count(10, 180 , o_gun_bullet_parent_enemy, "敌人子弹");
+scr_debug_draw_obj_count(10, 60 , o_freelight_parent, "灯光");
+//scr_debug_draw_obj_count(10, 90 , o_enemy_normal1_parent, "普通敌人");
+//scr_debug_draw_obj_count(10, 120 , o_enemy_normal2_parent, "进阶敌人");
+//scr_debug_draw_obj_count(10, 150 , o_gun_parent, "武器");
+//scr_debug_draw_obj_count(10, 180 , o_gun_bullet_parent_enemy, "敌人子弹");
 
 //draw_text(250, 60, "camera_get_view_width:" + string(camera_get_view_width(view_camera[0])));
 //draw_text(250, 90, "camera_get_view_height:" + string(camera_get_view_height(view_camera[0])));

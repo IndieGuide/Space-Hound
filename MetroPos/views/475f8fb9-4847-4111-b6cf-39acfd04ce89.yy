@@ -11,7 +11,8 @@
         "a3bab7bb-48f9-4680-ba05-f83d9d0a31e8",
         "138f85d6-c5c4-4bae-8973-2d9246d69627",
         "84194cb4-fcd0-4daa-b652-5bbef00a5c45",
-        "bf2783a9-3003-42f4-95cb-4ea19edca142"
+        "bf2783a9-3003-42f4-95cb-4ea19edca142",
+        "ea4530ba-815a-497c-8ab4-164837f4767c"
     ],
     "filterType": "GMSprite",
     "folderName": "Light&Lamp&Part",

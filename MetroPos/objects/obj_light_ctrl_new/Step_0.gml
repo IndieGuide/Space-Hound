@@ -1,5 +1,4 @@
 // get key times:
-var time		= 0.2;
 
 key_previous	= min(floor(time * number_of_key_times), number_of_key_times -1);
 key_next		= (key_previous + 1) mod number_of_key_times;

@@ -6,8 +6,8 @@ max_speed_=4;
 gravity_=.5;
 acceleration_=1;
 friction_=.3;
-jump_height_=-10;
-jump_width_=-30;
+jump_height_=-8;
+jump_width_=-35;
 
 //翻滚距离
 roll_dis = 90;
@@ -20,23 +20,27 @@ dash_image_index = 0;
 max_health_=50;//最大血量
 health_=max_health_; //生命值 
 invincible_=false;//无敌状态
+#region gun_script_old
+////枪械列表
+//gun_slot = ds_list_create();
+////创建默认枪
+//default_gun = instance_create_layer(x-9, y-40, "Instances", o_gun_default); 
+////创建默认武器
+//default_close_weapon = instance_create_layer(x - 9, y - 40, "Instances", o_player_sword);
+//default_close_weapon.player_flag = true;
+////添加初始枪到列表里
+//ds_list_add(gun_slot, default_gun);
+////设置默认枪为装备的武器
+//player_gun = gun_slot[| 0];
 
-//枪械列表
-gun_slot = ds_list_create();
-//创建默认枪
+////子弹冷却速度（随装备改变）
+//bullet_cooldown_ = player_gun.cooldown;
+//alarm[0] = bullet_cooldown_;
+#endregion
 default_gun = instance_create_layer(x-9, y-40, "Instances", o_gun_default); 
-//创建默认武器
-default_close_weapon = instance_create_layer(x - 9, y - 40, "Instances", o_player_sword);
-default_close_weapon.player_flag = true;
-//添加初始枪到列表里
-ds_list_add(gun_slot, default_gun);
-//设置默认枪为装备的武器
-player_gun = gun_slot[| 0];
-
-//子弹冷却速度（随装备改变）
+player_gun = default_gun;
 bullet_cooldown_ = player_gun.cooldown;
 alarm[0] = bullet_cooldown_;
-
 //移动状态机，包括普通移动，左冲刺，右冲刺
 move_state = MOVE;
 //是否绘制刀的flag
@@ -73,3 +77,4 @@ lens_eyes_amount = 0;
 //knifeing1 = true;
 //knifeing2 = true;
 #endregion
+//collision_tilemap = layer_tilemap_get_id("SolidTiles");

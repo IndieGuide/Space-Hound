@@ -12,7 +12,9 @@
         "01e1a170-acb2-420a-b7fc-4a922a8ebb3e",
         "a6fb08e4-76b2-423d-99a2-4161216f8b67",
         "c61ee47c-80bc-4105-b862-7f8df7704b29",
-        "0f206f76-e754-46b5-afed-83476d3f1a3e"
+        "ae2ae5fc-8f17-433a-8561-dfc911242305",
+        "0f206f76-e754-46b5-afed-83476d3f1a3e",
+        "060f68df-7739-4426-886d-d765dfed6d50"
     ],
     "filterType": "GMSprite",
     "folderName": "Platform",
