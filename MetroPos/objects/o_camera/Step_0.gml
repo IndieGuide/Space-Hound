@@ -29,12 +29,12 @@ if (global.bullet_time_flag && alarm[0] == -1){
 
 //像机紧随player位置
 x = lerp(x,move_x,0.1);
-y = lerp(y,move_y-height_/4,0.1);
+y = lerp(y,move_y,0.1);
 //子弹时间模式下player在镜头正中间
 if (global.bullet_time_flag){
 	y = lerp(y,move_y,0.1);
 }
-
+//使摄像机在房间内
 x = clamp(x,width_/2,room_width-width_/2);
 y = clamp(y,height_/2,room_height-height_/2);
 
