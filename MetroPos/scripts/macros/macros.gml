@@ -3,19 +3,22 @@
 
 
 //移动状态列举
-#macro MOVE		0
-#macro L_DASH	1
-#macro R_DASH	2
-#macro JUMP_TWICE 3
-#macro ROLL		4
-#macro SQUART   5
-#macro DASH		6
-#macro SHOOT    7
-#macro CLIMB    8
-#macro CLIMB_RIGHT	9
-#macro CLIMB_LEFT	10
-#macro STAND		11
+//#macro MOVE		0
+//#macro L_DASH	1
+//#macro R_DASH	2
+//#macro JUMP_TWICE 3
+//#macro ROLL		4
+//#macro SQUART   5
+//#macro DASH		6
+//#macro SHOOT    7
+//#macro CLIMB    8
+//#macro CLIMB_RIGHT	9
+//#macro CLIMB_LEFT	10
+//#macro STAND		11
 
+#macro STATE_IN		0
+#macro STATE_STEP	1
+#macro STATE_OUT	2
 
 //敌人状态列举
 #macro SILENCE	0

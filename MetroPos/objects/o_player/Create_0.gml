@@ -42,6 +42,20 @@ player_gun = default_gun;
 bullet_cooldown_ = player_gun.cooldown;
 alarm[0] = bullet_cooldown_;
 //移动状态机，包括普通移动，左冲刺，右冲刺
+state_ini();
+state_add(enum_player_state.MOVE,scr_player_state_move_in,scr_player_state_move_step,scr_player_state_move_out);
+state_add(enum_player_state.STAND,scr_player_state_stand_in,scr_player_state_stand_step,scr_player_state_stand_out);
+state_add(enum_player_state.JUMP,scr_player_state_jump_in,scr_player_state_jump_step,scr_player_state_jump_out);
+state_add(enum_player_state.JUMP_TWICE,scr_player_state_jump_twice_in,scr_player_state_jump_twice_step,scr_player_state_jump_twice_out);
+state_add(enum_player_state.ROLL,scr_player_state_roll_in,scr_player_state_roll_step,scr_player_state_roll_out);
+state_add(enum_player_state.SQUART,scr_player_state_squart_in,scr_player_state_squart_step,scr_player_state_squart_out);
+state_add(5,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(6,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(7,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(8,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(9,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(10,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(12,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
 //move_state = STAND;
 //是否绘制刀的flag
 sword_flag = false;
@@ -55,7 +69,7 @@ shooted_flag = false;
 
 //给其他obj引用player的方向（不安全，应改为由一个obj代理完成）
 get_flipped = (mouse_x > x) * 2 - 1;
-
+get_face = 1;
 //键位映射
 keyboard_set_map(ord("W"),vk_up);
 keyboard_set_map(ord("A"),vk_left);

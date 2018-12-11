@@ -1,5 +1,5 @@
 /// @description 绘制自己和武器
-if live_call() return live_result;
+//if live_call() return live_result;
 if !instance_exists(o_player) exit;
 
 var xscale_ = scr_get_enemy_xscale();

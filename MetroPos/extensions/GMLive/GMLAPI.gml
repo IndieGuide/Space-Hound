@@ -1,4 +1,4 @@
-#define live_preinit_api
+﻿#define live_preinit_api
 // Generated at 2017-12-30 23:16:42 (8519ms)
 gml_func_add("min(...values:number)",live_script_get_index("__lnc__lf"));
 gml_func_add("max(...values:number)",live_script_get_index("__lnc__lf1"));
@@ -10914,7 +10914,7 @@ if (live_enabled) {
 	gml_const_add("buffer_wrap",buffer_wrap);
 	gml_const_add("buffer_fast",buffer_fast);
 	gml_const_add("buffer_vbuffer",buffer_vbuffer);
-	gml_const_add("buffer_network",buffer_network);
+	//gml_const_add("buffer_network",buffer_network);
 	gml_const_add("buffer_u8",buffer_u8);
 }
 

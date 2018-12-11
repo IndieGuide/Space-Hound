@@ -1,7 +1,7 @@
 //if(live_call()) return live_result;
 /// @description 画玩家和枪
 var dir = point_direction(x,y-sprite_height/2,mouse_x,mouse_y);
-var flipped=(mouse_x>x)*2-1;
+var flipped=get_face;
 
 
 var flash_interval=16;
@@ -14,11 +14,11 @@ if scr_draw_is_flash_interval_off(alarm[1],flash_interval){
 
 //Draw the player
 	 
-switch (move_state) {
-	case STAND:
+switch (state_) {
+	case enum_player_state.STAND:
 		draw_sprite_ext(SPlayerStand,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
-	case MOVE:
+	case enum_player_state.MOVE:
 		if scr_is_on_twice_jump()
 			draw_sprite_ext(SPlayerJump,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		else {
@@ -29,7 +29,11 @@ switch (move_state) {
 				draw_sprite_ext(SPlayerWalk,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		}
 	    break;
-	case DASH:
+	case enum_player_state.JUMP:
+	case enum_player_state.JUMP_TWICE:
+		draw_sprite_ext(SPlayerJump,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		break;
+	case enum_player_state.DASH:
 		draw_sprite_ext(SPlayerStand,dash_image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
 	//case L_DASH:
@@ -38,14 +42,14 @@ switch (move_state) {
 	//case R_DASH:
 	//	draw_sprite_ext(s_player_dash_right,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 	//	break;
-	case ROLL:
-		var roll_dir = sign(speed_[h]);
-		draw_sprite_ext(SPlayerRoll,image_index, x,y,roll_dir,1,0,image_blend,image_alpha);
+	case enum_player_state.ROLL:
+		//var roll_dir = sign(speed_[h]);
+		draw_sprite_ext(SPlayerRoll,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
-	case SQUART:
+	case enum_player_state.SQUART:
 		draw_sprite_ext(SPlayerCover,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
-	case SHOOT:
+	case enum_player_state.SHOOT:
 		draw_sprite_ext(SPlayerHgShoot,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
 	default:
