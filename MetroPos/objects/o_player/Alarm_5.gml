@@ -1,1 +1,1 @@
-/// @description 二段跳动画计时器
+/// @description 相机阻尼计时器  使人转向时相机先缓慢移动

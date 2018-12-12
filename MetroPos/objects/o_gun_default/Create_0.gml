@@ -1,5 +1,5 @@
 /// @description 这是主角的初始枪，无弹药限制
-cooldown = 10;
+cooldown = 45;
 gun_spark = o_gun_default_spark;
 gun_bullet = o_gun_default_bullet;
 width_ = 38;

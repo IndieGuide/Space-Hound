@@ -9,6 +9,7 @@ friction_=.3;
 jump_height_=-8;
 jump_width_=-35;
 
+stop_by_solid_flag = true;
 //翻滚距离
 roll_dis = 90;
 alarm[6] = 30;
@@ -41,7 +42,8 @@ default_gun = instance_create_layer(x-9, y-40, "Instances", o_gun_default);
 player_gun = default_gun;
 bullet_cooldown_ = player_gun.cooldown;
 alarm[0] = bullet_cooldown_;
-//移动状态机，包括普通移动，左冲刺，右冲刺
+
+//状态机
 state_ini();
 state_add(enum_player_state.MOVE,scr_player_state_move_in,scr_player_state_move_step,scr_player_state_move_out);
 state_add(enum_player_state.STAND,scr_player_state_stand_in,scr_player_state_stand_step,scr_player_state_stand_out);
@@ -49,13 +51,20 @@ state_add(enum_player_state.JUMP,scr_player_state_jump_in,scr_player_state_jump_
 state_add(enum_player_state.JUMP_TWICE,scr_player_state_jump_twice_in,scr_player_state_jump_twice_step,scr_player_state_jump_twice_out);
 state_add(enum_player_state.ROLL,scr_player_state_roll_in,scr_player_state_roll_step,scr_player_state_roll_out);
 state_add(enum_player_state.SQUART,scr_player_state_squart_in,scr_player_state_squart_step,scr_player_state_squart_out);
-state_add(5,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
-state_add(6,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
-state_add(7,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(enum_player_state.DASH,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(enum_player_state.SHOOT,scr_player_state_shoot_in,scr_player_state_shoot_step,scr_player_state_shoot_out);
+state_add(enum_player_state.CLIMB,scr_player_state_climb_in,scr_player_state_climb_step,scr_player_state_climb_out);
 state_add(8,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
 state_add(9,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
-state_add(10,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(enum_player_state.CLIMBED,scr_player_state_climbed_in,scr_player_state_climbed_step,scr_player_state_climbed_out);
 state_add(12,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+
+ins_bind = noone;
+//人物从上到下的长度，用来爬梯子时判断有没有到顶层
+player_height = 56;
+
+//如果不使用统一的掩码，很容易出现各种卡进墙体
+mask_index = SPlayerStand;
 //move_state = STAND;
 //是否绘制刀的flag
 sword_flag = false;
@@ -64,7 +73,7 @@ change_gun_flag = false;
 jump_twice_flag = false;
 roll_flag = false;
 dash_flag = 1;
-shooted_flag = false;
+shooted_flag = false;//被o_camera引用，使射击后窗口抖动，可以用call来改进
 
 
 //给其他obj引用player的方向（不安全，应改为由一个obj代理完成）
@@ -75,6 +84,7 @@ keyboard_set_map(ord("W"),vk_up);
 keyboard_set_map(ord("A"),vk_left);
 keyboard_set_map(ord("S"),vk_down);
 keyboard_set_map(ord("D"),vk_right);
+
 
 lens_eyes_amount = 0;
 

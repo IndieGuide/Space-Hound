@@ -2,55 +2,33 @@
 /// @description 画玩家和枪
 var dir = point_direction(x,y-sprite_height/2,mouse_x,mouse_y);
 var flipped=get_face;
+//image_xscale = get_face;
 
-
-var flash_interval=16;
-if scr_draw_is_flash_interval_off(alarm[1],flash_interval){
-	gpu_set_fog(false,c_silver,0,1);
-}else{
-	gpu_set_fog(true,c_silver,0,1);
-}
+//var flash_interval=16;
+//if scr_draw_is_flash_interval_off(alarm[1],flash_interval){
+//	gpu_set_fog(false,c_silver,0,1);
+//}else{
+//	gpu_set_fog(true,c_silver,0,1);
+//}
 
 
 //Draw the player
-	 
+
 switch (state_) {
 	case enum_player_state.STAND:
-		draw_sprite_ext(SPlayerStand,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-		break;
 	case enum_player_state.MOVE:
-		if scr_is_on_twice_jump()
-			draw_sprite_ext(SPlayerJump,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-		else {
-			var hinput = keyboard_check(vk_right)-keyboard_check(vk_left);
-			if hinput != 0
-				draw_sprite_ext(SPlayerWalk,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-			else
-				draw_sprite_ext(SPlayerWalk,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-		}
-	    break;
 	case enum_player_state.JUMP:
 	case enum_player_state.JUMP_TWICE:
-		draw_sprite_ext(SPlayerJump,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-		break;
-	case enum_player_state.DASH:
-		draw_sprite_ext(SPlayerStand,dash_image_index, x,y,flipped,1,0,image_blend,image_alpha);
-		break;
-	//case L_DASH:
-	//	draw_sprite_ext(s_player_dash_left,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-	//	break;
-	//case R_DASH:
-	//	draw_sprite_ext(s_player_dash_right,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-	//	break;
 	case enum_player_state.ROLL:
-		//var roll_dir = sign(speed_[h]);
-		draw_sprite_ext(SPlayerRoll,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-		break;
 	case enum_player_state.SQUART:
-		draw_sprite_ext(SPlayerCover,image_index, x,y,flipped,1,0,image_blend,image_alpha);
-		break;
 	case enum_player_state.SHOOT:
-		draw_sprite_ext(SPlayerHgShoot,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+	case enum_player_state.CLIMBED:
+		draw_sprite_ext(sprite_index,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		break;
+	case enum_player_state.CLIMB:
+	case enum_player_state.CLIMB_RIGHT:
+	case enum_player_state.CLIMB_LEFT:
+		draw_sprite_ext(sprite_index,image_index, x,y,1,1,0,image_blend,image_alpha);
 		break;
 	default:
 		draw_sprite_ext(SPlayerStand,image_index, x,y,flipped,1,0,image_blend,image_alpha);
@@ -59,10 +37,7 @@ switch (state_) {
 	//draw_sprite_ext(s_player,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 	//draw_sprite_ext(s_player,image_index, x,y,x_scale_*flipped,y_scale_,0,image_blend,image_alpha);教程原代码
 
-#region 弃用小刀绘制代码
-////绘制小刀
-//var flag_ = scr_draw_knife(x-5,y-10,0.8,flipped);
-#endregion
+
 
 //绘制枪
 //scr_draw_gun(flipped,dir,!sword_flag && !change_gun_flag && move_state != ROLL );

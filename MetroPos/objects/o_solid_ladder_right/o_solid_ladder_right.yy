@@ -1,14 +1,14 @@
 {
-    "id": "3b44e483-8ead-47ce-98ad-3bc779a21122",
+    "id": "ab909699-ef2f-4d24-8b90-6bbade2af36e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ladder_front",
+    "name": "o_solid_ladder_right",
     "eventList": [
         
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "c7ac5056-24c6-430a-a19c-7fa4544e932c",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9c49b952-8f96-4b46-ac58-2bb171778723",
+    "spriteId": "5e0f0a5a-00fe-40b8-9aa5-11601bd7c22e",
     "visible": false
 }

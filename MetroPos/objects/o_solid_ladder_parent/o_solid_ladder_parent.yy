@@ -1,8 +1,8 @@
 {
-    "id": "ab909699-ef2f-4d24-8b90-6bbade2af36e",
+    "id": "c7ac5056-24c6-430a-a19c-7fa4544e932c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_ladder_right",
+    "name": "o_solid_ladder_parent",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "5e0f0a5a-00fe-40b8-9aa5-11601bd7c22e",
-    "visible": false
+    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "visible": true
 }

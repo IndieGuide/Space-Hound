@@ -11,6 +11,8 @@ scr_debug_draw_obj_count(10, 60 , o_freelight_parent, "灯光");
 draw_text(10,90,o_player.state_);
 draw_text(10,110,"x:"+string(o_player.x));
 draw_text(10,130,"y:"+string(o_player.y));
+draw_text(10,150,o_camera.camera_offset);
+draw_text(10,170,"x_delta:"+string(o_player.x - o_player.xprevious));
 
 		//draw_text(300,300,a[0][0]);
 

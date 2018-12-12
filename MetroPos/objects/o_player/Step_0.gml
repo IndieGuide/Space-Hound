@@ -1,6 +1,7 @@
 //if (live_call()) return live_result;
 
 /// @description 玩家步事件
+
 //check for death
 if health_ <= 0 {
 	instance_destroy();
@@ -36,9 +37,9 @@ if health_ <= 0 {
 //	}
 //}
 
-if(alarm[2] == 9 || alarm[2] ==8 || alarm[2] ==6 || alarm[2] ==2) {
-	dash_image_index ++;
-}
+//if(alarm[2] == 9 || alarm[2] ==8 || alarm[2] ==6 || alarm[2] ==2) {
+//	dash_image_index ++;
+//}
 #endregion
 //state_ini();
 //state_add(MOVE,state_move_in,state_move_out,state_move_step);
@@ -136,8 +137,19 @@ if state_y_move_flag && !place_meeting(x,y+1,o_solid){
 
 
 //判断撞到墙体速度为零
-scr_player_move(speed_,0);
-
+scr_player_move_ext(speed_,0,0,stop_by_solid_flag);
+//解决卡墙
+//if speed_[h] == 0 {
+//	if place_meeting(x + 1,y,o_solid) {
+//		x -= 1;
+//	} else if place_meeting(x - 1, y, o_solid) {
+//		x += 1;}
+//	//} else if place_meeting(x, y + 1, o_solid) {
+//	//	y -= 1;
+//	//} else if place_meeting(x, y - 1, o_solid) {
+//	//	y += 1;
+//	//}
+//}
 ////Check for landing落地判断
 //if place_meeting(x,y+1,o_solid) && !place_meeting(x,yprevious+1,o_solid){
 //	x_scale_= image_xscale*1.4;

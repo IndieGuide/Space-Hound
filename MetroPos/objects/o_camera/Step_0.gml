@@ -28,8 +28,19 @@ if (global.bullet_time_flag && alarm[0] == -1){
 }
 
 //像机紧随player位置
-x = lerp(x,move_x,0.1);
+var hinput = keyboard_check(vk_right)-keyboard_check(vk_left);
+if (hinput > 0) && (abs(camera_offset) < camera_offset_max) {
+	camera_offset += 2;
+} else if (hinput < 0) && (abs(camera_offset) < camera_offset_max){
+	camera_offset -= 2;
+} else if (hinput < 0) && (camera_offset == camera_offset_max) {
+	camera_offset += hinput*20;
+} else if (hinput > 0) && (-camera_offset == camera_offset_max) {
+	camera_offset += hinput*20;
+}
+x = lerp(x,move_x + camera_offset,0.1);
 y = lerp(y,move_y,0.1);
+
 //子弹时间模式下player在镜头正中间
 if (global.bullet_time_flag){
 	y = lerp(y,move_y,0.1);

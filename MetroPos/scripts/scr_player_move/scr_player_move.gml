@@ -6,6 +6,7 @@ var bounce_=argument1;
 if place_meeting(x+speed_[h],y,o_solid){
 	while !place_meeting(x+sign(speed_[h]),y,o_solid){
 		x+=sign(speed_[h]);
+		if state_ == enum_player_state.ROLL && x == xprevious show_message(1);
 	}
 	
 	if bounce_>0{

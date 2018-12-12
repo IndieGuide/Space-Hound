@@ -24,7 +24,16 @@
         "e4c730d9-a5cb-4369-aff6-e882c4ac621c",
         "521c61df-d4ba-4a00-9050-5cbb1b6520e2",
         "10d270ec-10c1-4dc9-b980-ee3cf39a6f32",
-        "d402623c-31ab-44d6-aea0-23c5029cdb2b"
+        "d402623c-31ab-44d6-aea0-23c5029cdb2b",
+        "d0004a86-e039-47a6-9aaa-bb8db2d23fb8",
+        "89aec241-96b8-4869-b36c-a669bea0f5cb",
+        "fb64dda0-33f1-4595-b853-8b0791809752",
+        "a4646c0b-a1c6-47c3-8203-195ea79cb904",
+        "08410add-0663-4a6c-aeac-5b4ef3359acf",
+        "1a6e89e0-73b2-4dbd-9874-63bddd8de94e",
+        "3fa733c2-c916-4dcb-80ec-f13424733f9b",
+        "7ef5f257-12fb-40df-95d2-254a87b0311c",
+        "dd4adabd-d05f-4482-986c-acbc6d5930db"
     ],
     "filterType": "GMScript",
     "folderName": "PlayerState",
