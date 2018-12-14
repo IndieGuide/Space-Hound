@@ -1,8 +1,8 @@
 if (room == r_logo || room == r_start) exit;
 
-if global.bullet_time_flag {
-	application_surface_draw_enable(true);
-}
+//if global.bullet_time_flag {
+//	application_surface_draw_enable(true);
+//}
 
 if (room == r_pause) {
 	if (global.pause_menu_level != 0) {

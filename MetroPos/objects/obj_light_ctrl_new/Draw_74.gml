@@ -5,15 +5,14 @@
 if (!surface_exists(srf_lights)) {
 	srf_lights = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
 	tex_lights = surface_get_texture(srf_lights);
-} else if (surface_exists(srf_lights) && !o_camera.default_camera_flag) {
+} else if (surface_exists(srf_lights) && o_camera.is_camera_size_change) {
+	surface_free(srf_lights);
 	srf_lights = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
 	tex_lights = surface_get_texture(srf_lights);
 	is_camera_default = false;
-} else if (surface_exists(srf_lights) && o_camera.default_camera_flag && !is_camera_default) {
-	srf_lights = surface_create(camera_get_view_width(view_camera[0]), camera_get_view_height(view_camera[0]));
-	tex_lights = surface_get_texture(srf_lights);
 }
 
+if global.light_flag {
 surface_set_target(srf_lights);
 	/*View:		- if there's many lights, add some code to check if the light would be drawn to the view
 				- if the view size is different from the view port you maybe need to change the drawing scale
@@ -31,14 +30,15 @@ surface_set_target(srf_lights);
 	var vx = camera_get_view_x(view_camera[0]);
 	var vy = camera_get_view_y(view_camera[0]);
 	with(o_freelight_parent) {
-		var flick = choose(1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, light_flick); //You can add or remove some "1".
+		
+			var flick = (light_flick != 1) ? choose(1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, light_flick):1; //You can add or remove some "1".
 		draw_sprite_ext(light_sprite_index, image_index, x - vx, y - vy, light_xscale*flick, light_yscale*flick, light_rotation, light_color_index, image_alpha * light_strength);
 	}
 	// reset GPU
 	gpu_set_tex_filter(false); // optional
 	gpu_set_blendmode(bm_normal);
 surface_reset_target();
-
+}
 // DRAW APPLICATION SURFACE:
 //-----------------------------------------------------------------------------
 shader_set(shader);

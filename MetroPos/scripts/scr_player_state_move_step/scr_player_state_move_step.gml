@@ -1,4 +1,4 @@
-var hinput = keyboard_check(vk_right)-keyboard_check(vk_left);
+var hinput = key_right - key_left;
 if hinput != 0 {
 	var flipped=get_face;
 	image_speed=flipped*hinput*1.2;

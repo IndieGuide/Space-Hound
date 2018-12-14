@@ -12,7 +12,10 @@ jump_width_=-35;
 stop_by_solid_flag = true;
 //翻滚距离
 roll_dis = 90;
-alarm[6] = 30;
+//翻滚时长
+roll_time = 25;
+//翻滚间隔
+roll_cant_time = 20;
 //冲刺
 dash_dis = 12;
 dash_dis_bullet_time = 40;
@@ -54,14 +57,15 @@ state_add(enum_player_state.SQUART,scr_player_state_squart_in,scr_player_state_s
 state_add(enum_player_state.DASH,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
 state_add(enum_player_state.SHOOT,scr_player_state_shoot_in,scr_player_state_shoot_step,scr_player_state_shoot_out);
 state_add(enum_player_state.CLIMB,scr_player_state_climb_in,scr_player_state_climb_step,scr_player_state_climb_out);
-state_add(8,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
-state_add(9,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
 state_add(enum_player_state.CLIMBED,scr_player_state_climbed_in,scr_player_state_climbed_step,scr_player_state_climbed_out);
-state_add(12,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(enum_player_state.FALL,scr_player_state_fall_in,scr_player_state_fall_step,scr_player_state_fall_out);
+state_add(11,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
 
-ins_bind = noone;
+
 //人物从上到下的长度，用来爬梯子时判断有没有到顶层
 player_height = 56;
+//实际上是碰撞盒的宽度
+player_width = 16;
 
 //如果不使用统一的掩码，很容易出现各种卡进墙体
 mask_index = SPlayerStand;
@@ -70,7 +74,6 @@ mask_index = SPlayerStand;
 sword_flag = false;
 //sword_bullet_flag = false;
 change_gun_flag = false;
-jump_twice_flag = false;
 roll_flag = false;
 dash_flag = 1;
 shooted_flag = false;//被o_camera引用，使射击后窗口抖动，可以用call来改进
@@ -79,12 +82,25 @@ shooted_flag = false;//被o_camera引用，使射击后窗口抖动，可以用c
 //给其他obj引用player的方向（不安全，应改为由一个obj代理完成）
 get_flipped = (mouse_x > x) * 2 - 1;
 get_face = 1;
+
+//动画坐标，也被climbed状态引用来贴紧平台
+anime_x = 0;
+anime_y = 0;
 //键位映射
 keyboard_set_map(ord("W"),vk_up);
 keyboard_set_map(ord("A"),vk_left);
 keyboard_set_map(ord("S"),vk_down);
 keyboard_set_map(ord("D"),vk_right);
-
+key_up = keyboard_check(vk_up);
+key_down = keyboard_check(vk_down);
+key_left = keyboard_check(vk_left);
+key_right = keyboard_check(vk_right);
+key_up_pressed = keyboard_check_pressed(vk_up);
+key_down_pressed = keyboard_check_pressed(vk_down);
+key_left_pressed = keyboard_check_pressed(vk_left);
+key_right_pressed = keyboard_check_pressed(vk_right);
+key_control_pressed = keyboard_check_pressed(vk_control);
+key_space_pressed = keyboard_check_pressed(vk_space);
 
 lens_eyes_amount = 0;
 

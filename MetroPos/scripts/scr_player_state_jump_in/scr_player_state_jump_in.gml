@@ -1,11 +1,10 @@
 
 //在地上,且按了跳跃
-if place_meeting(x,y+1,o_solid) &&keyboard_check_pressed(vk_up){
-	state_allow_move(true,true);
+if (key_space_pressed || key_up_pressed) && place_meeting(x,y+1,o_solid) || (key_space_pressed && state_previous == enum_player_state.CLIMB && !place_meeting(x,y,o_solid)){
+	state_allow_move(true,true,true);
 	speed_[v]=jump_height_;
 	x_scale_=image_xscale*.8;
 	y_scale_=image_yscale*1.4;
-	jump_twice_flag = true;
 	sprite_index = SPlayerJump;
 	mask_index = SPlayerMaskStand;
 	image_speed = 1.2;

@@ -11,7 +11,7 @@
                     "id": "0a57c2f3-6071-47a7-8653-a0cb50590dbf",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "Default1",
+                    "groupName": "LightGroup",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,
@@ -26,7 +26,37 @@
                     "id": "d337de7d-d1ef-409d-a003-12142d266301",
                     "modelName": "GMTextureGroup",
                     "mvc": "1.0",
-                    "groupName": "Default2",
+                    "groupName": "BackGroup",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 3,
+                "Value": {
+                    "id": "596121ad-bfea-4909-a91e-68b7d05c24c6",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "PlayerGroup",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
+            },
+            {
+                "Key": 4,
+                "Value": {
+                    "id": "53281306-cd56-4865-ac8f-3ef25eebce97",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "TileGroup",
                     "targets": 461609314234257646,
                     "autocrop": true,
                     "border": 2,

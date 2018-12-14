@@ -26,17 +26,20 @@ draw_set_font(global.font_zkhappy);
 
 
 //隐藏solids对象
-var solid_layer=layer_get_id("Solids");
-layer_set_visible(solid_layer,debug_mode);
+var solid_layer=layer_get_id("Solid");
+layer_set_visible(solid_layer,false);
 
 
 global.bullet_time_flag = false;
-global.time_scale = 0.1;
+global.time_scale = 0.2;
 
 global.enemy_bullet_speed_scale = 0.8;
 
 //暂停房间的菜单层级
 global.pause_menu_level = 0;
 
-
+//debug模式标志
 global.debug_flag = false;
+
+//灯光全局开关
+global.light_flag = true;

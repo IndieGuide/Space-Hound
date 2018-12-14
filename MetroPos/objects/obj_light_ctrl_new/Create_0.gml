@@ -85,6 +85,5 @@ application_surface_draw_enable(false);
 is_camera_default = true;
 
 time = 0.2;
-//solid_tiles = layer_get_id("SolidTiles");
-//layer_set_visible(solid_tiles,false);
-//s = surface_create(global.window_width_,global.window_height_);
+
+active_area_expend_value = 100;

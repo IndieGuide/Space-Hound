@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "o_solid_ladder_left",
     "eventList": [
-        
+        {
+            "id": "571fbfec-f890-4c60-a3e6-6efe68e623d7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "0887a1e9-6d1c-4d1b-8ced-80d5f2da15c0"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -25,5 +34,5 @@
     "properties": null,
     "solid": false,
     "spriteId": "bd63251d-e5ad-41e5-af20-a6a2ea30a3e5",
-    "visible": false
+    "visible": true
 }

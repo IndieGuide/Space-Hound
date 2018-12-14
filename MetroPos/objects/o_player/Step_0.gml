@@ -1,13 +1,27 @@
-//if (live_call()) return live_result;
-
+if (live_call()) return live_result;
+//物理属性
+//max_speed_=4;
+//gravity_=.4;
+//acceleration_=1;
+//friction_=.3;
+//jump_height_=-8;
+//jump_width_=-35;
 /// @description 玩家步事件
 
 //check for death
 if health_ <= 0 {
 	instance_destroy();
 }
-
-
+key_up = keyboard_check(vk_up);
+key_down = keyboard_check(vk_down);
+key_left = keyboard_check(vk_left);
+key_right = keyboard_check(vk_right);
+key_up_pressed = keyboard_check_pressed(vk_up);
+key_down_pressed = keyboard_check_pressed(vk_down);
+key_left_pressed = keyboard_check_pressed(vk_left);
+key_right_pressed = keyboard_check_pressed(vk_right);
+key_control_pressed = keyboard_check_pressed(vk_control);
+key_space_pressed = keyboard_check_pressed(vk_space);
 
 #region 冲刺判断
 //if keyboard_check_pressed(vk_right) && alarm[7] == -1{
@@ -121,7 +135,7 @@ state_execute();
 //	}
 //}
 
-var hinput = keyboard_check(vk_right)-keyboard_check(vk_left);
+var hinput = key_right-key_left;
 
 if state_x_move_flag && hinput != 0 {
 	speed_[h] += hinput * acceleration_;
@@ -133,6 +147,7 @@ if state_x_move_flag && hinput != 0 {
 //重力代码
 if state_y_move_flag && !place_meeting(x,y+1,o_solid){
 	speed_[v]+=scr_common_bullet_time_var(gravity_);
+	speed_[v]= clamp(speed_[v],jump_height_,-jump_height_);
 }
 
 

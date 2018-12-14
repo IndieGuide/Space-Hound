@@ -1,11 +1,10 @@
 
 //在地上,且按了跳跃
-if state_ == enum_player_state.JUMP && keyboard_check_pressed(vk_up){
-	state_allow_move(true,true);
+if state_ == enum_player_state.JUMP && (key_space_pressed || key_up_pressed){
+	state_allow_move(true,true,true);
 	speed_[v]=jump_height_;
 	x_scale_=image_xscale*.8;
 	y_scale_=image_yscale*1.4;
-	jump_twice_flag = true;
 	sprite_index = SPlayerJump;
 	mask_index = SPlayerMaskStand;
 	image_index = 0;

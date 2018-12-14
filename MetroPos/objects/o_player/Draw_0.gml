@@ -22,16 +22,15 @@ switch (state_) {
 	case enum_player_state.ROLL:
 	case enum_player_state.SQUART:
 	case enum_player_state.SHOOT:
-	case enum_player_state.CLIMBED:
+	case enum_player_state.CLIMB:
+	case enum_player_state.FALL:
 		draw_sprite_ext(sprite_index,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
-	case enum_player_state.CLIMB:
-	case enum_player_state.CLIMB_RIGHT:
-	case enum_player_state.CLIMB_LEFT:
-		draw_sprite_ext(sprite_index,image_index, x,y,1,1,0,image_blend,image_alpha);
+	case enum_player_state.CLIMBED:
+		draw_sprite_ext(sprite_index,image_index, anime_x,anime_y,flipped,1,0,image_blend,image_alpha);
 		break;
 	default:
-		draw_sprite_ext(SPlayerStand,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		draw_sprite_ext(sprite_index,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
 }
 	//draw_sprite_ext(s_player,image_index, x,y,flipped,1,0,image_blend,image_alpha);

@@ -1,6 +1,7 @@
 if not instance_exists(target_) exit;
 
 scr_listener_get("kill_feature_flag");
+scr_listener_get("width_");
 if kill_feature_flag && scr_listener_is_var_change("kill_feature_flag") {
 	alarm[0] = kill_feature_time;
 }
@@ -9,6 +10,11 @@ var move_y = target_.y;
 if kill_feature_flag {
 	var move_x = feature_x;
 	var move_y = feature_y;	
+}
+if scr_listener_is_var_change("width_") {
+	is_camera_size_change = true;
+} else {
+	is_camera_size_change = false;
 }
 
 

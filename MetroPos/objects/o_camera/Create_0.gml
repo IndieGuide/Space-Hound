@@ -1,7 +1,7 @@
 target_ = o_player;
 width_ = camera_get_view_width(view_camera[0]);
 height_=camera_get_view_height(view_camera[0]);
-
+is_camera_size_change = false;
 
 
 default_width = width_;
@@ -21,6 +21,8 @@ kill_feature_time = 50;
 
 scr_listener_create();
 scr_listener_add("kill_feature_flag");
+scr_listener_add("width_");
+
 
 scale = 2.4;
 

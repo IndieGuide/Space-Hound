@@ -1,9 +1,12 @@
-if (y < ins_bind.top_y) {
+if (y < state_ins_bind.top_y) {
 	
-	ins_bind = noone;
-	stop_by_solid_flag = true;
+	state_ins_bind = 1;
+	//stop_by_solid_flag = true;
 	return enum_player_state.CLIMBED;
 }
-
-stop_by_solid_flag = true;
+if (key_space_pressed) {
+	return enum_player_state.JUMP;
+}
+state_ins_bind = 2;
+//stop_by_solid_flag = true;
 return enum_player_state.STAND;

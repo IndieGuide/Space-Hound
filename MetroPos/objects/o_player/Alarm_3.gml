@@ -1,0 +1,1 @@
+/// @description 滚动间隔计时器
