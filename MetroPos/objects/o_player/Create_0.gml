@@ -24,12 +24,15 @@ roll_cant_time = 20;
 dash_dis = 12;
 dash_dis_bullet_time = 40;
 dash_image_index = 0;
-
+//无敌状态
+invincible_ = false;
 
 //人物属性
-max_health_=50;//最大血量
-health_=max_health_; //生命值 
-invincible_=false;//无敌状态
+max_health_ = 50;//最大血量
+health_ = max_health_; //生命值 
+max_san_ = 100;
+san_ = 80;
+
 
 
 
