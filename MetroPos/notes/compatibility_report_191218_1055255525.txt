@@ -1,0 +1,2 @@
+Converting GML script: ${project_dir}\scripts\openDB\openDB.gml
+Converted string - line 1: 'databases\win.db' -> "databases\\win.db"
