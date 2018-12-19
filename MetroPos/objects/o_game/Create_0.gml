@@ -14,16 +14,13 @@ global.camera_scale = 1;
 
 score = 0;
 
-global.font_zkhappy= font_add("zk.ttf", //字体名
-								18,  //字号
+
+global.font_black = font_add("SourceHanSansSC-Bold.otf", //字体名
+								12,  //字号
 								false, //加粗
 								false,  //倾斜
 								0,  //起始位置
 								65535);  //最终位置
-
-
-draw_set_font(global.font_zkhappy);
-
 
 //隐藏solids对象
 var solid_layer=layer_get_id("Solid");
@@ -43,3 +40,7 @@ global.debug_flag = false;
 
 //灯光全局开关
 global.light_flag = true;
+
+//人物ui
+global.ui_surf = surface_create(1920,1080);
+global.ui_flag = true;

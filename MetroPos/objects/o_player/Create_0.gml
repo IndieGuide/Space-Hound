@@ -8,6 +8,10 @@ acceleration_=1;
 friction_=.3;
 jump_height_=-8;
 jump_width_=-35;
+//人物从上到下的长度，用来爬梯子时判断有没有到顶层
+player_height = 56;
+//实际上是碰撞盒的宽度
+player_width = 16;
 
 stop_by_solid_flag = true;
 //翻滚距离
@@ -20,10 +24,15 @@ roll_cant_time = 20;
 dash_dis = 12;
 dash_dis_bullet_time = 40;
 dash_image_index = 0;
+
+
 //人物属性
 max_health_=50;//最大血量
 health_=max_health_; //生命值 
 invincible_=false;//无敌状态
+
+
+
 #region gun_script_old
 ////枪械列表
 //gun_slot = ds_list_create();
@@ -41,10 +50,18 @@ invincible_=false;//无敌状态
 //bullet_cooldown_ = player_gun.cooldown;
 //alarm[0] = bullet_cooldown_;
 #endregion
+
+//道具
+player_weapon = noone;
+player_weapon_second = noone;
+player_item = noone;
+player_drug = noone;
+
 default_gun = instance_create_layer(x-9, y-40, "Instances", o_gun_default); 
-player_gun = default_gun;
-bullet_cooldown_ = player_gun.cooldown;
-alarm[0] = bullet_cooldown_;
+default_gun.m_weapon_player_flag = true;
+player_weapon = default_gun;
+player_weapon_cooldown = player_weapon.m_weapon_cooldown;
+alarm[0] = player_weapon_cooldown;
 
 //状态机
 state_ini();
@@ -62,19 +79,16 @@ state_add(enum_player_state.FALL,scr_player_state_fall_in,scr_player_state_fall_
 state_add(11,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
 
 
-//人物从上到下的长度，用来爬梯子时判断有没有到顶层
-player_height = 56;
-//实际上是碰撞盒的宽度
-player_width = 16;
+
 
 //如果不使用统一的掩码，很容易出现各种卡进墙体
 mask_index = SPlayerStand;
 //move_state = STAND;
 //是否绘制刀的flag
-sword_flag = false;
+//sword_flag = false;
 //sword_bullet_flag = false;
 change_gun_flag = false;
-roll_flag = false;
+//roll_flag = false;
 dash_flag = 1;
 shooted_flag = false;//被o_camera引用，使射击后窗口抖动，可以用call来改进
 
@@ -91,6 +105,7 @@ keyboard_set_map(ord("W"),vk_up);
 keyboard_set_map(ord("A"),vk_left);
 keyboard_set_map(ord("S"),vk_down);
 keyboard_set_map(ord("D"),vk_right);
+
 key_up = keyboard_check(vk_up);
 key_down = keyboard_check(vk_down);
 key_left = keyboard_check(vk_left);

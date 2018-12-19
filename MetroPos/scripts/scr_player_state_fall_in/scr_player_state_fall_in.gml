@@ -1,6 +1,6 @@
 //从可穿透平台越下
 var platform_ = collision_point(x,y+1,o_solid_platform_halfsolid,0,1);
-if platform_ != noone && state_ == enum_player_state.SQUART && key_space_pressed &&  point_in_rectangle(x - player_width/2 , y + 1, platform_.bbox_left,platform_.bbox_top,platform_.bbox_right, platform_.bbox_bottom) && point_in_rectangle(x + player_width/2 , y + 1, platform_.bbox_left,platform_.bbox_top,platform_.bbox_right, platform_.bbox_bottom)  {
+if platform_ != noone && state_ == enum_player_state.SQUART && key_space_pressed &&  point_in_rectangle(bbox_left , y + 1, platform_.bbox_left,platform_.bbox_top,platform_.bbox_right, platform_.bbox_bottom) && point_in_rectangle(bbox_right , y + 1, platform_.bbox_left,platform_.bbox_top,platform_.bbox_right, platform_.bbox_bottom)  {
 	state_allow_move(false,false,false);
 	state_busy_flag = true;
 	x_scale_=image_xscale*.8;

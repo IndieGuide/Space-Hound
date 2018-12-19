@@ -3,7 +3,7 @@ draw_text(5,5,string(fps));
 if !global.debug_flag exit;
 show_debug_overlay(true);
 //draw_sprite_ext(s_debug_bg, image_index, 0, 0, 10, 6, 0, c_white, 0.6);
-draw_set_font(global.font_zkhappy);
+draw_set_font(global.font_black);
 draw_text(130, 10, "Debug模式");
 draw_text(10, 30, "帧数  ：    " + string(fps_real));
 

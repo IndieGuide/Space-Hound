@@ -12,7 +12,7 @@
         "b8f5dcef-e5d2-460a-8d47-94320fc64941"
     ],
     "filterType": "GMSprite",
-    "folderName": "Item",
+    "folderName": "SceneItem",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

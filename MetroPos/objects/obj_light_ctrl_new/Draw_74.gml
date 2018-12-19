@@ -50,6 +50,8 @@ shader_set(shader);
 shader_reset();
 
 
+
+
 //surface_set_target(s);
 //solid_tiles = layer_get_id("SolidTiles");
 //solid_tiles_tilemap = layer_tilemap_get_id(solid_tiles);
