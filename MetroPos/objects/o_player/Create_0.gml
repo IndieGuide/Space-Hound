@@ -103,6 +103,8 @@ get_face = 1;
 //动画坐标，也被climbed状态引用来贴紧平台
 anime_x = 0;
 anime_y = 0;
+
+player_light = instance_create_layer(x,y,"LightLayer", o_freelight_player);
 //键位映射
 keyboard_set_map(ord("W"),vk_up);
 keyboard_set_map(ord("A"),vk_left);

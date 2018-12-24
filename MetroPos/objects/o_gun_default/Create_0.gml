@@ -15,6 +15,7 @@ m_weapon_point_y = 43;
 m_weapon_sprite = SOldPistol;
 m_weapon_icon = SOldPistolIcon;
 m_weapon_bullet = o_gun_default_bullet;
+m_weapon_scan = noone;
 
 m_weapon_anime = SPlayerHgShoot;
 

@@ -1,3 +1,16 @@
+
+//if is_time_change {
+//	if time != time_target && !is_time_get_target
+//		time += 0.01;
+//	else {
+//		is_time_get_target = true;
+//		time -= 0.01;
+//		if time == time_previous {
+//			is_time_change = false;
+//			is_time_get_target = false;
+//		}
+//	}
+//}
 // get key times:
 
 key_previous	= min(floor(time * number_of_key_times), number_of_key_times -1);

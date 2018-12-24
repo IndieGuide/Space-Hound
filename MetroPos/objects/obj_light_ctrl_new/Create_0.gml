@@ -33,8 +33,8 @@ key_next		= -1;
 
 // KEY TIMES:
 // ----------------------------------------------------------------------------
-// arguments:		R		G		B		con		sat		brt		popS	popT
-scr_add_key_time(030,	120,	225,	0.60,	1.00,  -0.20,	0.80,	0.65);	// 00h
+// arguments:	R		G		B		con		sat		brt		popS	popT
+scr_add_key_time(030,	120,	225,	0.60,	1.00,  -0.30,	0.80,	0.65);	// 00h
 scr_add_key_time(040,	125,	215,	0.65,	0.90,  -0.20,	0.70,	0.65);	// 02h
 scr_add_key_time(080,	080,	185,	0.80,	0.60,  -0.15,	0.20,	0.80);	// 04h
 scr_add_key_time(125,	070,	175,	1.00,	0.85,  -0.10,  -0.50,	0.60);	// 06h
@@ -73,6 +73,12 @@ application_surface_draw_enable(false);
 
 is_camera_default = true;
 
-time = 0.2;
+time = 0;
+//is_time_change = false;
+//is_time_get_target = false;
+//time_previous = 0.2;
+//time_target = 0.2;
 
 active_area_expend_value = 100;
+
+//do_globalflick = [self,scr_light_global_flick];

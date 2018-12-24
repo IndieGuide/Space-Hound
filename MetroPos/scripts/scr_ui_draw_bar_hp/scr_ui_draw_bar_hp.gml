@@ -6,4 +6,4 @@ draw_set_font(f_impact);
 draw_set_color(c_white);
 draw_text(m_gui_x+410, m_gui_y, "HP");
 draw_set_font(global.font_black);
-draw_text(m_gui_x+450, m_gui_y, name);
+//draw_text(m_gui_x+450, m_gui_y, name);
