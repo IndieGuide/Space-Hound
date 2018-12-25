@@ -1295,6 +1295,14 @@
             }
         },
         {
+            "Key": "265fb5d2-6b8a-4f7f-a529-cf079911bd91",
+            "Value": {
+                "id": "a80f2fef-6de4-406c-b251-086a2dd79bbf",
+                "resourcePath": "sprites\\SPlayerStabWithEffect\\SPlayerStabWithEffect.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "267ec3bb-31f8-49f3-9f0c-afb8548cb3c3",
             "Value": {
                 "id": "1caa8a5d-272a-47b8-9776-ca6728d77fcd",
@@ -1564,6 +1572,14 @@
                 "id": "26f35f5f-0743-4d52-9a69-0e5290e47121",
                 "resourcePath": "sprites\\SRoom1WallBlack\\SRoom1WallBlack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3029d4f4-a066-4f9e-8fef-2c09533c541a",
+            "Value": {
+                "id": "ab775731-6c00-4143-916b-7d986afb697d",
+                "resourcePath": "objects\\o_close_weapon_smallknife\\o_close_weapon_smallknife.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -2403,6 +2419,14 @@
             "Value": {
                 "id": "ac9bbc9d-8226-47c2-99be-bafc88090029",
                 "resourcePath": "objects\\obj_effect_burst\\obj_effect_burst.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4a95eac7-66c7-4a06-a594-bddebd8630dc",
+            "Value": {
+                "id": "f5ea3980-b124-4e26-86a0-c8f0b7ee971a",
+                "resourcePath": "objects\\o_close_weapon_parent\\o_close_weapon_parent.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -3986,7 +4010,7 @@
             "Key": "73b4fb95-2e86-45c4-8743-2926c41558ac",
             "Value": {
                 "id": "14e9ce8a-433b-4184-9690-f53957f851f8",
-                "resourcePath": "sprites\\SPlayerStabWithEffect\\SPlayerStabWithEffect.yy",
+                "resourcePath": "sprites\\SPlayerStabWithEffect1\\SPlayerStabWithEffect1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -4666,7 +4690,7 @@
             "Key": "85a3bb9e-eb90-4c5d-a836-c0e010aa1897",
             "Value": {
                 "id": "e8dbeba1-ed95-490e-a577-cdf89f480482",
-                "resourcePath": "objects\\o_close_weapon_parent\\o_close_weapon_parent.yy",
+                "resourcePath": "objects\\o_close_weapon_parent_abandon\\o_close_weapon_parent_abandon.yy",
                 "resourceType": "GMObject"
             }
         },

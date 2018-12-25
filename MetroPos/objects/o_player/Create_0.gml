@@ -60,9 +60,14 @@ player_weapon_second = noone;
 player_item = noone;
 player_drug = noone;
 
+weapon_slot = ds_list_create();
+
 default_gun = instance_create_layer(x-9, y-40, "Instances", o_gun_default); 
+ds_list_add(weapon_slot, default_gun);
+small_knife =  instance_create_layer(x-9, y-40, "Instances", o_close_weapon_smallknife); 
+ds_list_add(weapon_slot, small_knife);
 default_gun.m_weapon_player_flag = true;
-player_weapon = default_gun;
+player_weapon = weapon_slot[| 0];
 player_weapon_cooldown = player_weapon.m_weapon_cooldown;
 alarm[0] = player_weapon_cooldown;
 
