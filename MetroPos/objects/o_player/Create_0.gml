@@ -79,7 +79,8 @@ state_add(enum_player_state.SHOOT,scr_player_state_shoot_in,scr_player_state_sho
 state_add(enum_player_state.CLIMB,scr_player_state_climb_in,scr_player_state_climb_step,scr_player_state_climb_out);
 state_add(enum_player_state.CLIMBED,scr_player_state_climbed_in,scr_player_state_climbed_step,scr_player_state_climbed_out);
 state_add(enum_player_state.FALL,scr_player_state_fall_in,scr_player_state_fall_step,scr_player_state_fall_out);
-state_add(11,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(enum_player_state.SHOOT_AIM,scr_player_state_shoot_aim_in,scr_player_state_shoot_aim_step,scr_player_state_shoot_aim_out);
+state_add(enum_player_state.ANIME,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
 
 
 
@@ -115,6 +116,7 @@ key_up = keyboard_check(vk_up);
 key_down = keyboard_check(vk_down);
 key_left = keyboard_check(vk_left);
 key_right = keyboard_check(vk_right);
+key_shift = keyboard_check(vk_shift);
 key_up_pressed = keyboard_check_pressed(vk_up);
 key_down_pressed = keyboard_check_pressed(vk_down);
 key_left_pressed = keyboard_check_pressed(vk_left);

@@ -8,7 +8,6 @@
         "635b8be5-4a54-40d0-b631-46d8dba2e7e7",
         "f8e76e0a-5c6b-4af7-a23f-52193c21db5a",
         "3f077ddf-316e-4952-9a67-aedda83a15d1",
-        "80972210-79d1-4059-8950-2b7e2ae0ff38",
         "6a62ec5c-82af-4644-bc7b-f0bfdbba491b",
         "47d6e05b-ff55-4657-95c5-19b99da95f64",
         "6e17b203-707e-4fdc-9c86-88446a223735",
@@ -20,7 +19,8 @@
         "cd1fac8d-52c0-4239-85c0-1b141dee1592",
         "b30f659a-6cac-40c9-8d91-5e0afb1b6db4",
         "0497cd4e-b4d3-4c15-b4b0-89e2affc6197",
-        "7e9640b4-20e1-4d7f-bf67-5961964f57ab"
+        "7e9640b4-20e1-4d7f-bf67-5961964f57ab",
+        "80972210-79d1-4059-8950-2b7e2ae0ff38"
     ],
     "filterType": "GMObject",
     "folderName": "Gun",

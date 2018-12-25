@@ -18,7 +18,11 @@ m_weapon_bullet = o_gun_default_bullet;
 m_weapon_scan = noone;
 
 m_weapon_anime = SPlayerHgShoot;
+width_ = 54;
+height_ = -6;
 
+do_level_shoot = [self,scr_weapon_shoot_level];
+do_shoot = [self,scr_weapon_shoot];
 
 //提示，因为是默认武器，未继承父事件
 

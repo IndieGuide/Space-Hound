@@ -16,3 +16,4 @@ light_active = true;
 is_strength_get_target = false;
 strength_previous = 0;
 strength_target = 1;
+

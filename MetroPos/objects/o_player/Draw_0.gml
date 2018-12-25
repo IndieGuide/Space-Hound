@@ -29,6 +29,16 @@ switch (state_) {
 	case enum_player_state.CLIMBED:
 		draw_sprite_ext(sprite_index,image_index, anime_x,anime_y,flipped,1,0,image_blend,image_alpha);
 		break;
+	case enum_player_state.SHOOT_AIM:
+		var flipped = (mouse_x>x)*2-1;
+		var dir = point_direction(x-10*flipped,y-40,mouse_x,mouse_y);
+		draw_sprite_ext(sprite_index,image_index, x,y,flipped,1,0,image_blend,image_alpha);
+		with (player_weapon) {
+			//Draw the gun
+			draw_sprite_ext(sprite_index,0, x, y,1,flipped,dir,other.image_blend,other.image_alpha);
+		}
+
+		break;
 	default:
 		draw_sprite_ext(sprite_index,image_index, x,y,flipped,1,0,image_blend,image_alpha);
 		break;
