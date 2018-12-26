@@ -2,7 +2,7 @@
     "id": "265fb5d2-6b8a-4f7f-a529-cf079911bd91",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "SPlayerStabWithEffect",
+    "name": "SPlayerSmallKnifeAttack",
     "For3D": false,
     "HTile": false,
     "VTile": false,

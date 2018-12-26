@@ -3,7 +3,7 @@
 
 	if light_strength != strength_target && !is_strength_get_target
 		light_strength = lerp(light_strength, strength_target, 0.2);
-		if light_strength >= 0.95
+		if light_strength >= 1.15
 			light_strength = strength_target;
 	else {
 		is_strength_get_target = true;

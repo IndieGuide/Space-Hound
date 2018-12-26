@@ -68,6 +68,7 @@ small_knife =  instance_create_layer(x-9, y-40, "Instances", o_close_weapon_smal
 ds_list_add(weapon_slot, small_knife);
 default_gun.m_weapon_player_flag = true;
 player_weapon = weapon_slot[| 0];
+player_weapon_two = weapon_slot[| 1];
 player_weapon_cooldown = player_weapon.m_weapon_cooldown;
 alarm[0] = player_weapon_cooldown;
 

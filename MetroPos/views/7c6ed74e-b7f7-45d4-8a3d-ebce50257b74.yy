@@ -9,7 +9,8 @@
         "bac1c230-34bd-498a-922a-e0553686b494",
         "9af7c958-9bf2-4abd-af69-5a159fadb8cc",
         "6146d0c9-16e5-4d7d-b306-5ebbdd5b21bf",
-        "8bf18d3a-4684-474b-b43d-1151e7a90ece"
+        "8bf18d3a-4684-474b-b43d-1151e7a90ece",
+        "98d8785e-f5f7-4269-b61c-e709b24b559b"
     ],
     "filterType": "GMObject",
     "folderName": "ParticleEffects",

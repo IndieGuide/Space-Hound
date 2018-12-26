@@ -3,8 +3,8 @@
 
 //width_ = 38;
 //height_ = 7;
-
-m_id = noone;
+event_inherited();
+m_id = 50000;
 m_weapon_name = "雷明顿左轮";
 m_weapon_cooldown = 45;
 m_weapon_player_flag = true;
@@ -18,6 +18,7 @@ m_weapon_bullet = o_gun_default_bullet;
 m_weapon_scan = noone;
 
 m_weapon_anime = SPlayerHgShoot;
+m_weapon_hand_anime = SPlayerHgShootHand;
 width_ = 54;
 height_ = -6;
 

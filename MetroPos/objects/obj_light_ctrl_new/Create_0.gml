@@ -80,5 +80,5 @@ time = 0;
 //time_target = 0.2;
 
 active_area_expend_value = 100;
-
+alarm[0] = 1;
 //do_globalflick = [self,scr_light_global_flick];

@@ -35,7 +35,7 @@ if (instance_exists(o_player)) {
 			light_xscale = lerp(light_xscale , move_scale, 0.1);
 			light_yscale = lerp(light_yscale , move_scale, 0.1);
 			light_strength = lerp(light_strength , normal_strength, 0.05);
-		break;		
+		break;
 		default:
 			light_xscale = lerp(light_xscale , normal_scale, 0.1);
 			light_yscale = lerp(light_yscale , normal_scale, 0.1);

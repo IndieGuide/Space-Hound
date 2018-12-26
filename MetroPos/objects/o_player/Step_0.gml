@@ -1,4 +1,4 @@
-if (live_call()) return live_result;
+//if (live_call()) return live_result;
 //物理属性
 //max_speed_=4;
 //gravity_=.4;

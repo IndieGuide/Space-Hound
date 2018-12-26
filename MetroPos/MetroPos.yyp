@@ -1298,7 +1298,7 @@
             "Key": "265fb5d2-6b8a-4f7f-a529-cf079911bd91",
             "Value": {
                 "id": "a80f2fef-6de4-406c-b251-086a2dd79bbf",
-                "resourcePath": "sprites\\SPlayerStabWithEffect\\SPlayerStabWithEffect.yy",
+                "resourcePath": "sprites\\SPlayerSmallKnifeAttack\\SPlayerSmallKnifeAttack.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1468,6 +1468,14 @@
                 "id": "3fc26435-d8c5-4b82-81cb-637283db73dc",
                 "resourcePath": "scripts\\db_close\\db_close.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "2b694250-e1f3-4bb3-b71a-cd5845ee4ddd",
+            "Value": {
+                "id": "976bd84f-7bb7-4ee8-a5c9-7cba39e38497",
+                "resourcePath": "sprites\\SUiCloseWeaponBoard\\SUiCloseWeaponBoard.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4167,6 +4175,14 @@
             }
         },
         {
+            "Key": "77aa590f-adb3-4ae0-986b-eb9d6312e6c0",
+            "Value": {
+                "id": "6e32a3cd-aec8-44b1-a1e5-1b4433579fe6",
+                "resourcePath": "scripts\\scr_o_pui_weapon_change_bind\\scr_o_pui_weapon_change_bind.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "77bf0720-b260-4694-b981-ad1b4f0546b8",
             "Value": {
                 "id": "0daa319c-1f8a-4192-a8d1-3bc4292d8e37",
@@ -4658,7 +4674,7 @@
             "Key": "84b3ca6c-fbab-4ce2-8d75-e1c2479329d9",
             "Value": {
                 "id": "8ee2d551-10e8-4bca-a45f-d6dc7e9cf0d6",
-                "resourcePath": "sprites\\SUiLineWeaponToBullet\\SUiLineWeaponToBullet.yy",
+                "resourcePath": "sprites\\SUiLineGun\\SUiLineGun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5375,6 +5391,14 @@
             }
         },
         {
+            "Key": "98d8785e-f5f7-4269-b61c-e709b24b559b",
+            "Value": {
+                "id": "a790fd46-2390-4087-8030-b0ce61c4edd4",
+                "resourcePath": "objects\\o_part_global_fog_1\\o_part_global_fog_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "98f86c9f-ce6e-4880-9f5c-55dcb8a6d1c3",
             "Value": {
                 "id": "adaecfd6-6d9c-42ab-a346-59c0c503a810",
@@ -5460,6 +5484,14 @@
                 "id": "57155e0c-e961-4a88-af20-4d90032b7729",
                 "resourcePath": "scripts\\@action_draw_sprite\\action_draw_sprite.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9a9a885c-7e79-43e5-9e6d-e1043c48bb87",
+            "Value": {
+                "id": "b0835980-733c-4570-a5d8-a609c93f6959",
+                "resourcePath": "sprites\\SSmallKnifeIcon\\SSmallKnifeIcon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -5819,6 +5851,14 @@
             "Value": {
                 "id": "f599e3a5-d304-403d-9811-28609bb91f1b",
                 "resourcePath": "scripts\\scr_player_state_climb_in\\scr_player_state_climb_in.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a49467ac-abc1-425d-9926-09fe4d0b39a0",
+            "Value": {
+                "id": "f6da1a6a-25f1-4182-8da6-61361bc00d19",
+                "resourcePath": "scripts\\scr_ui_set_weapon_board_line\\scr_ui_set_weapon_board_line.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -6396,6 +6436,14 @@
                 "id": "c2d7fd6e-a518-4798-8cb6-a564e7b3fde5",
                 "resourcePath": "objects\\o_pause_button_sensitivity\\o_pause_button_sensitivity.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b5532421-b7cf-4068-a49b-7d78551993e0",
+            "Value": {
+                "id": "6c11e0da-d5f8-4753-9330-346225b664df",
+                "resourcePath": "views\\b5532421-b7cf-4068-a49b-7d78551993e0.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -7087,6 +7135,14 @@
             }
         },
         {
+            "Key": "cbbfe9b8-92db-4021-a2d7-be7deea0c186",
+            "Value": {
+                "id": "d868eea2-39a1-4aee-b2ca-e0c6fac6936c",
+                "resourcePath": "scripts\\scr_ui_get_weapon_board\\scr_ui_get_weapon_board.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cbc7567c-ec70-4119-b1b6-f9c86c201560",
             "Value": {
                 "id": "c8bd6278-2c83-4319-9fd4-ce7e80387eae",
@@ -7676,6 +7732,14 @@
                 "id": "f148f300-fb2e-4368-b6cb-cbf4db4304c4",
                 "resourcePath": "objects\\o_bullet0\\o_bullet0.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "db2e28d4-b1ba-46fc-a53b-7617f6175e33",
+            "Value": {
+                "id": "9e70ca54-1bf2-44b8-920f-0cd4e1d0cb92",
+                "resourcePath": "sprites\\SUiLineCloseWeapon\\SUiLineCloseWeapon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9140,6 +9204,9 @@
         "4d72c5d5-8a1d-422b-9c39-4f07f2803aae",
         "47bb783f-71c2-40f3-aca3-0968fa69b049",
         "153ef988-3c7b-4b18-ac79-dbcc903e749a",
+        "77aa590f-adb3-4ae0-986b-eb9d6312e6c0",
+        "cbbfe9b8-92db-4021-a2d7-be7deea0c186",
+        "a49467ac-abc1-425d-9926-09fe4d0b39a0",
         "1cc7db77-063a-42e7-9f5b-4e01264a024a",
         "82af9194-2668-4149-9f2a-dec76b3e2ee4",
         "0c28609a-a719-40a2-b676-181fad09d2e2",

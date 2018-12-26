@@ -1,4 +1,4 @@
-if live_call() return live_result;
+//if live_call() return live_result;
 if !m_ui_flag exit;
 
 draw_sprite(SUiLineWeaponToBullet, 0, 506, 976);
