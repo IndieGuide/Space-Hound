@@ -145,3 +145,10 @@ lens_eyes_amount = 0;
 //knifeing2 = true;
 #endregion
 //collision_tilemap = layer_tilemap_get_id("SolidTiles");
+
+x_delta = x;
+x_previous = x;
+y_delta = y;
+y_previous = y;
+
+

@@ -1,5 +1,13 @@
 /// @description MAIN
 
+//前景曲面
+//if surface_exists(global.fore_surf)
+//   {
+//   surface_set_target(global.fore_surf);
+
+//   surface_reset_target();
+//   }
+
 // DRAW TO LIGHTING SURFACE:
 //-----------------------------------------------------------------------------
 if (!surface_exists(srf_lights)) {

@@ -1,4 +1,4 @@
-/// @description 切换玩家手里的枪的通用代码
+ /// @description 切换玩家手里的枪的通用代码
 /// @param gun
 var weapon_ = argument0;
 

@@ -23,8 +23,11 @@ scr_listener_create();
 scr_listener_add("kill_feature_flag");
 scr_listener_add("width_");
 
-
 scale = 2.4;
 
 camera_offset = 0;
 camera_offset_max = 80;
+
+
+back_x = 0;
+back_y = 0;

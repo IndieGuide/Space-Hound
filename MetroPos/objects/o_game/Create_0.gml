@@ -44,3 +44,5 @@ global.light_flag = true;
 //人物ui
 global.ui_surf = surface_create(1920,1080);
 global.ui_flag = true;
+
+//global.fore_surf = surface_create(640,360);

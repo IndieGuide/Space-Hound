@@ -69,3 +69,12 @@ if (o_player.shooted_flag == true) {
 }
 
 
+
+with (o_player) {
+	layer_ = layer_get_id("Background");
+	other.back_x -= x_delta/6;
+	other.back_y -= y_delta/6;
+	layer_x(layer_, other.back_x);
+	layer_y(layer_, other.back_y);
+}
+//var stone_ins = instance_create_layer(back_x+random, back_y + random, "BackInstance")

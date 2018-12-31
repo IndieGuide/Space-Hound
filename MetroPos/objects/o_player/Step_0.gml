@@ -7,6 +7,11 @@
 //jump_height_=-8;
 //jump_width_=-35;
 /// @description 玩家步事件
+x_delta = x - x_previous;
+x_previous = x;
+y_delta = y - y_previous;
+y_previous = y;
+
 
 //check for death
 if health_ <= 0 {
