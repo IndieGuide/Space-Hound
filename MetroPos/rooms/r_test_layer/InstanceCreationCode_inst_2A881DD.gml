@@ -1,0 +1,1 @@
+scr_freelight_setting($f3ff99,1,0);

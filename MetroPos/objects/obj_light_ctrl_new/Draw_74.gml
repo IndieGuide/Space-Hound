@@ -39,7 +39,7 @@ surface_set_target(srf_lights);
 	var vy = camera_get_view_y(view_camera[0]);
 	with(o_freelight_parent) {
 		
-			var flick = (light_flick != 1) ? choose(1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, light_flick):1; //You can add or remove some "1".
+		var flick = (light_flick != 1) ? choose(1, 1, 1, 1, 1, 1, 1, 1,  1, 1, 1, 1, 1, 1, 1, 1, light_flick):1; //You can add or remove some "1".
 		draw_sprite_ext(light_sprite_index, image_index, x - vx, y - vy, light_xscale*flick, light_yscale*flick, light_rotation, light_color_index, image_alpha * light_strength);
 	}
 	// reset GPU

@@ -1,5 +1,5 @@
 //Adjusting Emitter positions. Streaming or Bursting Particles.
-
+if !instance_exists(o_player) exit;
 with (o_player){
 	var x_ = x;
 	var y_ = y;
