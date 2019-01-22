@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "02bc9661-3140-47a3-82fa-119231131db4",
+            "Value": {
+                "id": "2b19fbc1-91a9-40bc-be49-9099a9a356bf",
+                "resourcePath": "sprites\\SFreeLightRoundGothStrenth\\SFreeLightRoundGothStrenth.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02ec7592-d093-46f0-94f5-88dd8cd2867a",
             "Value": {
                 "id": "1ebebcf0-3246-41f4-b65e-f0ada19bd0e9",
@@ -1415,6 +1423,14 @@
             }
         },
         {
+            "Key": "295349af-ec61-4d16-9319-5dd1a97db1c3",
+            "Value": {
+                "id": "0f3e7251-e46b-48a7-a51a-a3b8b0894a18",
+                "resourcePath": "sprites\\guanzi3\\guanzi3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2a8288c5-606a-42cf-8847-505daad54c68",
             "Value": {
                 "id": "e84310be-f893-4b8d-86c2-cd386e59a5ad",
@@ -1575,6 +1591,14 @@
             }
         },
         {
+            "Key": "2fd1d732-4615-4538-83c0-f0b183f2322b",
+            "Value": {
+                "id": "5289e945-7ef8-46dd-bbf4-fe7141e02104",
+                "resourcePath": "sprites\\spr_light_goth\\spr_light_goth.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3009994d-659e-4a67-b78c-17d490129e61",
             "Value": {
                 "id": "09f0d010-52a8-4cb0-abf9-59d564371ac4",
@@ -1659,6 +1683,14 @@
             "Value": {
                 "id": "21fbc359-5f3c-41c0-ae0f-6276e8e501be",
                 "resourcePath": "sprites\\s_player_gun6\\s_player_gun6.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "32683c85-6c0e-4ad5-8a3b-381092cf1493",
+            "Value": {
+                "id": "5d25a45f-ace3-4079-9ea3-15d59285f55a",
+                "resourcePath": "sprites\\dimian1masked\\dimian1masked.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1748,6 +1780,14 @@
                 "id": "c72b4255-462f-4c0d-9aef-94cf6ea1b718",
                 "resourcePath": "views\\3688f247-b01a-4d84-83d2-c6d7565402e7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "36d7a020-1ede-4a1c-905d-85c5a3c09a78",
+            "Value": {
+                "id": "d36dd059-6620-447e-a87a-48988adfe81f",
+                "resourcePath": "sprites\\SFreeLightRoundGoth\\SFreeLightRoundGoth.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2455,6 +2495,14 @@
             }
         },
         {
+            "Key": "4a2b23ef-2ba5-4006-9a72-f2a8bb0412fc",
+            "Value": {
+                "id": "26d51aa4-b813-4a28-a5d3-52d511579429",
+                "resourcePath": "sprites\\dimian4masked\\dimian4masked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4a95eac7-66c7-4a06-a594-bddebd8630dc",
             "Value": {
                 "id": "f5ea3980-b124-4e26-86a0-c8f0b7ee971a",
@@ -3052,6 +3100,14 @@
                 "id": "56f632f5-8054-4374-9e19-edd8a4e5bf8d",
                 "resourcePath": "objects\\o_cover\\o_cover.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5abf55d7-aafb-4831-89db-fa3322fef480",
+            "Value": {
+                "id": "6a56607d-1ed1-4e78-a730-c22786224e84",
+                "resourcePath": "sprites\\guanzi2\\guanzi2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4703,6 +4759,14 @@
             }
         },
         {
+            "Key": "8420a49b-cb1f-4c53-b9f5-cb1fd1860e62",
+            "Value": {
+                "id": "1a7d5dbc-7b96-4557-8036-ed6f06f3e643",
+                "resourcePath": "sprites\\fire\\fire.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
             "Value": {
                 "id": "05df7745-d101-4c65-bae3-06e598521b5b",
@@ -5351,6 +5415,22 @@
             }
         },
         {
+            "Key": "96482011-7f9a-44f4-96b2-555f4492a08f",
+            "Value": {
+                "id": "29895486-c02d-4a81-9a4d-281a04788415",
+                "resourcePath": "sprites\\dimian2masked\\dimian2masked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9662acf3-ae43-46b1-bdb0-0c1af4899554",
+            "Value": {
+                "id": "55af13c0-ca2e-4db4-9bc9-9d004e87fe78",
+                "resourcePath": "scripts\\scr_freelight_setting_scale\\scr_freelight_setting_scale.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "966749ee-5d8b-48ca-b3c9-01cdebbfd3b0",
             "Value": {
                 "id": "eab3e16a-fcc5-4ca1-9ece-2c4421927626",
@@ -5748,6 +5828,14 @@
                 "id": "da47c80d-e7fa-4be7-8c76-8b798619a876",
                 "resourcePath": "objects\\o_enemy_lineray_stand_attack\\o_enemy_lineray_stand_attack.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a04c63ed-65fd-40cd-87b1-5d3212d1a4d0",
+            "Value": {
+                "id": "ea3880c8-6959-454a-ab34-b98b34379034",
+                "resourcePath": "sprites\\guanzi1\\guanzi1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6311,6 +6399,14 @@
             }
         },
         {
+            "Key": "af49bf44-5ac2-4111-a467-aa2d63d1e7f2",
+            "Value": {
+                "id": "231f98e6-7f6c-462d-bf17-bc1fb3517895",
+                "resourcePath": "objects\\o_spt_front_goth_fog\\o_spt_front_goth_fog.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "afa18d73-e650-4c98-b4a4-61d1822f14e6",
             "Value": {
                 "id": "74a39ae7-1ddd-4b7f-8818-1daf16ec4d86",
@@ -6340,6 +6436,14 @@
                 "id": "b1aa6d73-df73-474e-9e3f-380b86754c2b",
                 "resourcePath": "objects\\o_pause_button_quit\\o_pause_button_quit.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "afff5a49-4113-4a33-bac6-96f09ae7f6e0",
+            "Value": {
+                "id": "2354eb49-cc23-4e95-a0f9-2ce25f454e4e",
+                "resourcePath": "sprites\\dimian3masked\\dimian3masked.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6580,6 +6684,14 @@
                 "id": "5dd090d7-2f58-47a3-baff-803321a1825d",
                 "resourcePath": "objects\\o_fakelight_light_small_yellow\\o_fakelight_light_small_yellow.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b86b5a45-9c3b-489d-b729-3a2143010936",
+            "Value": {
+                "id": "add10e3d-3519-4862-bb08-eed253083596",
+                "resourcePath": "sprites\\result3\\result3.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -6860,6 +6972,14 @@
                 "id": "ee94b229-c49f-4d69-bf6e-5c4d1a7effdb",
                 "resourcePath": "scripts\\scr_get_patrol_scale\\scr_get_patrol_scale.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c1d37a8f-1c08-421f-9c8d-a0b6820bdc1c",
+            "Value": {
+                "id": "d0ee31fc-c1f7-4d3b-a7f4-86aa34338443",
+                "resourcePath": "objects\\o_freelight_scene_goth\\o_freelight_scene_goth.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7527,6 +7647,14 @@
             }
         },
         {
+            "Key": "d3485af5-f8f7-4e9c-9552-eaf0adfb03af",
+            "Value": {
+                "id": "cc851e95-c6af-46d7-8054-f86fc08ddddb",
+                "resourcePath": "objects\\o_freelight_round_goth\\o_freelight_round_goth.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d35a6bf4-d7a7-461f-b199-235a0f1dde3f",
             "Value": {
                 "id": "b57ffe44-3933-405e-8ad6-95f572635a8a",
@@ -7903,6 +8031,14 @@
             }
         },
         {
+            "Key": "dd608803-75e1-4c7a-a3b9-0a1c986ceec7",
+            "Value": {
+                "id": "2583de4e-725a-48e4-b6df-781f92abbce2",
+                "resourcePath": "objects\\o_freelight_cone\\o_freelight_cone.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "dd678b06-dd83-4250-8bc2-8a9fdd07aafa",
             "Value": {
                 "id": "2c0b2c05-4685-478f-a2e5-80b794939be7",
@@ -8039,6 +8175,14 @@
             }
         },
         {
+            "Key": "e178bbd3-ba70-486e-a2ec-09015d0346ee",
+            "Value": {
+                "id": "6a7a505d-9d64-45e6-a36e-cb96baff6632",
+                "resourcePath": "sprites\\guanzi4\\guanzi4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e1b49358-72a1-4ff7-b8c9-31eac9561045",
             "Value": {
                 "id": "901c08c7-073a-4a62-8dc7-598fc14f7e06",
@@ -8052,6 +8196,14 @@
                 "id": "14141291-1c46-4e28-b8b6-52ae45565461",
                 "resourcePath": "objects\\o_camera\\o_camera.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e2152f55-3436-440f-8a46-c00ab6ce411b",
+            "Value": {
+                "id": "b4b28bf9-0eec-4660-a468-9ae06d94d1a5",
+                "resourcePath": "sprites\\SFreeLightConeGoth\\SFreeLightConeGoth.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8751,6 +8903,14 @@
             }
         },
         {
+            "Key": "f643802d-0beb-4182-bdd5-4265b7cd6d27",
+            "Value": {
+                "id": "58a8baf1-f1d8-4b9f-b8a4-bad023495b81",
+                "resourcePath": "scripts\\scr_freelight_setting_scale_ext\\scr_freelight_setting_scale_ext.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f64c34b6-4365-4858-95f2-06c56a1f1031",
             "Value": {
                 "id": "fa874dfa-34a7-42cf-9f70-f99427a3907f",
@@ -9255,6 +9415,8 @@
         "7f24453b-dbad-4a11-b868-9f3927446700",
         "73d13b9f-60fd-42c7-bf8c-2838cf3663c5",
         "d35a6bf4-d7a7-461f-b199-235a0f1dde3f",
+        "9662acf3-ae43-46b1-bdb0-0c1af4899554",
+        "f643802d-0beb-4182-bdd5-4265b7cd6d27",
         "fa2f9071-eba9-4089-b5a0-ca519431076d",
         "a94a07c3-9c31-43e0-bcc4-b066f001375e",
         "c9725010-f7da-4a0e-b1c1-15092ad4b6cc",
