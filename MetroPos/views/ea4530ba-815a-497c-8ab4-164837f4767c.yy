@@ -11,7 +11,9 @@
         "61cdf237-2736-4fbe-b3b9-6e033f6b6d1e",
         "36d7a020-1ede-4a1c-905d-85c5a3c09a78",
         "2fd1d732-4615-4538-83c0-f0b183f2322b",
-        "02bc9661-3140-47a3-82fa-119231131db4"
+        "053fb634-1a65-4bf0-87a6-7efd55a6b6f5",
+        "02bc9661-3140-47a3-82fa-119231131db4",
+        "b7635875-97e3-41dc-a64e-08e9201ca7f0"
     ],
     "filterType": "GMSprite",
     "folderName": "Freelight",

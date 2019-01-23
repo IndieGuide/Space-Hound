@@ -11,6 +11,7 @@
         "63aac37a-25f0-45ce-aabf-60fcad2998e3",
         "9d6cff24-f749-4298-8329-37ab4afecd3e",
         "f0cff7b4-0021-42f7-b9ac-80f376fae9bf",
+        "26b43607-36d0-4d9f-94af-3f1b25f16db7",
         "32683c85-6c0e-4ad5-8a3b-381092cf1493",
         "4a2b23ef-2ba5-4006-9a72-f2a8bb0412fc",
         "96482011-7f9a-44f4-96b2-555f4492a08f",
@@ -19,7 +20,8 @@
         "295349af-ec61-4d16-9319-5dd1a97db1c3",
         "e178bbd3-ba70-486e-a2ec-09015d0346ee",
         "a04c63ed-65fd-40cd-87b1-5d3212d1a4d0",
-        "0ff8e684-ed11-4a11-9940-ac1a006f60e1"
+        "0ff8e684-ed11-4a11-9940-ac1a006f60e1",
+        "4d429000-605b-44ea-a03a-037bfd14bc76"
     ],
     "filterType": "GMSprite",
     "folderName": "Tile",

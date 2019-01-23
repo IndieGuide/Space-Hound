@@ -1,0 +1,1 @@
+scr_freelight_setting($FFF568, 1,0)
