@@ -1,1 +1,0 @@
-scr_freelight_setting(c_orange,0.9,1)

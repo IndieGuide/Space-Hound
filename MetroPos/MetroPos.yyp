@@ -1082,7 +1082,7 @@
             "Key": "1e79037f-e8e5-4490-8f97-3b358aa93a47",
             "Value": {
                 "id": "65883843-c2ed-46fa-a4e3-5f547f9b89e6",
-                "resourcePath": "sprites\\SPlayerMaskSquart\\SPlayerMaskSquart.yy",
+                "resourcePath": "sprites\\SPlayerMaskSquartt\\SPlayerMaskSquartt.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -2618,7 +2618,7 @@
             "Key": "4d429000-605b-44ea-a03a-037bfd14bc76",
             "Value": {
                 "id": "d3537578-62a2-4cef-8293-fbd45e85e550",
-                "resourcePath": "sprites\\qiangbi____\\qiangbi____.yy",
+                "resourcePath": "sprites\\SWallMachine\\SWallMachine.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -3859,6 +3859,14 @@
             "Value": {
                 "id": "0f0ec9d8-2f1d-48f9-8372-36a8651758cf",
                 "resourcePath": "sprites\\s_player_default_gun\\s_player_default_gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6c7392d7-2ba1-452b-8df2-c01c9c96f45d",
+            "Value": {
+                "id": "689dbd5a-4ad6-4e14-a16e-9e96c2b3bfae",
+                "resourcePath": "sprites\\SPlayerMaskSquart\\SPlayerMaskSquart.yy",
                 "resourceType": "GMSprite"
             }
         },

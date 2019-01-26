@@ -1,1 +1,0 @@
-scr_freelight_setting(c_red,0.8,true);
