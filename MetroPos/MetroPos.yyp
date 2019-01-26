@@ -2039,6 +2039,14 @@
             }
         },
         {
+            "Key": "3ca08ebe-f5da-4e9e-b424-005f2f06b43c",
+            "Value": {
+                "id": "5635785a-3392-4056-ba14-2030752faace",
+                "resourcePath": "sprites\\cizhuan1473\\cizhuan1473.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3cc79511-d36c-4925-81a6-6493e90ffc59",
             "Value": {
                 "id": "01df28f1-e7bf-4200-bf0f-bac9463b095e",
