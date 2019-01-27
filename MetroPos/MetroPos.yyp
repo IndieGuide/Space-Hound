@@ -4239,6 +4239,14 @@
             }
         },
         {
+            "Key": "7450b93f-95ff-436a-9a7f-17dcaca98c4b",
+            "Value": {
+                "id": "c1c76402-8fcb-4cd8-9f05-57908fd11f61",
+                "resourcePath": "sprites\\CIZHUANHUIDU\\CIZHUANHUIDU.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "74c00b28-3a47-49b7-905c-7cc98b7437f2",
             "Value": {
                 "id": "44cda14b-c2aa-4ed5-b5bd-7a4991f34ede",
@@ -7652,6 +7660,14 @@
                 "id": "8c6210c0-d9a6-4ae8-81fe-caf6ac740847",
                 "resourcePath": "sprites\\boss_biggun_zhuangji\\boss_biggun_zhuangji.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cf1b094a-7196-432a-b03b-fab951f68f7b",
+            "Value": {
+                "id": "0d2467ee-af68-4ede-9417-c13cfcc7ba61",
+                "resourcePath": "tilesets\\HUIDUCIZHUAN\\HUIDUCIZHUAN.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
