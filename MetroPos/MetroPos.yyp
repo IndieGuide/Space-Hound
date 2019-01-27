@@ -2783,6 +2783,14 @@
             }
         },
         {
+            "Key": "509783c1-49d6-4bb4-b912-d166e0aea9b9",
+            "Value": {
+                "id": "d4f7e717-a369-43d9-a714-a81f27893897",
+                "resourcePath": "sprites\\jiatu1_2_\\jiatu1_2_.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "50e2dc2c-583e-4942-a825-4981abd12a7b",
             "Value": {
                 "id": "4a4fa67f-2b1f-44ff-99a4-92e4a337aab6",

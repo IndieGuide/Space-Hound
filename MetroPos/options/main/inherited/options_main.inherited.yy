@@ -64,6 +64,21 @@
                     "mipsToGenerate": 0,
                     "scaled": true
                 }
+            },
+            {
+                "Key": 5,
+                "Value": {
+                    "id": "84fdca8a-642b-4c9c-91be-a9d6e17d997e",
+                    "modelName": "GMTextureGroup",
+                    "mvc": "1.0",
+                    "groupName": "TileGroup1",
+                    "targets": 461609314234257646,
+                    "autocrop": true,
+                    "border": 2,
+                    "groupParent": "00000000-0000-0000-0000-000000000000",
+                    "mipsToGenerate": 0,
+                    "scaled": true
+                }
             }
         ],
         "Checksum": "ࢺ懜璙ᓆ锯翋꤯맫",

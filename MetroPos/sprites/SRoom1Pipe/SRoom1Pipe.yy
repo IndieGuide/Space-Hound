@@ -40,7 +40,7 @@
     ],
     "gridX": 0,
     "gridY": 0,
-    "height": 2048,
+    "height": 1280,
     "layers": [
         {
             "id": "8b1d1b64-b3fa-4419-a2fe-03a389152253",
@@ -62,9 +62,9 @@
     "sepmasks": false,
     "swatchColours": null,
     "swfPrecision": 2.525,
-    "textureGroupId": "53281306-cd56-4865-ac8f-3ef25eebce97",
+    "textureGroupId": "84fdca8a-642b-4c9c-91be-a9d6e17d997e",
     "type": 0,
-    "width": 2048,
+    "width": 1280,
     "xorig": 0,
     "yorig": 0
 }
