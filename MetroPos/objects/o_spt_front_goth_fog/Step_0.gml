@@ -7,5 +7,5 @@ with (o_player){
 x = lerp(x,x_, 0.1);
 y = lerp(y,y_, 0.1);
 part_emitter_region(ps, global.pe_Effect1, x-1280, x+1280, y-1280, y+1280, ps_shape_ellipse, ps_distr_linear);
-part_emitter_stream(ps, global.pe_Effect1, global.pt_Effect1, 1);
+part_emitter_stream(ps, global.pe_Effect1, global.pt_Effect1, -7);
 

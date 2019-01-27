@@ -36526,6 +36526,7 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "Free to use, also for commercial games.",
     "maccompilerflags": "",
@@ -36542,6 +36543,7 @@
         
     ],
     "tvosclassname": null,
+    "tvosdelegatename": null,
     "tvosmaccompilerflags": null,
     "tvosmaclinkerflags": null,
     "tvosplistinject": null,

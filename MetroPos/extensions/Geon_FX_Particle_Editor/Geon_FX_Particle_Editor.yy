@@ -279,6 +279,7 @@
     "iosThirdPartyFrameworkEntries": [
         
     ],
+    "iosdelegatename": null,
     "iosplistinject": "",
     "license": "",
     "maccompilerflags": "",
@@ -295,6 +296,7 @@
         
     ],
     "tvosclassname": null,
+    "tvosdelegatename": null,
     "tvosmaccompilerflags": null,
     "tvosmaclinkerflags": null,
     "tvosplistinject": null,
