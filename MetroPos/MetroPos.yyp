@@ -1063,6 +1063,14 @@
             }
         },
         {
+            "Key": "1dc56325-f699-45f8-a078-6334f939a54d",
+            "Value": {
+                "id": "011d9414-391b-49c4-8a86-ba49a4e3bfba",
+                "resourcePath": "sprites\\newdimian4\\newdimian4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1e10b6da-631c-47c9-b75e-00424187f1ff",
             "Value": {
                 "id": "f9488c1c-cf43-4b17-b41c-7ae2ae77d964",
@@ -2036,6 +2044,14 @@
                 "id": "3d406053-b80e-4556-bb2c-81d7c4a38be9",
                 "resourcePath": "views\\3bc744ef-3969-4b16-830d-461c9864901e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3c28f78b-3159-4dad-8f8e-1374a5068ee6",
+            "Value": {
+                "id": "d671cce6-0a1d-4027-b9d3-3f145a5a390a",
+                "resourcePath": "sprites\\newdimian1\\newdimian1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3655,6 +3671,14 @@
             }
         },
         {
+            "Key": "65f1f3c6-666f-4213-a8d0-1b5f79ef44ca",
+            "Value": {
+                "id": "1ec87174-498a-479b-83aa-6be1665976e8",
+                "resourcePath": "sprites\\newdimian2\\newdimian2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "65f5939d-0180-47e0-966c-828368ed6c46",
             "Value": {
                 "id": "e6cf8d6f-2663-428d-92e5-f1e4fb3201cc",
@@ -4663,6 +4687,14 @@
             }
         },
         {
+            "Key": "7f50e6e9-81a0-48bd-add0-ea6420d1c98f",
+            "Value": {
+                "id": "772b005c-ef6d-4229-a004-261c6ffec3fc",
+                "resourcePath": "sprites\\newdimian3\\newdimian3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7f67c84c-1f73-49a1-9ed2-eab9bcd734e9",
             "Value": {
                 "id": "6ebe66cf-02cb-4c24-a356-28877218c31f",
@@ -4772,6 +4804,14 @@
                 "id": "8b78fc3d-c3db-4f3a-a456-aadbc7864e93",
                 "resourcePath": "sprites\\spr_pt_shape_flare\\spr_pt_shape_flare.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "81ed4f7b-c067-4cf0-b71b-a56e3a444797",
+            "Value": {
+                "id": "3280340e-177a-4bd2-beff-76b38613be40",
+                "resourcePath": "objects\\o_newdimian2\\o_newdimian2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -4963,6 +5003,14 @@
             "Value": {
                 "id": "f6f87a1f-9727-45d6-8f46-a13ca079a6d1",
                 "resourcePath": "objects\\o_enemy_sheild_close_run_attack\\o_enemy_sheild_close_run_attack.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "87233786-b9b4-4815-8d64-51ec330f42ed",
+            "Value": {
+                "id": "e0a9af4e-c09c-4e83-a4e5-d78b100c4702",
+                "resourcePath": "objects\\o_newdimian3\\o_newdimian3.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -5380,6 +5428,14 @@
                 "id": "c6207c06-ba43-48b4-8cf3-2f8b471fb6ba",
                 "resourcePath": "sprites\\SRoom8\\SRoom8.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9251359e-1a47-40f9-86bd-b857a16bda65",
+            "Value": {
+                "id": "189d76c4-1584-48d7-9466-0331c3f44d75",
+                "resourcePath": "objects\\o_newdimian4\\o_newdimian4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -7460,6 +7516,14 @@
                 "id": "297749cd-fc3d-4bc8-b529-e146fd3637e6",
                 "resourcePath": "sprites\\s_enemy_gun7_bullet\\s_enemy_gun7_bullet.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cafee9f9-dfd2-4bac-aa29-2399a0153a3d",
+            "Value": {
+                "id": "19abd6f7-012f-4580-afac-0e807e825362",
+                "resourcePath": "objects\\o_newdimian1\\o_newdimian1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
