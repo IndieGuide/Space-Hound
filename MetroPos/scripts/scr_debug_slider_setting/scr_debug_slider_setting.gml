@@ -6,6 +6,7 @@
 ///@param value_max
 ///@param gui_x
 ///@param gui_y
+///@param value_str
 
 with(argument0) {
 	
@@ -18,6 +19,7 @@ with(argument0) {
 
 	screen_x = argument5;
 	screen_y = argument6;
+	value_string = argument7;
 	default_x = camera_get_view_x(view_camera[0]) + screen_x;
 	default_y = camera_get_view_y(view_camera[0]) + screen_y;
 	left_down_flag = false;

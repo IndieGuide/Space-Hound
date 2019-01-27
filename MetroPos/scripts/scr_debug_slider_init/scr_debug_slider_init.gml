@@ -9,6 +9,7 @@ bind_obj = noone;
 value_name = noone; 
 value_min = noone;
 value_max = noone;
+value_string = "";
 create_obj = noone;
 line_length = 78;
 
