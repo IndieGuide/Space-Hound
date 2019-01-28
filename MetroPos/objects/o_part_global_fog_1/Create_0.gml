@@ -27,15 +27,15 @@ part_system_depth(ps, 0);
 //Effect2
 global.pt_Effect2 = part_type_create();
 part_type_shape(	global.pt_Effect2, pt_shape_pixel);
-part_type_sprite(	global.pt_Effect2, spr_light_goth, 1, 0, 0);
-part_type_size(		global.pt_Effect2, 0.50, 3, 0, 0);
+part_type_sprite(	global.pt_Effect2, spr_mist2, 1, 0, 0);
+part_type_size(		global.pt_Effect2, 1.00, 3.00, 0, 0);
 part_type_scale(	global.pt_Effect2, 1, 1);
 part_type_orientation(global.pt_Effect2, 0, 0, 0, 0, 0);
-part_type_color3(	global.pt_Effect2, 16777215, 4210816, 16777215);
-part_type_alpha3(	global.pt_Effect2, 0, 0.35, 0.1);
+part_type_color3(	global.pt_Effect2, 16777215, 16777215, 16777215);
+part_type_alpha3(	global.pt_Effect2, 0, 0.05, 0);
 part_type_blend(	global.pt_Effect2, 0);
 part_type_life(		global.pt_Effect2, 300, 500);
-part_type_speed(	global.pt_Effect2, 0, 0.10, 0, 0);
+part_type_speed(	global.pt_Effect2, 0.10, 0.15, 0, 0);
 part_type_direction(global.pt_Effect2, 0, 360, 0, 0);
 part_type_gravity(	global.pt_Effect2, 0, 0);
 
