@@ -2615,6 +2615,14 @@
             }
         },
         {
+            "Key": "4d0de265-da42-4f9a-b5c3-48c7a32f5722",
+            "Value": {
+                "id": "acf8cc57-f863-4401-88db-3d47a223af9e",
+                "resourcePath": "sprites\\DIMIANGAOSIMOHU\\DIMIANGAOSIMOHU.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4d16c2c8-2a47-4f41-b23d-96586d8bf619",
             "Value": {
                 "id": "991ea067-cfc1-4a01-8f33-6ce9ddd5d13a",
@@ -5423,6 +5431,14 @@
             }
         },
         {
+            "Key": "918a288e-efcf-4cd8-ad45-e84619e7f80f",
+            "Value": {
+                "id": "ab4749e8-59c9-4153-b467-ed6838453b29",
+                "resourcePath": "tilesets\\NEWDIMIANGAOSIMOHU\\NEWDIMIANGAOSIMOHU.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "9231ccc5-b616-444f-bccd-f2743e62f870",
             "Value": {
                 "id": "efb6a239-25d0-4a30-aedf-f4fa9915b980",
@@ -6708,6 +6724,14 @@
                 "id": "cd5d5528-2694-4e8c-83c3-f0faf015dbae",
                 "resourcePath": "sprites\\s_player_gun1\\s_player_gun1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b2ec34b0-ac00-4f7a-973c-bf8a8f4836d4",
+            "Value": {
+                "id": "b9c2b25c-2fdd-4115-a72f-eff2210ce36e",
+                "resourcePath": "tilesets\\tileset4\\tileset4.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -8863,6 +8887,14 @@
             }
         },
         {
+            "Key": "f13e97f7-8207-4cfb-91e9-00a6705849da",
+            "Value": {
+                "id": "9d955e5c-8446-4a89-bdf1-b16a73bd7a20",
+                "resourcePath": "sprites\\NEWDIMIAN01\\NEWDIMIAN01.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f14077aa-36be-46a6-89ab-cc01452708ca",
             "Value": {
                 "id": "ecab9d15-5a42-4792-8e8b-146b07d64423",
@@ -8996,6 +9028,14 @@
                 "id": "c8ec6a97-a6b0-4917-92a2-229e943499ac",
                 "resourcePath": "views\\f36f0e1f-7ffd-4785-9b0b-c23f8d1c1d43.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f3c6f58c-4d63-41d6-994d-447fe568e595",
+            "Value": {
+                "id": "9d635ed8-daa9-4d3f-b388-0420a168701a",
+                "resourcePath": "tilesets\\NEWDIMIANG01\\NEWDIMIANG01.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
