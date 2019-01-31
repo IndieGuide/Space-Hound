@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "1405860a-af47-4936-9c26-04f654750462",
+            "Value": {
+                "id": "91a08b4b-e45a-492a-b43b-0ec2d84695c6",
+                "resourcePath": "objects\\o_freelight_round_goth_lamp_yellow\\o_freelight_round_goth_lamp_yellow.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "14734308-26b4-4550-ae68-53af12cb9ef2",
             "Value": {
                 "id": "a79ea724-1369-46e6-820b-74109d549673",
@@ -5727,6 +5735,14 @@
             }
         },
         {
+            "Key": "9965d50b-049b-43b5-9fcd-5e3666671c45",
+            "Value": {
+                "id": "53f9558e-c841-4d8d-836d-e08508b1c0d8",
+                "resourcePath": "objects\\o_freelight_round_goth_lamp_long\\o_freelight_round_goth_lamp_long.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "99701722-9093-480e-8487-cd7469194d4e",
             "Value": {
                 "id": "5859051c-e1c5-4a97-81bc-0f0ccc1f0b1e",
@@ -5884,6 +5900,14 @@
                 "id": "5f17f960-bb12-4ba6-bd62-8deb0675dd0c",
                 "resourcePath": "sprites\\cz3\\cz3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9d98765e-6da0-485e-8417-830ecebc166d",
+            "Value": {
+                "id": "83e1bc12-8029-46db-b948-38045cfb6bd1",
+                "resourcePath": "objects\\o_freelight_round_goth_lamp_orange\\o_freelight_round_goth_lamp_orange.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6732,6 +6756,14 @@
                 "id": "b9c2b25c-2fdd-4115-a72f-eff2210ce36e",
                 "resourcePath": "tilesets\\tileset4\\tileset4.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "b2f46453-8fb6-4d62-bb48-51e4e8f801c9",
+            "Value": {
+                "id": "a2500ab8-8f01-44d0-91ef-f93ad5bb8822",
+                "resourcePath": "objects\\o_freelight_round_goth_lamp_white\\o_freelight_round_goth_lamp_white.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -8415,6 +8447,14 @@
             }
         },
         {
+            "Key": "e1b2c1f9-b3aa-493a-8854-323b6d9e2c07",
+            "Value": {
+                "id": "5dd4473b-539e-4232-b479-9510f09493f5",
+                "resourcePath": "objects\\o_freelight_round_goth_luzi\\o_freelight_round_goth_luzi.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e1b49358-72a1-4ff7-b8c9-31eac9561045",
             "Value": {
                 "id": "901c08c7-073a-4a62-8dc7-598fc14f7e06",
@@ -8764,6 +8804,14 @@
                 "id": "67f69d38-a6de-471d-8bd6-6f5017f17b91",
                 "resourcePath": "sprites\\SPlayerSitDown\\SPlayerSitDown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "edb6fde7-a56d-4643-a63c-a1f5e934b925",
+            "Value": {
+                "id": "1444cb44-1722-44ad-bf16-901243a9433c",
+                "resourcePath": "objects\\o_freelight_round_nogoth\\o_freelight_round_nogoth.yy",
+                "resourceType": "GMObject"
             }
         },
         {
