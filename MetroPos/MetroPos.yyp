@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "04b301dc-2d1f-43ef-85b9-76cc25c7fad5",
+            "Value": {
+                "id": "466caafa-a6f9-4d6f-a54d-02d20d7decfd",
+                "resourcePath": "objects\\o_freelight_round_goth_lamp_small\\o_freelight_round_goth_lamp_small.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "04b922e9-8eff-4a7b-80f3-b7052caad876",
             "Value": {
                 "id": "22895dda-39b2-4b3b-95cf-a371794acf62",
@@ -3476,6 +3484,14 @@
                 "id": "484d157a-81cd-4b84-b9b6-a9697ec60d70",
                 "resourcePath": "objects\\o_spt_firefly\\o_spt_firefly.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "61781da3-2733-4bc3-ad35-89ff9cf46a2d",
+            "Value": {
+                "id": "5f94026c-217d-4490-8edd-20007131a690",
+                "resourcePath": "sprites\\u_2666520221_874368699_fm_27_gp_0\\u_2666520221_874368699_fm_27_gp_0.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
