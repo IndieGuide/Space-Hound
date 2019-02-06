@@ -22,8 +22,8 @@ if global.debug_flag {
 		ds_list_add(debug_slider_list,sat_slider);
 		//brt
 		brt_slider = instance_create_layer(x,y,"UILayer",o_debug_slider_gui);
-		scr_debug_slider_setting(brt_slider,inst_557D436D,"brt",0,2,debug_slider_pos_x,debug_slider_pos_y+40, "饱和度");
-		ds_list_add(debug_slider_list,brt_slider);	
+		scr_debug_slider_setting(brt_slider,inst_557D436D,"brt",0,2,debug_slider_pos_x,debug_slider_pos_y+40, "亮度");
+		ds_list_add(debug_slider_list,brt_slider);
 		//pop_s
 		pop_s_slider = instance_create_layer(x,y,"UILayer",o_debug_slider_gui);
 		scr_debug_slider_setting(pop_s_slider,inst_557D436D,"pop_s",0,3,debug_slider_pos_x,debug_slider_pos_y+60,"光扩展");

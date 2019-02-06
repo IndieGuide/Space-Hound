@@ -7,7 +7,8 @@ y = o_player.y;
 //Creating Particle System
 ps = part_system_create();
 part_system_depth(ps, 0);
-
+part_system_automatic_draw(ps,false);
+part_system_automatic_update(ps,false);
 ////Creating Particle Types
 ////Effect1
 //global.pt_Effect1 = part_type_create();
@@ -32,7 +33,7 @@ part_type_size(		global.pt_Effect2, 1.00, 3.00, 0, 0);
 part_type_scale(	global.pt_Effect2, 1, 1);
 part_type_orientation(global.pt_Effect2, 0, 0, 0, 0, 0);
 part_type_color3(	global.pt_Effect2, 16777215, 16777215, 16777215);
-part_type_alpha3(	global.pt_Effect2, 0, 0.05, 0);
+part_type_alpha3(	global.pt_Effect2, 0, 0.25, 0);
 part_type_blend(	global.pt_Effect2, 0);
 part_type_life(		global.pt_Effect2, 300, 500);
 part_type_speed(	global.pt_Effect2, 0.10, 0.15, 0, 0);
@@ -60,3 +61,5 @@ global.pe_Effect2 = part_emitter_create(ps);
 //global.pe_Effect3 = part_emitter_create(ps);
 
 
+surf = surface_create(camera_get_view_width(view_camera[0])+1920,camera_get_view_height(view_camera[0]));
+x_a = 1;

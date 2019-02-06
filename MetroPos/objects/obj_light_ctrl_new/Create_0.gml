@@ -97,16 +97,16 @@ time = 0.5;
 active_area_expend_value = 360;
 alarm[0] = 1;
 //do_globalflick = [self,scr_light_global_flick];
-color[0,0] = 128/255;
-color[0,1] = 128/255;
-color[0,2] = 128/255;
+color[0,0] = 0.47;
+color[0,1] = 0.45;
+color[0,2] = 0.58;
 
-con_sat_brt[0,0] = 1;
+con_sat_brt[0,0] = 0.55;
 con_sat_brt[0,1] = 1;
-con_sat_brt[0,2] = 1;
+con_sat_brt[0,2] = 0.85;
 
-con_sat_brt[0,3] = 0;
-con_sat_brt[0,4] = 1;
+con_sat_brt[0,3] = 0.77;
+con_sat_brt[0,4] = 0.44;
 col_r	= color[0,0];
 col_g	= color[0,1];
 col_b	= color[0,2];
