@@ -10,8 +10,8 @@ if state_previous == enum_player_state.CLIMB && state_ins_bind == 1 {
 	image_index = 0;
 	image_speed = 2;
 	state_allow_move(false,false,true);
-	speed_[h] = 0;
-	speed_[v] = 0;
+	m_speed[h] = 0;
+	m_speed[v] = 0;
 	anime_x = x;
 	anime_y = y;
 	return enum_player_state.CLIMBED;
@@ -25,8 +25,8 @@ if (state_previous == enum_player_state.JUMP || state_previous == enum_player_st
 	image_index = 0;
 	image_speed = 2;
 	state_allow_move(false,false,true);
-	speed_[h] = 0;
-	speed_[v] = 0;
+	m_speed[h] = 0;
+	m_speed[v] = 0;
 	y = ins_bind_.bbox_top - 1;
 	anime_x = x;
 	anime_y = y+2;
@@ -61,8 +61,8 @@ if (state_ == enum_player_state.JUMP || state_ == enum_player_state.JUMP_TWICE) 
 		image_index = 0;
 		image_speed = 2;
 		state_allow_move(false,false,true);
-		speed_[h] = 0;
-		speed_[v] = 0;
+		m_speed[h] = 0;
+		m_speed[v] = 0;
 		anime_x = x;
 		anime_y = y + 10;
 		return enum_player_state.CLIMBED;

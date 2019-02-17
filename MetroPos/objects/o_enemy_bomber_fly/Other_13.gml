@@ -9,4 +9,4 @@ if scr_is_speed_max()					//如果达到最高速度
 if scr_is_player_into_attack_range()	//玩家进入攻击范围
 	scr_enemy_bomber_explosion();			//开火
 	
-scr_enemy_move(speed_, 0.5);			//移动
+scr_enemy_move(m_speed, 0.5);			//移动

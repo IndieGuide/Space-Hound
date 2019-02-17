@@ -49,4 +49,8 @@
 //#macro N2_PLACE_ATTACK		3
 //#macro N2_ADVANCE_ATTACK	4
 
+#macro ACT_ATTACK1		0
+#macro ACT_ALARM1		9
+#macro ACT_ALARM2		10
+#macro ACT_ALARM3		11
 

@@ -11,12 +11,12 @@ event_user(state_);
 var hinput = scr_get_enemy_xscale();
 
 if hinput != 0 {
-	speed_[h] += hinput * acceleration_;
-	speed_[h]= clamp(speed_[h],-max_speed_,max_speed_);
+	m_speed[h] += hinput * acceleration_;
+	m_speed[h]= clamp(m_speed[h],-max_speed_,max_speed_);
 	//var flipped=(mouse_x>x)*2-1;
 	image_speed=abs(hinput)*.6;
 } else {
-	speed_[h]=lerp(speed_[h],0,friction_);
+	m_speed[h]=lerp(m_speed[h],0,friction_);
 	image_speed=0;
 	image_index=0;
 }
@@ -24,19 +24,19 @@ if hinput != 0 {
 
 //添加重力,以及跳跃事件
 if !place_meeting(x,y+1,o_solid){
-	speed_[v] += gravity_;
+	m_speed[v] += gravity_;
 	image_speed=0;
 	image_index=6;
 }else{
 	if up_flag {
-		speed_[v]=jump_height_;
+		m_speed[v]=jump_height_;
 		x_scale_ = image_xscale*.8;
 		y_scale_ = image_yscale*1.4;		
 	}
 }
 
 //判断撞到墙体速度为零
-scr_enemy_move(speed_,0);
+scr_enemy_move(m_speed,0);
 
 //Check for landing落地判断
 if place_meeting(x,y+1,o_solid) && !place_meeting(x,yprevious+1,o_solid){

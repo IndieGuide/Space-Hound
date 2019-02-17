@@ -1,11 +1,11 @@
 /// @description 初始化
 
 depth = -1;
-speed_ = 10;
-speed = scr_common_bullet_time_var(speed_);
+m_speed = 10;
+speed = scr_common_bullet_time_var(m_speed);
 shoot_sound = a_gun_default;
 hit_sound = a_hit;
-damage = 0.5;
+m_damage = 10;
 hit = o_gun_default_hit;
 
 alarm[0] = 45;
@@ -21,3 +21,4 @@ with(o_player.player_light) {
 
 //声效
 audio_play_sound(shoot_sound, 5, false);
+

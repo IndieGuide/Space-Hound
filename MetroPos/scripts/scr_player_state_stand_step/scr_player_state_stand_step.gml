@@ -1,2 +1,2 @@
-speed_[h]=lerp(speed_[h],0,friction_);
+m_speed[h]=lerp(m_speed[h],0,friction_);
 return false;

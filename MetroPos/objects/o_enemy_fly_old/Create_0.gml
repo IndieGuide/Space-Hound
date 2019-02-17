@@ -1,5 +1,5 @@
 /// @description 初始化敌人
-speed_=[0,0];
+m_speed=[0,0];
 acceleration_=0.05;
 max_speed_=2;
 

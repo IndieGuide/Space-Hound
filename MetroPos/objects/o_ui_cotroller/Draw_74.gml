@@ -2,6 +2,7 @@
 if !surface_exists(global.ui_surf) {
 	global.ui_surf = surface_create(1920,1080);
 }
+if !instance_exists(o_player) exit;
 surface_set_target(global.ui_surf);
 	draw_clear_alpha(c_white,0);
 	//draw_sprite(SUiMapBoard, 0, 9, 822);

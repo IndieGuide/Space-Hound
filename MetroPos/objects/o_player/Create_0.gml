@@ -1,7 +1,7 @@
 /// @description 玩家基本属性
 depth = -2;
 //物理属性
-speed_=[0,0];
+m_speed=[0,0];
 max_speed_=4;
 gravity_=.5;
 acceleration_=1;
@@ -28,13 +28,13 @@ dash_image_index = 0;
 invincible_ = false;
 
 //人物属性
-max_health_ = 50;//最大血量
-health_ = max_health_; //生命值 
-max_san_ = 100;
-san_ = 80;
+m_max_hp = 100;//最大血量
+m_hp = m_max_hp; //生命值 
+m_max_san = 100;
+m_san = 80;
 
-
-
+m_shadow = instance_create_layer(x,y,"Instances", o_shadow);
+scr_shadow_bind_self(m_shadow);
 
 #region gun_script_old
 ////枪械列表
@@ -74,19 +74,21 @@ alarm[0] = player_weapon_cooldown;
 
 //状态机
 state_ini();
-state_add(enum_player_state.MOVE,scr_player_state_move_in,scr_player_state_move_step,scr_player_state_move_out);
-state_add(enum_player_state.STAND,scr_player_state_stand_in,scr_player_state_stand_step,scr_player_state_stand_out);
-state_add(enum_player_state.JUMP,scr_player_state_jump_in,scr_player_state_jump_step,scr_player_state_jump_out);
-state_add(enum_player_state.JUMP_TWICE,scr_player_state_jump_twice_in,scr_player_state_jump_twice_step,scr_player_state_jump_twice_out);
-state_add(enum_player_state.ROLL,scr_player_state_roll_in,scr_player_state_roll_step,scr_player_state_roll_out);
-state_add(enum_player_state.SQUART,scr_player_state_squart_in,scr_player_state_squart_step,scr_player_state_squart_out);
-state_add(enum_player_state.DASH,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
-state_add(enum_player_state.SHOOT,scr_player_state_shoot_in,scr_player_state_shoot_step,scr_player_state_shoot_out);
-state_add(enum_player_state.CLIMB,scr_player_state_climb_in,scr_player_state_climb_step,scr_player_state_climb_out);
-state_add(enum_player_state.CLIMBED,scr_player_state_climbed_in,scr_player_state_climbed_step,scr_player_state_climbed_out);
-state_add(enum_player_state.FALL,scr_player_state_fall_in,scr_player_state_fall_step,scr_player_state_fall_out);
-state_add(enum_player_state.SHOOT_AIM,scr_player_state_shoot_aim_in,scr_player_state_shoot_aim_step,scr_player_state_shoot_aim_out);
-state_add(enum_player_state.ANIME,scr_player_state_debug_in,scr_player_state_debug_step,scr_player_state_debug_out);
+state_add(enum_player_state.MOVE,			scr_player_state_move_in,			scr_player_state_move_step,				scr_player_state_move_out);
+state_add(enum_player_state.STAND,			scr_player_state_stand_in,			scr_player_state_stand_step,			scr_player_state_stand_out);
+state_add(enum_player_state.JUMP,			scr_player_state_jump_in,			scr_player_state_jump_step,				scr_player_state_jump_out);
+state_add(enum_player_state.JUMP_TWICE,		scr_player_state_jump_twice_in,		scr_player_state_jump_twice_step,		scr_player_state_jump_twice_out);
+state_add(enum_player_state.ROLL,			scr_player_state_roll_in,			scr_player_state_roll_step,				scr_player_state_roll_out);
+state_add(enum_player_state.SQUART,			scr_player_state_squart_in,			scr_player_state_squart_step,			scr_player_state_squart_out);
+state_add(enum_player_state.DASH,			scr_player_state_debug_in,			scr_player_state_debug_step,			scr_player_state_debug_out);
+state_add(enum_player_state.SHOOT,			scr_player_state_shoot_in,			scr_player_state_shoot_step,			scr_player_state_shoot_out);
+state_add(enum_player_state.CLIMB,			scr_player_state_climb_in,			scr_player_state_climb_step,			scr_player_state_climb_out);
+state_add(enum_player_state.CLIMBED,		scr_player_state_climbed_in,		scr_player_state_climbed_step,			scr_player_state_climbed_out);
+state_add(enum_player_state.FALL,			scr_player_state_fall_in,			scr_player_state_fall_step,				scr_player_state_fall_out);
+state_add(enum_player_state.SHOOT_AIM,		scr_player_state_shoot_aim_in,		scr_player_state_shoot_aim_step,		scr_player_state_shoot_aim_out);
+state_add(enum_player_state.INJURED,		scr_player_state_injured_in,		scr_player_state_injured_step,			scr_player_state_injured_out);
+state_add(enum_player_state.INJURED_TWICE,	scr_player_state_injured_twice_in,	scr_player_state_injured_twice_step,	scr_player_state_injured_twice_out);
+state_add(enum_player_state.ANIME,			scr_player_state_debug_in,			scr_player_state_debug_step,			scr_player_state_debug_out);
 
 
 
@@ -152,3 +154,4 @@ y_delta = y;
 y_previous = y;
 
 
+do_take_damage = [self, scr_player_take_damage];

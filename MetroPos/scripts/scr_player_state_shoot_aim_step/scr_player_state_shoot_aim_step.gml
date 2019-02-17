@@ -17,9 +17,9 @@ if mouse_check_button_pressed(mb_left) {
 	//var y_offset=lengthdir_y(player_weapon.width_,dir);
 	call(player_weapon.do_shoot);
 	if place_meeting(x,y+1,o_solid)
-		speed_[h] += -get_face * acceleration_*3;
+		m_speed[h] += -get_face * acceleration_*3;
 	else
-		speed_[h] += -get_face * acceleration_*20;
+		m_speed[h] += -get_face * acceleration_*20;
 
 }
 

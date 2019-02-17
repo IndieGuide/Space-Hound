@@ -5,12 +5,12 @@ if !instance_exists(o_player) exit;
 var hinput = -1;
 
 if hinput != 0 {
-	speed_[h] += hinput * acceleration_;
-	speed_[h]= clamp(speed_[h],-max_speed_,max_speed_);
+	m_speed[h] += hinput * acceleration_;
+	m_speed[h]= clamp(m_speed[h],-max_speed_,max_speed_);
 	//var flipped=(mouse_x>x)*2-1;
 	image_speed=abs(hinput)*.6;
 } else {
-	speed_[h]=lerp(speed_[h],0,friction_);
+	m_speed[h]=lerp(m_speed[h],0,friction_);
 	image_speed=0;
 	image_index=0;
 }

@@ -2,7 +2,7 @@
 /// @description 画玩家和枪
 var dir = point_direction(x,y-sprite_height/2,mouse_x,mouse_y);
 var flipped=get_face;
-//image_xscale = get_face;
+image_xscale = get_face;
 
 //var flash_interval=16;
 //if scr_draw_is_flash_interval_off(alarm[1],flash_interval){

@@ -61,5 +61,5 @@ global.pe_Effect2 = part_emitter_create(ps);
 //global.pe_Effect3 = part_emitter_create(ps);
 
 
-surf = surface_create(camera_get_view_width(view_camera[0])+1920,camera_get_view_height(view_camera[0]));
+surf = surface_create(camera_get_view_width(view_camera[0])*3,camera_get_view_height(view_camera[0])*3);
 x_a = 1;

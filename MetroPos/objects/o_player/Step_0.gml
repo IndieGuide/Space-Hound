@@ -14,7 +14,7 @@ y_previous = y;
 
 
 //check for death
-if health_ <= 0 {
+if m_hp <= 0 {
 	instance_destroy();
 }
 key_up = keyboard_check(vk_up);
@@ -71,14 +71,14 @@ state_execute();
 //if hinput != 0 {
 //	move_state = MOVE;
 //	sprite_index = SPlayerWalk;
-//	speed_[h] += hinput * acceleration_;
-//	speed_[h]= clamp(speed_[h],-max_speed_,max_speed_);
+//	m_speed[h] += hinput * acceleration_;
+//	m_speed[h]= clamp(m_speed[h],-max_speed_,max_speed_);
 //	var flipped=(mouse_x>x)*2-1;
 //	image_speed=flipped*hinput*1.2;
 //}else{
-//	speed_[h]=lerp(speed_[h],0,friction_);
+//	m_speed[h]=lerp(m_speed[h],0,friction_);
 //	//image_speed=0;
-//	if (abs(speed_[h]) <= 1 && abs(speed_[v]) <= 1) {
+//	if (abs(m_speed[h]) <= 1 && abs(m_speed[v]) <= 1) {
 //		move_state = STAND;
 //		sprite_index = SPlayerStand;
 //		image_speed = 4;
@@ -88,14 +88,14 @@ state_execute();
 //if dash_image_index != 0 
 //	move_state = DASH;
 //if(move_state == DASH){
-//		speed_[h] = dash_flag*dash_dis;
+//		m_speed[h] = dash_flag*dash_dis;
 //		if global.bullet_time_flag
-//			speed_[h] = dash_flag*dash_dis_bullet_time;
+//			m_speed[h] = dash_flag*dash_dis_bullet_time;
 //}
 
 //if (keyboard_check(vk_down)) && alarm[6] == -1{
 //	move_state = SQUART;
-//	speed_[h] = 0;	//蹲下速度为0
+//	m_speed[h] = 0;	//蹲下速度为0
 //} else if (move_state == SQUART && !keyboard_check(vk_down) && alarm[6] == -1){
 //	move_state = STAND;
 //}
@@ -108,8 +108,8 @@ state_execute();
 //if (alarm[6] != -1) {
 //	image_speed = 2;
 //	//image_index = 30 - alarm[6];
-//	speed_[h] += hinput * acceleration_*3;
-//	speed_[h]= clamp(speed_[h],-max_speed_*3,max_speed_*3);
+//	m_speed[h] += hinput * acceleration_*3;
+//	m_speed[h]= clamp(m_speed[h],-max_speed_*3,max_speed_*3);
 //}
 
 //if (alarm[0] != -1) {
@@ -119,11 +119,11 @@ state_execute();
 //if !place_meeting(x,y+1,o_solid){
 //	//在空中
 
-//	speed_[v]+=scr_common_bullet_time_var(gravity_);
+//	m_speed[v]+=scr_common_bullet_time_var(gravity_);
 //	image_speed=0;
 //	image_index=6;
 //	if keyboard_check_pressed(vk_up) && jump_twice_flag {
-//		speed_[v]=jump_height_;
+//		m_speed[v]=jump_height_;
 //		x_scale_=image_xscale*.8;
 //		y_scale_=image_yscale*1.4;	
 //		jump_twice_flag = false;
@@ -134,7 +134,7 @@ state_execute();
 //	//在地上
 //	alarm[5] = -1;
 //	if keyboard_check_pressed(vk_up){
-//		speed_[v]=jump_height_;
+//		m_speed[v]=jump_height_;
 //		x_scale_=image_xscale*.8;
 //		y_scale_=image_yscale*1.4;		
 //		jump_twice_flag = true;
@@ -144,23 +144,23 @@ state_execute();
 var hinput = key_right-key_left;
 
 if state_x_move_flag && hinput != 0 {
-	speed_[h] += hinput * acceleration_;
-	speed_[h]= clamp(speed_[h],-max_speed_,max_speed_);
+	m_speed[h] += hinput * acceleration_;
+	m_speed[h]= clamp(m_speed[h],-max_speed_,max_speed_);
 	get_face = hinput;
 }else{
-	speed_[h]=lerp(speed_[h],0,friction_);
+	m_speed[h]=lerp(m_speed[h],0,friction_);
 }
 //重力代码
 if state_y_move_flag && !place_meeting(x,y+1,o_solid){
-	speed_[v]+=scr_common_bullet_time_var(gravity_);
-	speed_[v]= clamp(speed_[v],jump_height_,-jump_height_);
+	m_speed[v]+=scr_common_bullet_time_var(gravity_);
+	m_speed[v]= clamp(m_speed[v],jump_height_,-jump_height_);
 }
 
 
 //判断撞到墙体速度为零
-scr_player_move_ext(speed_,0,0,stop_by_solid_flag);
+scr_player_move_ext(m_speed,0,0,stop_by_solid_flag);
 //解决卡墙
-//if speed_[h] == 0 {
+//if m_speed[h] == 0 {
 //	if place_meeting(x + 1,y,o_solid) {
 //		x -= 1;
 //	} else if place_meeting(x - 1, y, o_solid) {

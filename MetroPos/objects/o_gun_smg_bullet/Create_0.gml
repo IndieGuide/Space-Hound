@@ -1,8 +1,8 @@
 /// @description 初始化
 
 depth = -1;
-speed_ = 20;
-speed = scr_common_bullet_time_var(speed_);
+m_speed = 20;
+speed = scr_common_bullet_time_var(m_speed);
 damage = 0.2;
 shoot_sound = a_gun_smg;
 hit_sound = a_hit;

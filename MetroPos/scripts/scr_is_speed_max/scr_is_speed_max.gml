@@ -1,1 +1,1 @@
-return point_distance(0,0,speed_[h],speed_[v]) > max_speed_
+return point_distance(0,0,m_speed[h],m_speed[v]) > max_speed_

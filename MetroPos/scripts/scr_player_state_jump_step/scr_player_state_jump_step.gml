@@ -1,4 +1,4 @@
-if speed_[v] < 0
+if m_speed[v] < 0
 	image_index = clamp(image_index,0,5);
 else
 	image_index = clamp(image_index,6,10);
