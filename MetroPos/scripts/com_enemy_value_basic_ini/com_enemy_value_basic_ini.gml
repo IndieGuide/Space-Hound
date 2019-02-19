@@ -28,3 +28,5 @@ m_normal_damage = 10;
 
 m_alert_level = enum_enemy_normal_alert_level.GUARD;
 m_alert_level_last = noone;
+
+m_invincible = false;

@@ -1,4 +1,8 @@
-if (y < state_ins_bind.bottom_y && y > state_ins_bind.top_y) {
+with(state_ins_bind) {
+	var plat_bottom_y = bottom_y;
+	var plat_top_y = top_y;
+}
+if (y < plat_bottom_y && y > plat_top_y) {
 	x = state_pos_x[0];
 	var hinput = key_down - key_up;
 	if hinput != 0 {
@@ -8,14 +12,14 @@ if (y < state_ins_bind.bottom_y && y > state_ins_bind.top_y) {
 		m_speed[v]=lerp(m_speed[v],0,friction_);
 	}
 	image_speed = .8*hinput;
-} else if (y >= state_ins_bind.bottom_y) {
+} else if (y >= plat_bottom_y) {
 	x = state_pos_x[0];
-	y = state_ins_bind.bottom_y - 1;
+	y = plat_bottom_y - 1;
 	return true;
 }
-if (y - player_height + 10 <= state_ins_bind.top_y) {
+if (y - player_height + 10 <= plat_top_y) {
 	x = state_pos_x[0];
-	y = state_ins_bind.top_y - 1;
+	y = plat_top_y - 1;
 	return true;
 }
 if (key_space_pressed && !place_meeting(x,y,o_solid)) {

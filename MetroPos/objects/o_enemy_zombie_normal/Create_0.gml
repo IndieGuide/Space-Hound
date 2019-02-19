@@ -34,6 +34,7 @@ m_act_first_flag = true;
 m_act_wait = false;
 m_act_collision_target_flag = false;
 
+
 //思考模式载入
 act_ini(act_mode_test_walk_stand_loop);
 

@@ -9,6 +9,7 @@ if state_ == enum_player_state.JUMP && (key_space_pressed || key_up_pressed){
 	mask_index = SPlayerMaskStand;
 	image_index = 0;
 	image_speed = 1.2;
+	m_shadow.m_shadow_flag = true;
 	return enum_player_state.JUMP_TWICE;
 }
 

@@ -35,6 +35,7 @@ m_san = 80;
 
 m_shadow = instance_create_layer(x,y,"Instances", o_shadow);
 scr_shadow_bind_self(m_shadow);
+m_shadow.m_shadow_flag = false;
 
 #region gun_script_old
 ////枪械列表

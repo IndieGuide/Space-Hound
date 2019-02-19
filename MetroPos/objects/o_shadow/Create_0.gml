@@ -1,6 +1,7 @@
 /// @description 
 m_bind_obj = noone;
 m_color = c_red;
+m_shadow_flag = true;
 shadow_number = 5;
 for(var i = 0; i < shadow_number+1; i++) {
 	x_[i] = noone;

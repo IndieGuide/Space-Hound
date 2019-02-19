@@ -19,7 +19,7 @@
     "out_tilevborder": 2,
     "spriteId": "f13e97f7-8207-4cfb-91e9-00a6705849da",
     "sprite_no_export": true,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
+    "textureGroupId": "dfe1b6b4-728d-4d3d-a1a6-5911f1e7e346",
     "tile_animation": {
         "AnimationCreationOrder": null,
         "FrameData": [

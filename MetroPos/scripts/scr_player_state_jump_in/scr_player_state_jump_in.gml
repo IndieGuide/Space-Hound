@@ -8,6 +8,7 @@ if (key_space_pressed || key_up_pressed) && place_meeting(x,y+1,o_solid) || (key
 	sprite_index = SPlayerJump;
 	mask_index = SPlayerMaskStand;
 	image_speed = 1.2;
+	m_shadow.m_shadow_flag = true;
 	return enum_player_state.JUMP;
 }
 

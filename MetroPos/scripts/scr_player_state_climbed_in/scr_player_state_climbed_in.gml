@@ -22,6 +22,7 @@ if (state_previous == enum_player_state.JUMP || state_previous == enum_player_st
 	if ins_bind_ == noone return -1;
 	sprite_index = SPlayerClimbToPlatform;
 	mask_index = SPlayerMaskStand;
+	m_shadow.m_shadow_flag = true;
 	image_index = 0;
 	image_speed = 2;
 	state_allow_move(false,false,true);
@@ -37,13 +38,13 @@ var	ins_bind_ = collision_rectangle(bbox_left-1,bbox_top,bbox_right+1,bbox_botto
 
 //跳跃过程中爬上平台
 if (state_ == enum_player_state.JUMP || state_ == enum_player_state.JUMP_TWICE) && ins_bind_ != noone {
-	var ins_left_ = ins_bind_.bbox_left;
-	var ins_right_ = ins_bind_.bbox_right;
-	var ins_top_ = ins_bind_.bbox_top;
-	var x_ = ins_bind_.x;
-	var y_ = ins_bind_.y;
-
-	
+	with(ins_bind_) {
+		var ins_left_ = bbox_left;
+		var ins_right_ = bbox_right;
+		var ins_top_ = bbox_top;
+		var x_ = x;
+		var y_ = y;
+	}
 	if point_in_rectangle(ins_right_ + 1,ins_top_,bbox_left,bbox_top,bbox_right,bbox_bottom) || point_in_rectangle(ins_left_ - 1,ins_top_,bbox_left,bbox_top,bbox_right,bbox_bottom) {
 		if point_in_rectangle(ins_right_ + 1,ins_top_,bbox_left,bbox_top,bbox_right,bbox_bottom) {
 			//检测攀爬点上方有没有遮挡solid，有则不爬
@@ -55,9 +56,10 @@ if (state_ == enum_player_state.JUMP || state_ == enum_player_state.JUMP_TWICE) 
 				return -1;
 			x += 5;
 		}
-		y = ins_bind_.bbox_top-1;
+		y = ins_top_ - 1;
 		sprite_index = SPlayerClimbToStand;
 		mask_index = SPlayerMaskStand;
+		m_shadow.m_shadow_flag = true;
 		image_index = 0;
 		image_speed = 2;
 		state_allow_move(false,false,true);
@@ -68,7 +70,5 @@ if (state_ == enum_player_state.JUMP || state_ == enum_player_state.JUMP_TWICE) 
 		return enum_player_state.CLIMBED;
 	}
 }
-
-
 ins_bind_ = noone;
 return -1;

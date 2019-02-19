@@ -1,4 +1,4 @@
-
+//非常需要优化
 if(state_ == enum_player_state.SQUART && !collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom,o_solid_ladder_parent,0,1) && collision_rectangle(bbox_left,bbox_top,bbox_right,bbox_bottom+1,o_solid_ladder_parent,0,1)) {
 	//判断是否是从梯子上方进入此状态（下梯子）
 	state_ins_bind = noone;
@@ -23,6 +23,7 @@ if(state_ == enum_player_state.SQUART && !collision_rectangle(bbox_left,bbox_top
 		get_face = -1;
 	}
 	mask_index = SPlayerMaskStand;
+	m_shadow.m_shadow_flag = false;
 	image_index = 0;
 	image_speed = 0;
 	m_speed[h] = 0;
@@ -36,6 +37,7 @@ if (key_space_pressed || key_up_pressed) && (place_meeting(x,y,o_solid_ladder_pa
 	//状态基础代码
 	//sprite_index = SPlayerClimb;
 	mask_index = SPlayerMaskStand;
+	m_shadow.m_shadow_flag = false;
 	image_index = 0;
 	image_speed = 0;
 	m_speed[h] = 0;

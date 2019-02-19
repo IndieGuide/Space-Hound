@@ -4,6 +4,7 @@
 	sprite_index = SPlayerStand;
 	mask_index = SPlayerMaskStand;
 	image_speed = 3;
+	m_shadow.m_shadow_flag = false;
 	return enum_player_state.STAND;
 //} else {
 //	return -1;

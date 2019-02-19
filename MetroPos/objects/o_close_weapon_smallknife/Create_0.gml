@@ -5,6 +5,7 @@ m_id = 51000;
 m_weapon_name = "肋剑";
 m_weapon_cooldown = 60;
 m_weapon_player_flag = true;
+m_damage_normal = 15;
 
 m_weapon_icon = SSmallKnifeIcon;
 m_weapon_anime = SPlayerSmallKnifeAttack;

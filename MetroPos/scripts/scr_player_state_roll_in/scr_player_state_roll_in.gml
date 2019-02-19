@@ -6,6 +6,7 @@ if alarm[3] == -1 && key_control_pressed {
 		get_face = +1;
 	sprite_index = SPlayerRollNew;
 	mask_index = SPlayerMaskSquart;
+	m_shadow.m_shadow_flag = true;
 	image_index = 0;
 	image_speed = scr_common_bullet_time_var(2);
 	alarm[6] = scr_common_bullet_time_var_division(roll_time);//翻滚计时器

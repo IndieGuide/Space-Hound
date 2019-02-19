@@ -1,5 +1,14 @@
 /// @description 
+
+
 if !instance_exists(m_bind_obj) exit;
+if !m_shadow_flag {
+	for(var i = 0; i < shadow_number+1; i++) {
+		x_[i] = noone;
+		y_[i] = noone;
+	}
+	exit;
+}
 with (m_bind_obj) {
 	var spr_ind = sprite_index;
 	var img_ind = image_index;
@@ -15,5 +24,5 @@ y_[i] = y_[i - 1];
 }
 for (var i = shadow_number; i > 0; i--) {
 	if !sprite_exists(spr_ind) return;
-	draw_sprite_ext(spr_ind, img_ind, x_[i], y_[i], face, 1, 0, m_color, 0.6-i*alpha_delta_add);
+	draw_sprite_ext(spr_ind, img_ind, x_[i], y_[i], face, 1, 0, m_color, 0.55-i*alpha_delta_add);
 }

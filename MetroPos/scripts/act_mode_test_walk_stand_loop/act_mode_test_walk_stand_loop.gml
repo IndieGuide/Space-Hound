@@ -27,7 +27,14 @@ if m_alert_level == enum_enemy_normal_alert_level.DANGER {
 }
 
 if m_alert_level == enum_enemy_normal_alert_level.SEARCH {
-	var player_x = o_player.x;
+	with o_player {
+		var player_x = o_player.x;
+		var player_y = o_player.y;
+	}
+	if abs(y - player_y) > 130 {
+		scr_enemy_alert_level_change(enum_enemy_normal_alert_level.GUARD);
+	}
+	
 	var dis = abs(player_x - x);
 	var dir = player_x - x > 0? 0 : 2;
 	var var_do_move_by_dir = [self, act_lib_move_dir, dir, dis, -1, 0];	

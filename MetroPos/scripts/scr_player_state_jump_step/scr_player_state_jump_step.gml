@@ -1,3 +1,4 @@
+///需要优化
 if m_speed[v] < 0
 	image_index = clamp(image_index,0,5);
 else

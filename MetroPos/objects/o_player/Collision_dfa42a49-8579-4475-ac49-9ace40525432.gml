@@ -1,1 +1,0 @@
-scr_collision_physics_effect_x(3.4);

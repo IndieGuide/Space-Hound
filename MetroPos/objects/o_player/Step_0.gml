@@ -28,6 +28,7 @@ key_left_pressed = keyboard_check_pressed(vk_left);
 key_right_pressed = keyboard_check_pressed(vk_right);
 key_control_pressed = keyboard_check_pressed(vk_control);
 key_space_pressed = keyboard_check_pressed(vk_space);
+mouse_left_pressed = mouse_check_button_pressed(mb_left);
 
 #region 冲刺判断
 //if keyboard_check_pressed(vk_right) && alarm[7] == -1{
@@ -150,8 +151,8 @@ if state_x_move_flag && hinput != 0 {
 }else{
 	m_speed[h]=lerp(m_speed[h],0,friction_);
 }
-//重力代码
-if state_y_move_flag && !place_meeting(x,y+1,o_solid){
+//重力代码&& !place_meeting(x,y+1,o_solid)
+if state_y_move_flag && !collision_line(bbox_left, y+1, bbox_right, y+1, o_solid, 0, 1){
 	m_speed[v]+=scr_common_bullet_time_var(gravity_);
 	m_speed[v]= clamp(m_speed[v],jump_height_,-jump_height_);
 }

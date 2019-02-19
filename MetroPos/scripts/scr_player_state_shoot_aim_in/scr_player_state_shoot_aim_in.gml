@@ -5,6 +5,7 @@ if object_get_parent(player_weapon.object_index) == o_gun_parent && key_shift {
 	mask_index = SPlayerMaskStand;
 	image_index = 0;
 	image_speed = 0;
+	m_shadow.m_shadow_flag = false;
 	state_allow_move(false,true,true);
 
 	//// @description 根据武器创建子弹
