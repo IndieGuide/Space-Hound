@@ -1,7 +1,7 @@
 //物理属性
 m_speed = [0,0];
-m_max_speed = 2;
-m_gravity = .5;
+m_max_speed = 1.5;
+m_gravity = .6;
 m_acceleration = 1;
 m_friction = .3;
 m_jump_height = -8;

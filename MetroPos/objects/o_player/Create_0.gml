@@ -34,8 +34,18 @@ m_max_san = 100;
 m_san = 80;
 
 m_shadow = instance_create_layer(x,y,"Instances", o_shadow);
-scr_shadow_bind_self(m_shadow);
-m_shadow.m_shadow_flag = false;
+with(m_shadow) {
+	m_shadow_flag = false;
+	m_bind_obj = other.id;
+	m_color = c_red;
+	shadow_number = 7;
+	for(var i = 0; i < shadow_number+1; i++) {
+		x_[i] = noone;
+		y_[i] = noone;
+	}
+	alpha_delta_add = 0.5/shadow_number;
+}
+
 
 #region gun_script_old
 ////枪械列表

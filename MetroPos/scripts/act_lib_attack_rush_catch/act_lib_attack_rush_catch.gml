@@ -27,13 +27,13 @@ if (image_index < image_number - 1) {
 	if player_state != enum_player_state.INJURED {
 		player_state = enum_player_state.INJURED;
 		//造成伤害
-		call(player_do_take_damage, m_normal_damage, 20);
+		call(player_do_take_damage, m_normal_damage, 20, self);
 		m_attack_succeed_flag = true;
 		alarm[0] = 90;
 	} else {
 		player_state = enum_player_state.INJURED_TWICE;	
 		//造成伤害
-		call(player_do_take_damage, m_normal_damage, 20);
+		call(player_do_take_damage, m_normal_damage, 20, self);
 		m_attack_succeed_flag = true;
 		alarm[0] = 90;
 	}

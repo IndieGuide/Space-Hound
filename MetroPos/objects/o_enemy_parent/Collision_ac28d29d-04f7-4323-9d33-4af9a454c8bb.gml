@@ -1,2 +1,2 @@
 /// @description 
-scr_collision_physics_effect_x(1.8);
+scr_collision_physics_effect_x(1.8, other);

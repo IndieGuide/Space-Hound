@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "067942dc-4755-4e54-a102-ec80275a1e04",
+            "Value": {
+                "id": "24600b71-f26a-4e9f-bdbb-6bf15a1ccae1",
+                "resourcePath": "scripts\\scr_in_mode_enemy_normal_attack_run_away\\scr_in_mode_enemy_normal_attack_run_away.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "06ad3493-3af8-4d2f-9422-572e9346f411",
             "Value": {
                 "id": "269c3bf1-d1e3-4aac-9dc2-ed02d478c37e",
@@ -1226,7 +1234,7 @@
             "Key": "206b07f5-03e6-42ea-9117-27bea056a8f8",
             "Value": {
                 "id": "f204dcd1-7ffb-47e1-9ef1-ce2143c8af10",
-                "resourcePath": "scripts\\act_mode_test_walk_stand_loop\\act_mode_test_walk_stand_loop.yy",
+                "resourcePath": "scripts\\act_mode_crazy_attack\\act_mode_crazy_attack.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -2575,6 +2583,14 @@
             }
         },
         {
+            "Key": "45fdd7a1-8cec-41ef-954c-cadb15f5b046",
+            "Value": {
+                "id": "bfad13fc-18cb-42b4-af06-0906a9c355e0",
+                "resourcePath": "objects\\o_enemy_crazyer_normal\\o_enemy_crazyer_normal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4678c7f8-d6f0-494a-803c-1375c911b8ef",
             "Value": {
                 "id": "e6350bc7-e1c4-43de-b5ce-cc96fb6d949b",
@@ -2988,6 +3004,14 @@
                 "id": "9e68f54e-5448-4dd6-94ce-58ef22b20627",
                 "resourcePath": "views\\4fc90061-86d9-421e-83ee-78a102fe6892.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4fe83b63-00e4-4cf8-9d06-ab24488cff45",
+            "Value": {
+                "id": "9e2175c9-6d2d-4425-b49e-42d63eb679b4",
+                "resourcePath": "sprites\\s_order_crazyer_idle\\s_order_crazyer_idle.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3583,6 +3607,14 @@
             }
         },
         {
+            "Key": "5e4d37be-ef04-4e25-a641-f7696b98b0a3",
+            "Value": {
+                "id": "e2b88578-b556-4e38-84b6-9ec73407fc9b",
+                "resourcePath": "scripts\\act_mode_crazy_calm\\act_mode_crazy_calm.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "5e5108e5-8b2c-4553-afd5-43b8893d47a9",
             "Value": {
                 "id": "8f00fc01-21a1-4541-901a-42ff13509830",
@@ -3979,6 +4011,14 @@
             "Value": {
                 "id": "63703243-fb94-4f55-b3e1-fa3fabcdffdf",
                 "resourcePath": "sprites\\SPlayerHang1\\SPlayerHang1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6779a374-02f3-4267-81a4-6973acf6f747",
+            "Value": {
+                "id": "538687c3-4ea3-48d2-a541-2409a3c11334",
+                "resourcePath": "sprites\\s_order_crazyer_avoid\\s_order_crazyer_avoid.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -5607,14 +5647,6 @@
             }
         },
         {
-            "Key": "8bfe274b-fdce-4fab-a2c9-e8aa6549a231",
-            "Value": {
-                "id": "5918dc83-e53b-445d-8877-bac01a3736d4",
-                "resourcePath": "sprites\\Enemy2\\Enemy2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8c1262ec-c6df-46c5-afa6-050107fc6080",
             "Value": {
                 "id": "f743f596-f405-4d30-a9a5-7b878c1ad984",
@@ -5660,6 +5692,14 @@
                 "id": "0e34f163-5c91-40d3-9620-a22eb79b777f",
                 "resourcePath": "objects\\o_debug\\o_debug.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8d04f913-0a7b-40ac-8704-e8d7a64b7466",
+            "Value": {
+                "id": "03fee4f6-f51a-4ca4-8152-7a594de2d8c4",
+                "resourcePath": "views\\8d04f913-0a7b-40ac-8704-e8d7a64b7466.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -6012,14 +6052,6 @@
                 "id": "dbbb5d7b-cbd2-47ee-803d-c4ea3334d8be",
                 "resourcePath": "sprites\\s_enemy_gun6_model\\s_enemy_gun6_model.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "978d5c14-6070-4401-833c-6b2c5ba35aff",
-            "Value": {
-                "id": "2dae9f74-bed0-4025-9a93-c871ec30a08c",
-                "resourcePath": "objects\\o_player_death\\o_player_death.yy",
-                "resourceType": "GMObject"
             }
         },
         {
@@ -6668,6 +6700,14 @@
                 "id": "69e0051c-56a8-4efd-98bc-6f71b15fa529",
                 "resourcePath": "scripts\\pl_set_blurring\\pl_set_blurring.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a55fa490-1cca-45fe-b2c3-b1f77e2b3cea",
+            "Value": {
+                "id": "85182ae6-f7b5-491c-ba9d-238566136636",
+                "resourcePath": "sprites\\s_order_crazyer_attack_weapon\\s_order_crazyer_attack_weapon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -7492,6 +7532,14 @@
                 "id": "3e3ed58a-a6b4-477e-9e9b-5cf5c8af7c0b",
                 "resourcePath": "objects\\o_gun_sg_bullet\\o_gun_sg_bullet.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb694e06-17c7-4554-b9ef-62448801956d",
+            "Value": {
+                "id": "7b664399-4b4b-4f5c-8ca5-a5236a23dc8e",
+                "resourcePath": "sprites\\s_order_crazyer_walk\\s_order_crazyer_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8875,6 +8923,14 @@
             "Value": {
                 "id": "98284b60-59b1-448a-bb6a-2afe2c22b4f2",
                 "resourcePath": "sprites\\SPlayerDrink\\SPlayerDrink.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ddbf20a5-16ee-4e0b-b834-ffac1de3c0d3",
+            "Value": {
+                "id": "52b8d036-eedf-402d-afe8-28eec43a3b9c",
+                "resourcePath": "sprites\\s_order_crazyer_injured\\s_order_crazyer_injured.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -10448,8 +10504,10 @@
         "fd8b6ef4-e94e-4cc1-979a-cfe003d2ed37",
         "dd6d7d6a-67f1-4c73-963c-acbfb75cb381",
         "206b07f5-03e6-42ea-9117-27bea056a8f8",
+        "5e4d37be-ef04-4e25-a641-f7696b98b0a3",
         "edf72df0-60b9-40db-acb6-ac094eb13a40",
         "cbf56fa5-3afa-4271-8d5c-53da9f4de3af",
+        "067942dc-4755-4e54-a102-ec80275a1e04",
         "82408b3a-1a19-4283-9978-810e81db2ff7",
         "0d46515b-9c8d-405d-a82f-36bcb99a6f3d",
         "a48a13e8-6dd2-4964-97ab-1fbac5c9200b",

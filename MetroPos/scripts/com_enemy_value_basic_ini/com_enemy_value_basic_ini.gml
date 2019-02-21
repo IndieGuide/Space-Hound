@@ -17,8 +17,8 @@ enum enum_enemy_normal_alert_level {
 	EMPTY			=   4,
 }
 
-m_hp_max = 50;
-m_san_max = 10;
+m_hp_max = 60;
+m_san_max = 20;
 m_hp = m_hp_max;
 m_san = m_san_max;
 

@@ -9,6 +9,7 @@ if state_previous == enum_player_state.CLIMB && state_ins_bind == 1 {
 	mask_index = SPlayerMaskStand;
 	image_index = 0;
 	image_speed = 2;
+	m_shadow.m_shadow_flag = false;
 	state_allow_move(false,false,true);
 	m_speed[h] = 0;
 	m_speed[v] = 0;
@@ -22,7 +23,7 @@ if (state_previous == enum_player_state.JUMP || state_previous == enum_player_st
 	if ins_bind_ == noone return -1;
 	sprite_index = SPlayerClimbToPlatform;
 	mask_index = SPlayerMaskStand;
-	m_shadow.m_shadow_flag = true;
+	m_shadow.m_shadow_flag = false;
 	image_index = 0;
 	image_speed = 2;
 	state_allow_move(false,false,true);
@@ -59,7 +60,7 @@ if (state_ == enum_player_state.JUMP || state_ == enum_player_state.JUMP_TWICE) 
 		y = ins_top_ - 1;
 		sprite_index = SPlayerClimbToStand;
 		mask_index = SPlayerMaskStand;
-		m_shadow.m_shadow_flag = true;
+		m_shadow.m_shadow_flag = false;
 		image_index = 0;
 		image_speed = 2;
 		state_allow_move(false,false,true);

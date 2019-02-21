@@ -1,2 +1,2 @@
-scr_collision_physics_effect_x(1.4);
+//scr_collision_physics_effect_x(1.4);
 	

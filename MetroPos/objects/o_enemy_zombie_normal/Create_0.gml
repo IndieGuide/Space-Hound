@@ -36,7 +36,7 @@ m_act_collision_target_flag = false;
 
 
 //思考模式载入
-act_ini(act_mode_test_walk_stand_loop);
+act_ini(act_mode_crazy_attack);
 
 //载入动作
 //do_move = [self, act_lib_move_plat, 0, 200 , 10];

@@ -31,7 +31,6 @@ if m_act_first_flag {
 //帧执行代码
 if alarm[ACT_ALARM1] != -1 && ((dir == 1 && x < m_act_x[0] || dir == -1 && x > m_act_x[0]) && !m_attack_succeed_flag) {
 	m_hinput = dir;
-
 	//判断墙面
 	if place_meeting(x, y, o_solid) {
 		//遇到墙了,退出行走动作
@@ -64,13 +63,13 @@ if alarm[ACT_ALARM1] != -1 && ((dir == 1 && x < m_act_x[0] || dir == -1 && x > m
 	if player_state != enum_player_state.INJURED {
 		player_state = enum_player_state.INJURED;
 		//造成伤害
-		call(player_do_take_damage, m_normal_damage, 30);
+		call(player_do_take_damage, m_normal_damage, 30, self);
 		m_attack_succeed_flag = true;
 		alarm[0] = 90;
 	} else {
 		player_state = enum_player_state.INJURED_TWICE;	
 		//造成伤害
-		call(player_do_take_damage, m_normal_damage, 30);
+		call(player_do_take_damage, m_normal_damage, 30, self);
 		m_attack_succeed_flag = true;
 		alarm[0] = 90;
 	}
