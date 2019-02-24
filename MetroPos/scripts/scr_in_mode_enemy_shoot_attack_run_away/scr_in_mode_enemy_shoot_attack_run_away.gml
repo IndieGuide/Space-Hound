@@ -1,0 +1,13 @@
+var var_do_stand = [self, act_lib_stand_before_attack_time, 0.5];
+var act_attack = do_attack_shoot;
+var player_x = o_player.x;
+var dir = player_x - x > 0? 0 : 2;
+var dis = abs(player_x - x) + 40*sign(player_x - x);
+var var_do_move_by_dir = [self, act_lib_move_dir, dir, dis, -1, -1];
+var var_do_move_away = [self, act_lib_move_dir, player_x - x <= 0? 0 : 2, 160,-1, -1];
+ds_queue_enqueue(m_act_queue, var_do_stand);
+ds_queue_enqueue(m_act_queue, act_attack);
+ds_queue_enqueue(m_act_queue, var_do_move_away);
+ds_queue_enqueue(m_act_queue, var_do_stand);
+scr_enemy_alert_level_change(enum_enemy_normal_alert_level.EMPTY);
+act_quit();
