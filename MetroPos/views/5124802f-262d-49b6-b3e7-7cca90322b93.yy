@@ -7,7 +7,8 @@
         "3f077ddf-316e-4952-9a67-aedda83a15d1",
         "683cbd7e-b514-4171-b9a5-d97e733aa81d",
         "b4961c81-609c-40e7-ae87-c1adb255274b",
-        "3bc744ef-3969-4b16-830d-461c9864901e"
+        "3bc744ef-3969-4b16-830d-461c9864901e",
+        "04956cdd-ce36-4bf8-b340-e0cccd4b3763"
     ],
     "filterType": "GMObject",
     "folderName": "Bullet",

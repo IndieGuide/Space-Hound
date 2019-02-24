@@ -11,7 +11,9 @@ if (object_get_parent(player_weapon.object_index) == o_close_weapon_parent) {
 		var damage = player_weapon.m_damage_normal;
 		with inst {
 			if !m_invincible {
-				call(do_take_damage, damage, 30, other);
+				call(do_take_physics_x, 30, other);
+				call(do_take_damage, damage);
+
 				m_invincible = true;
 				alarm[1] = 60;
 			}

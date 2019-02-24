@@ -9,7 +9,8 @@
         "b8b40c88-4c5e-4834-ad79-db8c77b9c39e",
         "efa4ac92-c83b-47f3-a54b-75d6ad307847",
         "fd8b6ef4-e94e-4cc1-979a-cfe003d2ed37",
-        "dd6d7d6a-67f1-4c73-963c-acbfb75cb381"
+        "dd6d7d6a-67f1-4c73-963c-acbfb75cb381",
+        "660579cd-fbe9-4f51-ba15-0a6051808dc1"
     ],
     "filterType": "GMScript",
     "folderName": "ActLib",

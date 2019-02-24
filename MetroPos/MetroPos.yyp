@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "04956cdd-ce36-4bf8-b340-e0cccd4b3763",
+            "Value": {
+                "id": "5b76faf3-2a8c-4dd3-b6fa-04ae407b8443",
+                "resourcePath": "objects\\o_enemy_bullet_kingdom_firegun\\o_enemy_bullet_kingdom_firegun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0497cd4e-b4d3-4c15-b4b0-89e2affc6197",
             "Value": {
                 "id": "28bec74b-58a5-4b3d-9724-37f2fffe645d",
@@ -455,6 +463,14 @@
             }
         },
         {
+            "Key": "09c41502-2304-4194-8a10-1d3b2d1c08e1",
+            "Value": {
+                "id": "b2264982-042b-4e9c-ad51-89304e65fc12",
+                "resourcePath": "sprites\\s_kingdom_gun_soldier_crazy_squart\\s_kingdom_gun_soldier_crazy_squart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "09ef6961-9db2-45e9-a72b-f6605c01467e",
             "Value": {
                 "id": "e626ddc0-2449-498f-82e0-ebed5d6e8cd2",
@@ -639,6 +655,14 @@
             }
         },
         {
+            "Key": "0f456f07-f443-4604-a5f8-fd76e2643dcb",
+            "Value": {
+                "id": "a1612492-f9c8-4578-8b81-c7c25a8985b7",
+                "resourcePath": "sprites\\s_kingdom_gun_soldier_crazy_load\\s_kingdom_gun_soldier_crazy_load.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f5247f9-fde5-4bb1-9716-07ca61f76251",
             "Value": {
                 "id": "68316b08-50e6-4180-9a82-19c01e5d80d3",
@@ -804,6 +828,14 @@
                 "id": "3a6f664a-2ad7-4ce0-952c-39c245d7f8fc",
                 "resourcePath": "views\\136ed345-4535-40ce-93c4-cef739bf1635.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "138116f1-fbeb-497e-9e8e-92d7b8e4da65",
+            "Value": {
+                "id": "04291a13-d3ec-4d18-9c49-5f38aaf6f13f",
+                "resourcePath": "sprites\\s_kingdom_gun_soldier_crazy_stand\\s_kingdom_gun_soldier_crazy_stand.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -2239,6 +2271,14 @@
             }
         },
         {
+            "Key": "3d201a77-f726-40c5-89d7-345a8292d85f",
+            "Value": {
+                "id": "f3585ccb-aeab-4a09-91d8-6a41c9d7aa2c",
+                "resourcePath": "scripts\\scr_in_mode_enemy_shoot_attack_run_away\\scr_in_mode_enemy_shoot_attack_run_away.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3d2333e9-ed6c-4b6b-b2b6-e5446eee82ef",
             "Value": {
                 "id": "00e06f94-acff-4f96-8729-96212a03aa81",
@@ -2276,6 +2316,14 @@
                 "id": "cba3532c-dc7e-4355-a217-8c1e0b459126",
                 "resourcePath": "scripts\\scr_player_move_ext\\scr_player_move_ext.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "3db8e074-464c-436b-a879-05d8cbc469ff",
+            "Value": {
+                "id": "f471eb96-155b-4d30-b856-4c2631e7eb0d",
+                "resourcePath": "sprites\\s_kingdom_gun_soldier_crazy_attack_shoot\\s_kingdom_gun_soldier_crazy_attack_shoot.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3084,6 +3132,14 @@
                 "id": "6135a9d2-17e8-442f-8300-d8eb2ec68c08",
                 "resourcePath": "scripts\\scr_player_state_roll_in\\scr_player_state_roll_in.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5234c6d3-78b9-4b8a-aafe-0cd668de390c",
+            "Value": {
+                "id": "263c3ec7-2cef-4622-a38c-002f884fca85",
+                "resourcePath": "sprites\\s_kingdom_gun_soldier_crazy_walk\\s_kingdom_gun_soldier_crazy_walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -3991,6 +4047,14 @@
             }
         },
         {
+            "Key": "660579cd-fbe9-4f51-ba15-0a6051808dc1",
+            "Value": {
+                "id": "b86a4f3d-296c-4bb0-abf1-268f15823a19",
+                "resourcePath": "scripts\\act_lib_attack_shoot\\act_lib_attack_shoot.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "6625e760-d75e-4895-a8a9-4dee386de034",
             "Value": {
                 "id": "bf1832cd-215f-4fb8-937d-5dc410057753",
@@ -4116,6 +4180,14 @@
                 "id": "30353d84-6586-4f66-a911-8238c37f562c",
                 "resourcePath": "objects\\o_gun_rocket_bullet_enemy\\o_gun_rocket_bullet_enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "68d9d922-6a11-4fa6-a6bb-3e646d3b522c",
+            "Value": {
+                "id": "dca47edc-d7ce-4430-989b-8842527313dc",
+                "resourcePath": "sprites\\s_enemy_kingdom_normal_bullet\\s_enemy_kingdom_normal_bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -4276,6 +4348,14 @@
                 "id": "336af6fb-b511-4300-b258-dd8466fc61ab",
                 "resourcePath": "sprites\\LightMarkRec\\LightMarkRec.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6d05829f-8cc8-4c12-bd6c-8bfb336a3f55",
+            "Value": {
+                "id": "7e954d31-eb33-4e30-807d-780645d8f037",
+                "resourcePath": "scripts\\act_mode_calm_shoot\\act_mode_calm_shoot.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -8359,6 +8439,14 @@
             }
         },
         {
+            "Key": "cf7168e4-bf66-4fbf-8b1f-b9e40b7b539f",
+            "Value": {
+                "id": "6490ab1f-e2a7-4225-a070-58cfc190fae8",
+                "resourcePath": "views\\cf7168e4-bf66-4fbf-8b1f-b9e40b7b539f.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "cfb87797-0f21-4011-84a5-5a5c4775a883",
             "Value": {
                 "id": "74c8aebd-65d5-467f-8d8b-f94ab60475a6",
@@ -8868,6 +8956,14 @@
                 "id": "cb54dd3e-dafd-4154-b9b1-7708e01eaa84",
                 "resourcePath": "scripts\\scr_player_state_stand_out\\scr_player_state_stand_out.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "dcbdc8ce-df67-4e23-b29c-3f9b4b066a22",
+            "Value": {
+                "id": "51254c37-02da-472a-9ac7-bbbc19557a13",
+                "resourcePath": "sprites\\s_kingdom_gun_soldier_crazy_attack_near\\s_kingdom_gun_soldier_crazy_attack_near.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -9775,6 +9871,14 @@
             }
         },
         {
+            "Key": "f47ef84b-959e-43c3-9328-678a0e1616eb",
+            "Value": {
+                "id": "76e930b0-b459-48bb-8adf-50b95aafda4f",
+                "resourcePath": "objects\\o_enemy_kingdom_guner_crazy\\o_enemy_kingdom_guner_crazy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f4a85cdd-ba9d-44d8-9522-e008e463ea66",
             "Value": {
                 "id": "6c7ddafd-9203-4401-807f-b031ca26edc4",
@@ -9939,6 +10043,14 @@
             "Value": {
                 "id": "874c5b69-51b9-4d71-8b1d-3464fae931e0",
                 "resourcePath": "sprites\\SDecChemTable\\SDecChemTable.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f802ccf9-1f65-424e-8a1d-3511e4d913c0",
+            "Value": {
+                "id": "6f606f59-36f2-417f-96ad-2aacd44df2f5",
+                "resourcePath": "sprites\\s_kingdom_gun_soldier_crazy_attack_shoot_squart\\s_kingdom_gun_soldier_crazy_attack_shoot_squart.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -10503,11 +10615,14 @@
         "efa4ac92-c83b-47f3-a54b-75d6ad307847",
         "fd8b6ef4-e94e-4cc1-979a-cfe003d2ed37",
         "dd6d7d6a-67f1-4c73-963c-acbfb75cb381",
+        "660579cd-fbe9-4f51-ba15-0a6051808dc1",
         "206b07f5-03e6-42ea-9117-27bea056a8f8",
         "5e4d37be-ef04-4e25-a641-f7696b98b0a3",
+        "6d05829f-8cc8-4c12-bd6c-8bfb336a3f55",
         "edf72df0-60b9-40db-acb6-ac094eb13a40",
         "cbf56fa5-3afa-4271-8d5c-53da9f4de3af",
         "067942dc-4755-4e54-a102-ec80275a1e04",
+        "3d201a77-f726-40c5-89d7-345a8292d85f",
         "82408b3a-1a19-4283-9978-810e81db2ff7",
         "0d46515b-9c8d-405d-a82f-36bcb99a6f3d",
         "a48a13e8-6dd2-4964-97ab-1fbac5c9200b",

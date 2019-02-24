@@ -20,20 +20,22 @@ if (image_index < image_number - 1) {
 	if m_attack_succeed_flag exit;
 	if !place_meeting(x, y, o_player) exit;
 	//改变玩家状态
-	with(o_player) {
-		var player_state = state_;
-		var player_do_take_damage = do_take_damage;
-	}
+	var player_state = o_player.state_;
+
 	if player_state != enum_player_state.INJURED {
 		player_state = enum_player_state.INJURED;
 		//造成伤害
-		call(player_do_take_damage, m_normal_damage, 20, self);
+		call(o_player.do_take_physics_x, 20, self);
+		call(o_player.do_take_damage, m_normal_damage);
+
 		m_attack_succeed_flag = true;
 		alarm[0] = 90;
 	} else {
 		player_state = enum_player_state.INJURED_TWICE;	
 		//造成伤害
-		call(player_do_take_damage, m_normal_damage, 20, self);
+		call(o_player.do_take_physics_x, 20, self);
+		call(o_player.do_take_damage, m_normal_damage);
+
 		m_attack_succeed_flag = true;
 		alarm[0] = 90;
 	}
