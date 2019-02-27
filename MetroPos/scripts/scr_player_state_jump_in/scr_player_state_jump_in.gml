@@ -5,7 +5,7 @@ if (key_space_pressed || key_up_pressed) && place_meeting(x,y+1,o_solid) || (key
 	m_speed[v]=jump_height_;
 	x_scale_=image_xscale*.8;
 	y_scale_=image_yscale*1.4;
-	sprite_index = SPlayerJump;
+	sprite_index = SPlayerJumpNew;
 	mask_index = SPlayerMaskStand;
 	image_speed = 1.2;
 	m_shadow.m_shadow_flag = true;

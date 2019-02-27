@@ -5,7 +5,7 @@ if state_ == enum_player_state.JUMP && (key_space_pressed || key_up_pressed){
 	m_speed[v]=jump_height_;
 	x_scale_=image_xscale*.8;
 	y_scale_=image_yscale*1.4;
-	sprite_index = SPlayerJump;
+	sprite_index = SPlayerJumpNew;
 	mask_index = SPlayerMaskStand;
 	image_index = 0;
 	image_speed = 1.2;
