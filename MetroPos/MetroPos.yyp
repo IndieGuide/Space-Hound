@@ -823,6 +823,14 @@
             }
         },
         {
+            "Key": "12735674-f9a5-4632-a881-d6b6aafd4db9",
+            "Value": {
+                "id": "9e6dd99c-d108-456e-ab45-f2b0aff81bfc",
+                "resourcePath": "objects\\o_pp_close_weapon_hit\\o_pp_close_weapon_hit.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "136ed345-4535-40ce-93c4-cef739bf1635",
             "Value": {
                 "id": "3a6f664a-2ad7-4ce0-952c-39c245d7f8fc",
@@ -1735,6 +1743,14 @@
             }
         },
         {
+            "Key": "2cebdcf2-763a-41f4-88c6-e487e10174da",
+            "Value": {
+                "id": "8c4604d8-6302-496e-a53f-2c81708ea592",
+                "resourcePath": "sounds\\a_sword_hit_default\\a_sword_hit_default.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2d1af344-1abf-43ba-aba6-ffeca275e208",
             "Value": {
                 "id": "9e1e072e-f931-4048-bd20-3164772ba5b2",
@@ -2607,6 +2623,14 @@
             }
         },
         {
+            "Key": "44b06cfa-00f2-4471-a125-9400cdf4043e",
+            "Value": {
+                "id": "141b4a2b-f5c7-46c5-9c16-709fddeba711",
+                "resourcePath": "objects\\o_hp_text\\o_hp_text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "44c6e2d4-d0c1-4db2-9419-5b421cf5a84e",
             "Value": {
                 "id": "690255b1-a467-4aa0-b35f-e2b0bdc47962",
@@ -2964,6 +2988,14 @@
                 "id": "b36af560-ad26-4199-ab55-6094e4d0191e",
                 "resourcePath": "sprites\\s_player_gun4\\s_player_gun4.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4e53b686-6a26-448c-ab1a-8159981275fa",
+            "Value": {
+                "id": "e876c72c-f9a1-4b72-92a4-a6bd1efccab7",
+                "resourcePath": "sounds\\a_sword_hit\\a_sword_hit.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -3975,6 +4007,14 @@
             }
         },
         {
+            "Key": "6481f47d-7db6-43ea-b1a6-092cd92a69e4",
+            "Value": {
+                "id": "0c43c871-c277-4fc6-b92a-ae65e193212c",
+                "resourcePath": "sprites\\SBlood3\\SBlood3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6482b0c9-9cbf-47af-aa4f-29943375aa15",
             "Value": {
                 "id": "6d71ae90-06d0-4acf-9e2a-2636c6ea5e98",
@@ -4452,6 +4492,14 @@
                 "id": "c08c5f5e-4d03-4aba-857a-418cfb147c68",
                 "resourcePath": "scripts\\scr_player_state_stand_step\\scr_player_state_stand_step.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "6ec24d83-0a87-47fe-a92f-6abea1ea5129",
+            "Value": {
+                "id": "a3c9573a-5aec-4c78-935e-113febd334d5",
+                "resourcePath": "objects\\o_blood\\o_blood.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6143,6 +6191,14 @@
             }
         },
         {
+            "Key": "9763b30c-e9b7-4ca3-aafb-c75de06faa94",
+            "Value": {
+                "id": "c670b4f2-ee8a-406f-adf2-1b9aa656ca36",
+                "resourcePath": "sprites\\SPlayerHgShootNew\\SPlayerHgShootNew.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97b0c070-d0e7-4dde-a574-52ab2ff713fa",
             "Value": {
                 "id": "5263a9de-79c9-4dcb-8c62-2588a4157ce7",
@@ -6700,6 +6756,14 @@
                 "id": "030ed345-1f46-4c7b-9b12-7eaad39050c8",
                 "resourcePath": "views\\a3bab7bb-48f9-4680-ba05-f83d9d0a31e8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a3bc45b8-7d9f-4ec4-a2e4-2e492f9207c5",
+            "Value": {
+                "id": "f36fbf0f-78d7-4cd5-9546-e732c084c721",
+                "resourcePath": "sprites\\SBlood1\\SBlood1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -8823,6 +8887,14 @@
             }
         },
         {
+            "Key": "d8498adf-7134-4bf3-87aa-4f3039e7c8c6",
+            "Value": {
+                "id": "e9c295d5-e2af-4c19-80c0-0ba460a891ce",
+                "resourcePath": "sprites\\SBlood2\\SBlood2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d85bb567-41a9-41cc-9c5d-3455d94c5838",
             "Value": {
                 "id": "83245a65-17db-4775-b95f-0ab2e28201b2",
@@ -8931,6 +9003,14 @@
             "Value": {
                 "id": "9e70ca54-1bf2-44b8-920f-0cd4e1d0cb92",
                 "resourcePath": "sprites\\SUiLineCloseWeapon\\SUiLineCloseWeapon.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "db450c01-8889-466a-8331-022777d0ffe8",
+            "Value": {
+                "id": "b59c84b3-5f14-4475-9bbd-92c308c4d877",
+                "resourcePath": "sprites\\SFireDust\\SFireDust.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -9219,6 +9299,14 @@
             "Value": {
                 "id": "e87fef04-0af1-467a-8b67-a78e9e61e333",
                 "resourcePath": "sprites\\s_part_shoot\\s_part_shoot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e2976542-d0a0-42a3-a6dd-e3836ec48651",
+            "Value": {
+                "id": "a649b481-8ceb-421c-abc9-a4382a8e107f",
+                "resourcePath": "sprites\\SBlood4\\SBlood4.yy",
                 "resourceType": "GMSprite"
             }
         },

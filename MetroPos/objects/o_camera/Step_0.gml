@@ -64,8 +64,8 @@ if (o_player.shooted_flag == true) {
 		y += random_range(-4,4);
 	}
 	o_player.shooted_flag = false;
-	x += random_range(-1,1);
-	y += random_range(-1,1);
+	x += random_range(-5,5);
+	y += random_range(-8,8);
 }
 
 

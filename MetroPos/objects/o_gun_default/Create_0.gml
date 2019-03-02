@@ -17,7 +17,7 @@ m_weapon_icon = SOldPistolIcon;
 m_weapon_bullet = o_gun_default_bullet;
 m_weapon_scan = noone;
 
-m_weapon_anime = SPlayerHgShoot;
+m_weapon_anime = SPlayerHgShootNew;
 m_weapon_hand_anime = SPlayerHgShootHand;
 width_ = 54;
 height_ = -6;
